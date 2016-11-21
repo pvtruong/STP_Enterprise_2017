@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PN1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PN1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="voucherid" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+                <xs:element name="viewname" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid4input" type="xs:string" minOccurs="0" />
+                <xs:element name="table4import" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid4import" type="xs:string" minOccurs="0" />
+                <xs:element name="store4import" type="xs:string" minOccurs="0" />
+                <xs:element name="key4import" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="not_empty" type="xs:boolean" minOccurs="0" />
+                <xs:element name="allow_copy" type="xs:boolean" minOccurs="0" />
+                <xs:element name="columns_ht" type="xs:string" minOccurs="0" />
+                <xs:element name="columns_nt" type="xs:string" minOccurs="0" />
+                <xs:element name="next_row_when_press_enter" type="xs:boolean" minOccurs="0" />
+                <xs:element name="index_name" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PN1>
+    <voucherid>PN1</voucherid>
+    <stt>1</stt>
+    <tablename>dpn1</tablename>
+    <viewname>vdpn1</viewname>
+    <gridid4input>dpn1</gridid4input>
+    <table4import>dpn1_imp</table4import>
+    <gridid4import>dpn1_imp</gridid4import>
+    <store4import />
+    <key4import />
+    <trang_thai>true</trang_thai>
+    <title>Chi tiết</title>
+    <title2>Detail</title2>
+    <not_empty>true</not_empty>
+    <allow_copy>true</allow_copy>
+    <columns_ht>gia_von,tien_hang,tien_phi,tien_nhap,tien_ck</columns_ht>
+    <columns_nt>gia_von_nt,tien_hang_nt,tien_phi_nt,tien_nhap_nt,tien_ck_nt</columns_nt>
+    <next_row_when_press_enter>false</next_row_when_press_enter>
+    <index_name />
+  </PN1>
+  <PN1>
+    <voucherid>PN1</voucherid>
+    <stt>2</stt>
+    <tablename>sophi</tablename>
+    <viewname>vsophi</viewname>
+    <gridid4input>sophi</gridid4input>
+    <table4import />
+    <gridid4import />
+    <store4import />
+    <key4import />
+    <trang_thai>true</trang_thai>
+    <title>Chi phí</title>
+    <title2>Fees</title2>
+    <not_empty>false</not_empty>
+    <allow_copy>false</allow_copy>
+    <columns_ht>tien</columns_ht>
+    <columns_nt>tien_nt</columns_nt>
+    <next_row_when_press_enter>false</next_row_when_press_enter>
+    <index_name />
+  </PN1>
+  <PN1>
+    <voucherid>PN1</voucherid>
+    <stt>3</stt>
+    <tablename>vatvao</tablename>
+    <viewname>vvatvao</viewname>
+    <gridid4input>dvatvao_pn1</gridid4input>
+    <table4import>vatvao_imp</table4import>
+    <gridid4import>vatvao_imp</gridid4import>
+    <store4import />
+    <key4import />
+    <trang_thai>true</trang_thai>
+    <title>Thuế</title>
+    <title2>VAT</title2>
+    <not_empty>false</not_empty>
+    <allow_copy>false</allow_copy>
+    <columns_ht>t_tien,t_thue</columns_ht>
+    <columns_nt>t_tien_nt,t_thue_nt</columns_nt>
+    <next_row_when_press_enter>false</next_row_when_press_enter>
+    <index_name />
+  </PN1>
+</NewDataSet>

@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="soca" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="soca">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_kho" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_ca" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_may" type="xs:string" minOccurs="0" />
+                <xs:element name="nhan_vien" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="tu_gio" type="xs:string" minOccurs="0" />
+                <xs:element name="den_gio" type="xs:string" minOccurs="0" />
+                <xs:element name="so_ct_tu" type="xs:string" minOccurs="0" />
+                <xs:element name="so_ct_den" type="xs:string" minOccurs="0" />
+                <xs:element name="tong_tien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tong_tien_ban_giao" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ghi_chu" type="xs:string" minOccurs="0" />
+                <xs:element name="ban_giao" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

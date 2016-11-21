@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="cTable" type="xs:string" minOccurs="0" />
+                <xs:element name="cFields" type="xs:string" minOccurs="0" />
+                <xs:element name="cFinds" type="xs:string" minOccurs="0" />
+                <xs:element name="cKey" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="exe_list" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="ckey2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmkh>
+    <Code>dmkh</Code>
+    <cTable>vdkh</cTable>
+    <cFields>ma_kh,ten_kh,ma_nv_lh,ma_so_thue,dia_chi,ten_kh2,han_tt,nh_kh2</cFields>
+    <cFinds>ma_kh,ten_kh</cFinds>
+    <cKey>trang_thai = 1</cKey>
+    <gridid>lukh</gridid>
+    <formid>ldkh</formid>
+    <exe_list>ldkh.exe#dmkh</exe_list>
+    <title>Danh mục khách hàng</title>
+    <title2>Customer list</title2>
+    <ckey2 />
+  </dmkh>
+</NewDataSet>

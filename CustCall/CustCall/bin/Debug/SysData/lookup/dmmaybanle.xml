@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmmaybanle" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmmaybanle">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="cTable" type="xs:string" minOccurs="0" />
+                <xs:element name="cFields" type="xs:string" minOccurs="0" />
+                <xs:element name="cFinds" type="xs:string" minOccurs="0" />
+                <xs:element name="cKey" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="exe_list" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="ckey2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmmaybanle>
+    <Code>dmmaybanle</Code>
+    <cTable>dmmaybanle</cTable>
+    <cFields>ma_may,ten_may,ten_may2</cFields>
+    <cFinds>ma_may,ten_may,ten_may2</cFinds>
+    <cKey>1=1</cKey>
+    <gridid>dmmaybanle</gridid>
+    <formid>dmmaybanle</formid>
+    <exe_list>ldmmaybanle.exe#dmmaybanle</exe_list>
+    <title>Danh mục quầy bán lẻ</title>
+    <title2>Danh mục quầy bán lẻ</title2>
+    <ckey2 />
+  </dmmaybanle>
+</NewDataSet>

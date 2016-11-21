@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="gridinfodetail" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="gridinfodetail">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <gridinfodetail>
+    <name>ColumnsV</name>
+    <prec>32</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>columnsE</name>
+    <prec>32</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>HeadersV</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>HeadersE</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>Widths</name>
+    <prec>5</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>formats</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>readonlys</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>hides</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>defaultvalues</name>
+    <prec>512</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+  <gridinfodetail>
+    <name>carrys</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>gridinfodetail</tablename>
+  </gridinfodetail>
+</NewDataSet>

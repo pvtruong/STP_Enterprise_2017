@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dvogas" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dvogas">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt_rec" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="so_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_ct" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="so_the_ts" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_giai" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai_vo" type="xs:boolean" minOccurs="0" />
+                <xs:element name="sl_co_gas" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sl_khong_gas" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sl_nhap" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sl_xuat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="line" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

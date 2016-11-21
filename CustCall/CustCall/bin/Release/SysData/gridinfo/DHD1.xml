@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DHD1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DHD1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DHD1>
+    <gridid>DHD1</gridid>
+    <columnsv>ma_nvu,ten_nvu,tk_no,ten_tk_no,tk_co,ten_tk_co,ma_kh,ten_kh,tien_nt,tien,ty_le_ck,tien_ck_nt,tien_ck,tk_ck,ma_hoa_don,ky_hieu_hoa_don,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,dien_giai</columnsv>
+    <columnse>ma_nvu,ten_nvu2,tk_no,ten_tk_no2,tk_co,ten_tk_co2,ma_kh,ten_kh,tien_nt,tien,ty_le_ck,tien_ck_nt,tien_ck,tk_ck,ma_hoa_don,ky_hieu_hoa_don,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,dien_giai</columnse>
+    <headersv>Nghiệp vụ,Tên nghiệp vụ,Tk nợ,Tên TK nợ,TK có,Tên Tk có,Mã khách,Tên khách,Tiền nt,Tiền,Tỷ lệ CK,Tiền Ck nt,Tiền CK,TK CK,Mã hóa đơn,Ký hiệu số hóa đơn,Mã thuế,Thuế suất,TK thuế,Tk đối ứng,Tiền thuế nt,Tiền thuế,Diễn giải</headersv>
+    <headerse>Nghiệp vụ,Tên nghiệp vụ,Dr.Account,Dr.Account Name,Cr.Account,Cr.Account Name,Cust.ID,Customer Name,FC Amount,Amount,Discount Rate,FC Discount Amt. ,Discount Amt. ,Discount Acct. ,Mã hóa đơn,Ký hiệu số hóa đơn,Tax Code,Tax Rate,Tax Acct,Ref. Acct.   ,FC Tax Amt.,Tax Amt.,Memo</headerse>
+    <widths>100,200,100,200,100,200,100,200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,f_tien_nt,f_tien,f_tien_nt,f_tien_nt,f_tien,,,,,f_tien,,,f_tien_nt,f_tien,</formats>
+    <readonlys>0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,=[tien_nt]*{ty_gia},,=[tien_nt]*[ty_le_ck]/100,=[tien_ck_nt]*{ty_gia} ![tien_nt]![ty_le_ck],,,,,,,,=([tien_nt]-[tien_ck_nt])*[thue_suat]/100    ![ma_thue]![ty_le_ck],=[tien_thue_nt]*{ty_gia}     ![tien_nt]![tien_ck_nt]![ma_thue]![ty_le_ck],</defaultvalues>
+    <carrys>0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1</carrys>
+  </DHD1>
+</NewDataSet>

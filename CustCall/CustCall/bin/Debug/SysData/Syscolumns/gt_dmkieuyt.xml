@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="gt_dmkieuyt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="gt_dmkieuyt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <gt_dmkieuyt>
+    <name>ma_kieu</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>gt_dmkieuyt</tablename>
+  </gt_dmkieuyt>
+  <gt_dmkieuyt>
+    <name>ten_kieu</name>
+    <prec>50</prec>
+    <isnullable>0</isnullable>
+    <tablename>gt_dmkieuyt</tablename>
+  </gt_dmkieuyt>
+  <gt_dmkieuyt>
+    <name>ten_kieu2</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>gt_dmkieuyt</tablename>
+  </gt_dmkieuyt>
+</NewDataSet>

@@ -1,0 +1,180 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="freecodes" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="freecodes">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="code_lookup" type="xs:string" minOccurs="0" />
+                <xs:element name="field_ref" type="xs:string" minOccurs="0" />
+                <xs:element name="show_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HeaderV" type="xs:string" minOccurs="0" />
+                <xs:element name="headerE" type="xs:string" minOccurs="0" />
+                <xs:element name="width" type="xs:decimal" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <freecodes>
+    <field>ma_bp</field>
+    <code_lookup>dmbp</code_lookup>
+    <field_ref>ma_bp</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã bộ phận</HeaderV>
+    <headerE>Department</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+  <freecodes>
+    <field>ma_d_tt</field>
+    <code_lookup>dmtt</code_lookup>
+    <field_ref>ma_d_tt</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã đợt thanh toán</HeaderV>
+    <headerE>Dot thanh toan</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+  <freecodes>
+    <field>ma_dt</field>
+    <code_lookup>dmdt</code_lookup>
+    <field_ref>ma_dt</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã vụ việc, dự án</HeaderV>
+    <headerE>Object code</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+  <freecodes>
+    <field>ma_hd</field>
+    <code_lookup>dmhd</code_lookup>
+    <field_ref>ma_hd</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã hợp đồng</HeaderV>
+    <headerE>Contract code</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+  <freecodes>
+    <field>ma_kh_cn</field>
+    <code_lookup>dmkh</code_lookup>
+    <field_ref>ma_kh</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã khách công nợ</HeaderV>
+    <headerE>Cust ID CN</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+  <freecodes>
+    <field>ma_ku</field>
+    <code_lookup>dmku</code_lookup>
+    <field_ref>ma_ku</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã khế ước</HeaderV>
+    <headerE>Ma khe uoc</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+  <freecodes>
+    <field>ma_phi</field>
+    <code_lookup>dmphi</code_lookup>
+    <field_ref>ma_phi</field_ref>
+    <show_yn>true</show_yn>
+    <HeaderV>Mã phí</HeaderV>
+    <headerE>Fee code</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+  <freecodes>
+    <field>ma_sp</field>
+    <code_lookup>dmsp</code_lookup>
+    <field_ref>ma_vt</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã sản phẩm</HeaderV>
+    <headerE>Product code</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+  <freecodes>
+    <field>ma_tt1</field>
+    <code_lookup>dmtt1</code_lookup>
+    <field_ref>ma</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã thuộc tính 1</HeaderV>
+    <headerE>Mã thuộc tính 1</headerE>
+    <width>100</width>
+    <not_isnullable_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt1_yn = 1)</not_isnullable_when>
+    <readonly_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt1_yn = 0)</readonly_when>
+  </freecodes>
+  <freecodes>
+    <field>ma_tt2</field>
+    <code_lookup>dmtt2</code_lookup>
+    <field_ref>ma</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã thuộc tính 2</HeaderV>
+    <headerE>Mã thuộc tính 2</headerE>
+    <width>100</width>
+    <not_isnullable_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt2_yn = 1)</not_isnullable_when>
+    <readonly_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt2_yn = 0)</readonly_when>
+  </freecodes>
+  <freecodes>
+    <field>ma_tt3</field>
+    <code_lookup>dmtt3</code_lookup>
+    <field_ref>ma</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã thuộc tính 3</HeaderV>
+    <headerE>Mã thuộc tính 3</headerE>
+    <width>100</width>
+    <not_isnullable_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt3_yn = 1)</not_isnullable_when>
+    <readonly_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt3_yn = 0)</readonly_when>
+  </freecodes>
+  <freecodes>
+    <field>ma_tt4</field>
+    <code_lookup>dmtt4</code_lookup>
+    <field_ref>ma</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã thuộc tính 4</HeaderV>
+    <headerE>Mã thuộc tính 4</headerE>
+    <width>100</width>
+    <not_isnullable_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt4_yn = 1)</not_isnullable_when>
+    <readonly_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt4_yn = 0)</readonly_when>
+  </freecodes>
+  <freecodes>
+    <field>ma_tt5</field>
+    <code_lookup>dmtt5</code_lookup>
+    <field_ref>ma</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Mã thuộc tính 5</HeaderV>
+    <headerE>Mã thuộc tính 5</headerE>
+    <width>100</width>
+    <not_isnullable_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt5_yn = 1)</not_isnullable_when>
+    <readonly_when>exists(select 1 from dmvt where ma_vt =@[ma_vt] and tt5_yn = 0)</readonly_when>
+  </freecodes>
+  <freecodes>
+    <field>so_lsx</field>
+    <code_lookup>gt_lsx</code_lookup>
+    <field_ref>so_lsx</field_ref>
+    <show_yn>false</show_yn>
+    <HeaderV>Số lệnh sản xuất</HeaderV>
+    <headerE>LSX code</headerE>
+    <width>100</width>
+    <not_isnullable_when />
+    <readonly_when />
+  </freecodes>
+</NewDataSet>

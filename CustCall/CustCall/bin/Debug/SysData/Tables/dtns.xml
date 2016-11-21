@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dtns" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dtns">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="nam" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_dvcs" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_phi" type="xs:string" minOccurs="0" />
+                <xs:element name="tien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="t_tien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="t_tien_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

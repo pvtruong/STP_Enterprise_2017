@@ -1,0 +1,243 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmpbdmpb1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmpbdmpb1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="tab" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups2" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids2" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="lookup_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="empty_when_readonly" type="xs:boolean" minOccurs="0" />
+                <xs:element name="multivalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>ma_bp</field>
+    <fieldlookups>ma_bp</fieldlookups>
+    <fieldgrids>ma_bp</fieldgrids>
+    <fieldlookups2>ma_bp</fieldlookups2>
+    <fieldgrids2>ma_bp</fieldgrids2>
+    <codelookup>dmbp</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>ma_dt</field>
+    <fieldlookups>ma_dt</fieldlookups>
+    <fieldgrids>ma_dt</fieldgrids>
+    <fieldlookups2>ma_dt</fieldlookups2>
+    <fieldgrids2>ma_dt</fieldgrids2>
+    <codelookup>dmdt</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>ma_kh</field>
+    <fieldlookups>ma_kh</fieldlookups>
+    <fieldgrids>ma_kh</fieldgrids>
+    <fieldlookups2>ma_kh</fieldlookups2>
+    <fieldgrids2>ma_kh</fieldgrids2>
+    <codelookup>dmkh</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>ma_phi</field>
+    <fieldlookups>ma_phi</fieldlookups>
+    <fieldgrids>ma_phi</fieldgrids>
+    <fieldlookups2>ma_phi</fieldlookups2>
+    <fieldgrids2>ma_phi</fieldgrids2>
+    <codelookup>dmphi</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>tk</field>
+    <fieldlookups>tk,ten_tk</fieldlookups>
+    <fieldgrids>tk,ten_tk</fieldgrids>
+    <fieldlookups2>tk,ten_tk2</fieldlookups2>
+    <fieldgrids2>tk,ten_tk2</fieldgrids2>
+    <codelookup>rdmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>tk_du1</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_du1</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_du1</fieldgrids2>
+    <codelookup>rdmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>tk_du2</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_du2</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_du2</fieldgrids2>
+    <codelookup>rdmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>tk_du3</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_du3</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_du3</fieldgrids2>
+    <codelookup>rdmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>tk_he_so1</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_he_so1</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_he_so1</fieldgrids2>
+    <codelookup>rdmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>tk_he_so2</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_he_so2</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_he_so2</fieldgrids2>
+    <codelookup>rdmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+  <dmpbdmpb1>
+    <code>dmpb</code>
+    <tab>dmpb1</tab>
+    <field>tk_he_so3</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_he_so3</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_he_so3</fieldgrids2>
+    <codelookup>rdmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmpbdmpb1>
+</NewDataSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bcnghiphepnam" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bcnghiphepnam">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bcnghiphepnam>
+    <gridid>bcnghiphepnam</gridid>
+    <columnsv>ma_nv,ten_nv,ma_cv,ngay_sinh,ngay_vao_lam,ten_bp,tong_phep_nam,dieu_chinh_phep,pilot,da_nghi_phep,con_lai</columnsv>
+    <columnse>ma_nv,ten_nv,ma_cv,ngay_sinh,ngay_vao_lam,ten_bp,tong_phep_nam,dieu_chinh_phep,pilot,da_nghi_phep,con_lai</columnse>
+    <headersv>Mã nhân viên,Tên nhân viên,Chức vụ,Ngày sinh,Ngày vào làm,Bộ phận,Tổng phép năm,Điều chỉnh phép,pilot,Đã nghỉ,Còn lại</headersv>
+    <headerse>Mã nhân viên,Tên nhân viên,Chức vụ,Ngày sinh,Ngày vào làm,Tên bộ phận,Tổng phép năm,Điều chỉnh phép,pilot,Đã nghỉ phép,Còn lại</headerse>
+    <widths>100,200,100,100,100,200,100,100,pilot,100,100</widths>
+    <formats>,,,,,,f_tien,f_tien,pilot,f_tien,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,0,0,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </bcnghiphepnam>
+</NewDataSet>

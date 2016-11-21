@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmhd" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmhd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_hd" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_hd" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_hd2" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_nvbh" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_hd_me" type="xs:string" minOccurs="0" />
+                <xs:element name="bac_hd" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="loai_hd" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="nh_hd1" type="xs:string" minOccurs="0" />
+                <xs:element name="nh_hd2" type="xs:string" minOccurs="0" />
+                <xs:element name="nh_hd3" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_hd" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="so_hd" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_hd1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_hd2" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="hd_sd_pslk" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="ma_nt" type="xs:string" minOccurs="0" />
+                <xs:element name="tien_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_gt_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_gt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tinh_trang" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="kl_kh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="kl_th" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ghi_chu" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_th" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_th1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="han_tt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="status" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

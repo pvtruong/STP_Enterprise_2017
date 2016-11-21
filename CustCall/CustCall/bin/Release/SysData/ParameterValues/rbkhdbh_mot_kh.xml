@@ -1,0 +1,337 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbkhdbh_mot_kh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbkhdbh_mot_kh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>address_CPHM</Name>
+    <Type>C</Type>
+    <Value>VPGD: Thửa Đất số 1066, Tờ Bản Đồ 25, Ấp Cầu Đôi, Xã Lai Hưng, H. Bầu Bàng, T. Bình Dương</Value>
+    <Value2>VPGD:</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>address_DH</Name>
+    <Type>C</Type>
+    <Value>VPGD:117 Huỳnh Văn Lũy, Khu Phố 3, Phường  Phú Lợi, Thành phố Thủ Dầu Một, Bình Dương</Value>
+    <Value2>VPGD:117 Huỳnh Văn Lũy, Khu Phố 3, Phường  Phú Lợi, Thành phố Thủ Dầu Một, Bình Dương</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>address_MN</Name>
+    <Type>C</Type>
+    <Value>VPDG:  90 Cửu Vân, Phường 17, Quận Bình Thạnh, Tp.HCM</Value>
+    <Value2>VPDG:  90 Cửu Vân, Phường 17, Quận Bình Thạnh, Tp.HCM</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_chung_tu</Name>
+    <Type>C</Type>
+    <Value>Chứng từ</Value>
+    <Value2>Chứng từ</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ck</Name>
+    <Type>C</Type>
+    <Value>Chiết khấu</Value>
+    <Value2>Chiết khấu</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_den_ngay</Name>
+    <Type>C</Type>
+    <Value>đến ngày:</Value>
+    <Value2>đến ngày:</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_dien_giai</Name>
+    <Type>C</Type>
+    <Value>Diễn giải</Value>
+    <Value2>Diễn giải</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_doanh_thu</Name>
+    <Type>C</Type>
+    <Value>Doanh thu</Value>
+    <Value2>Doanh thu</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_doanh_thu_nt</Name>
+    <Type>C</Type>
+    <Value>Doanh thu ngoại tệ</Value>
+    <Value2>Doanh thu ngoại tệ</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_doanh_thu_vnd</Name>
+    <Type>C</Type>
+    <Value>Doanh thu VND</Value>
+    <Value2>Doanh thu VND</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_dvt</Name>
+    <Type>C</Type>
+    <Value>ĐVT</Value>
+    <Value2>ĐVT</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_gia_ban</Name>
+    <Type>C</Type>
+    <Value>Giá bán</Value>
+    <Value2>Giá bán</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_gia_ban_nt</Name>
+    <Type>C</Type>
+    <Value>Giá bán ngoại tệ</Value>
+    <Value2>Giá bán ngoại tệ</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_gia_ban_vnd</Name>
+    <Type>C</Type>
+    <Value>Giá bán VND</Value>
+    <Value2>Giá bán VND</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_khach_hang</Name>
+    <Type>C</Type>
+    <Value>Khách hàng</Value>
+    <Value2>Khách hàng</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ky_ten</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên)</Value>
+    <Value2>(Ký, họ tên)</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ma_kh</Name>
+    <Type>C</Type>
+    <Value>Mã khách hàng</Value>
+    <Value2>Mã khách hàng</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ma_kho</Name>
+    <Type>C</Type>
+    <Value>Mã kho</Value>
+    <Value2>Mã kho</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ma_nt</Name>
+    <Type>C</Type>
+    <Value>Mã ngoại tệ</Value>
+    <Value2>Mã ngoại tệ</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ma_vt</Name>
+    <Type>C</Type>
+    <Value>Mã vật tư</Value>
+    <Value2>Mã vật tư</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ngay</Name>
+    <Type>C</Type>
+    <Value>Ngày</Value>
+    <Value2>Ngày</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ngay_ct</Name>
+    <Type>C</Type>
+    <Value>Ngày chứng từ</Value>
+    <Value2>Ngày chứng từ</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ngay_in</Name>
+    <Type>C</Type>
+    <Value>Ngày in:</Value>
+    <Value2>Ngày in:</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ngay_thang_nam</Name>
+    <Type>C</Type>
+    <Value>Ngày  . . . . .  tháng . . . . . năm . . . . . . . . .</Value>
+    <Value2>Ngày  . . . . .  tháng . . . . . năm . . . . . . . . .</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_nguoi_lap</Name>
+    <Type>C</Type>
+    <Value>NGƯỜI LẬP BIỂU</Value>
+    <Value2>NGƯỜI LẬP BIỂU</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_sl</Name>
+    <Type>C</Type>
+    <Value>Số lượng</Value>
+    <Value2>Số lượng</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_so</Name>
+    <Type>C</Type>
+    <Value>Số</Value>
+    <Value2>Số</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_so_ct</Name>
+    <Type>C</Type>
+    <Value>Số chứng từ</Value>
+    <Value2>Số chứng từ</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ten_khach</Name>
+    <Type>C</Type>
+    <Value>Tên khách hàng</Value>
+    <Value2>Tên khách hàng</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ten_vt</Name>
+    <Type>C</Type>
+    <Value>Tên vật tư</Value>
+    <Value2>Tên vật tư</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_tien_ck</Name>
+    <Type>C</Type>
+    <Value>Tiền chiết khấu</Value>
+    <Value2>Tiền chiết khấu</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_tien_hang</Name>
+    <Type>C</Type>
+    <Value>Tiền hàng</Value>
+    <Value2>Tiền hàng</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_tien_thue</Name>
+    <Type>C</Type>
+    <Value>Thuế GTGT</Value>
+    <Value2>Thuế GTGT</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_tong_cong</Name>
+    <Type>C</Type>
+    <Value>Tổng cộng</Value>
+    <Value2>Tổng cộng</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_tong_tien</Name>
+    <Type>C</Type>
+    <Value>Tổng tiền</Value>
+    <Value2>Tổng tiền</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_trang</Name>
+    <Type>C</Type>
+    <Value>Trang:</Value>
+    <Value2>Trang:</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_tu_ngay</Name>
+    <Type>C</Type>
+    <Value>Từ ngày:</Value>
+    <Value2>Từ ngày:</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_ty_gia</Name>
+    <Type>C</Type>
+    <Value>Tỷ giá</Value>
+    <Value2>Tỷ giá</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>c_vat_tu</Name>
+    <Type>C</Type>
+    <Value>Vật tư</Value>
+    <Value2>Vật tư</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>company_CPHM</Name>
+    <Type>C</Type>
+    <Value>Công Ty Cổ Phần Khí Hóa Lỏng Hướng Minh</Value>
+    <Value2>Công Ty Cổ Phần Khí Hóa Lỏng Hướng Minh</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>company_DH</Name>
+    <Type>C</Type>
+    <Value>Công Ty Cổ Phần Dầu khí Đại Hàn</Value>
+    <Value2>Công Ty Cổ Phần Dầu khí Đại Hàn</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>company_MN</Name>
+    <Type>C</Type>
+    <Value>Công Ty Cổ Phần Dầu khí Miền Nam</Value>
+    <Value2>Công Ty Cổ Phần Dầu khí Miền nam</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>dien_thoai_kh</Name>
+    <Type>V</Type>
+    <Value>select dien_thoai from dkh where ma_kh=@[ma_kh]</Value>
+    <Value2>select dien_thoai from dkh where ma_kh=@[ma_kh]</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>fax_kh</Name>
+    <Type>V</Type>
+    <Value>select fax from dkh where ma_kh=@[ma_kh]</Value>
+    <Value2>select fax from dkh where ma_kh=@[ma_kh]</Value2>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <Code>rbkhdbh_mot_kh</Code>
+    <Name>xn_kh</Name>
+    <Type>C</Type>
+    <Value>Xác Nhận Khách Hàng</Value>
+    <Value2>Xác Nhận Khách Hàng</Value2>
+  </rbkhdbh_mot_kh>
+</NewDataSet>

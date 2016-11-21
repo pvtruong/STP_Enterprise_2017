@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmlo" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmlo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="cTable" type="xs:string" minOccurs="0" />
+                <xs:element name="cFields" type="xs:string" minOccurs="0" />
+                <xs:element name="cFinds" type="xs:string" minOccurs="0" />
+                <xs:element name="cKey" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="exe_list" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="ckey2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmlo>
+    <Code>dmlo</Code>
+    <cTable>dlo</cTable>
+    <cFields>ma_lo,ten_lo</cFields>
+    <cFinds>ma_lo,ten_lo</cFinds>
+    <cKey>1=1</cKey>
+    <gridid>lulo</gridid>
+    <formid>ldlo</formid>
+    <exe_list>ldlo.exe</exe_list>
+    <title>Danh mục lô</title>
+    <title2>Danh mục lô</title2>
+    <ckey2 />
+  </dmlo>
+</NewDataSet>

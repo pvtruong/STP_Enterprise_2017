@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="baocaovitrivogas2" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="baocaovitrivogas2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <baocaovitrivogas2>
+    <gridid>baocaovitrivogas2</gridid>
+    <columnsv>so_the_ts,ten_ts,ma_kh,ten_kh,trang_thai_vo,he_so_vo,trong_luong_vo,sl_co_gas_ton,sl_khong_gas_ton</columnsv>
+    <columnse>so_the_ts,ten_ts,ma_kh,ten_kh2,trang_thai_vo,he_so_vo,trong_luong_vo,sl_co_gas_ton,sl_khong_gas_ton</columnse>
+    <headersv>Số seri vỏ bình,Tên vỏ bình,Mã khách,Tên khách,Có gas,Định lượng,Trọng lượng vỏ,SL có gas,SL không gas</headersv>
+    <headerse>Số seri vỏ bình,Tên vỏ bình,Mã khách,Tên khách hàng,Có gas,Định lượng,Trọng lượng vỏ,SL có gas tồn,SL không gas</headerse>
+    <widths>100,200,100,200,100,100,100,100,100</widths>
+    <formats>,,,,f_tien,f_tien,f_sl,,</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,1,1</hides>
+    <defaultvalues>,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0</carrys>
+  </baocaovitrivogas2>
+</NewDataSet>

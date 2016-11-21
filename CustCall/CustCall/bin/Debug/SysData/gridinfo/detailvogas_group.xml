@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="detailvogas_group" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="detailvogas_group">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <detailvogas_group>
+    <gridid>detailvogas_group</gridid>
+    <columnsv>so_the_ts,so_ct,ngay_ct,dien_giai,sl_co_gas_nhap,sl_khong_gas_nhap,sl_co_gas_xuat,sl_khong_gas_xuat</columnsv>
+    <columnse>so_the_ts,so_ct,ngay_ct,dien_giai,sl_co_gas_nhap,sl_khong_gas_nha,sl_co_gas_xuat,sl_khong_gas_xua</columnse>
+    <headersv>Số seri,Số ct,Ngày ct,Diễn giải,SL có gas nhập,SL không gas nhập,SL có gas xuất,SL không gas xuất</headersv>
+    <headerse>Số seri,Số ct,Ngày ct,Diễn giải,Sl có gas nhập,SL không gas nhập,SL có gas xuất,sl kg</headerse>
+    <widths>100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,</formats>
+    <readonlys>1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0</carrys>
+  </detailvogas_group>
+</NewDataSet>

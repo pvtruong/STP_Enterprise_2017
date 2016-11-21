@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DHD7" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DHD7">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DHD7>
+    <gridid>DHD7</gridid>
+    <columnsv>ma_vt,ten_vt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,ton_tt,sl_nhap,gia_ban_nt,gia_ban,tien_nt1,tien1,ma_nvu,tk_co,tk_tl,ty_le_ck,tien_ck_ct_nt,tien_ck_ct,tk_ck,ma_thue,thue_suat,tien_thue_nt,tien_thue,tk_thue_co,tk_du,t_hd_nt,t_hd,pn_gia_tb,gia_von_nt,gia_von,tien_nhap_nt,tien_nhap,tk_vt,tk_gv</columnsv>
+    <columnse>ma_vt,ten_vt2,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,ton_tt,sl_nhap,gia_ban_nt,gia_ban,tien_nt1,tien1,ma_nvu,tk_co,tk_tl,ty_le_ck,tien_ck_ct_nt,tien_ck_ct,tk_ck,ma_thue,thue_suat,tien_thue_nt,tien_thue,tk_thue_co,tk_du,t_hd_nt,t_hd,pn_gia_tb,gia_von_nt,gia_von,tien_nhap_nt,tien_nhap,tk_vt,tk_gv</columnse>
+    <headersv>Mã vt,Tên vật tư,Mã tt1,Mã tt2,Mã tt3,Mã tt4,Mã tt5,ĐVT,Kho,Tồn kho,Số lượng,Giá bán nt,Giá bán,Tiền nt,Tiền,Nghiệp vụ,TK có,TK trả lại,Tỷ lệ CK,Tiền CK nt,Tiền CK,TK CK,Mã thuế,Thuế suất,Tiền thuế nt,Tiền thuế,TK thuế,Tk đối ứng,Tổng tiền nt,Tổng tiền,PN giá TB,Giá vốn,Giá vốn,Tiền vốn,Tiền vốn,TK vật tư,TK giá vốn</headersv>
+    <headerse>Item Code,Item Name,Mã tt1,Mã tt2,Mã tt3,Mã tt4,Mã tt5,UOM,Site,Inventory,Quantity,Foreign Currency Price,Sales Price ,FC Amount,Amount,Nghiệp vụ,Cr. Account ,Sales Return Acct.,Tỷ lệ CK,Tiền CK nt,Tiền CK,TK ck,Tax Code,Tax Rate,FC Tax Amt,Tax Amt,Tax Acct.,Ref. Account,Tổng tiền nt,Tổng tiền,Receipt Arverage,Unit Cost,Unit Cost ,Cost Amt.,Cost Amt.,Inventory Acct,Cogs Account</headerse>
+    <widths>100,200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,,f_sl,f_sl,f_gia_nt,f_gia,f_tien_nt,f_tien,,,,f_tien_nt,f_tien_nt,f_tien,,,f_tien,f_tien_nt,f_tien,,,f_tien_nt,f_tien,,f_gia_nt,f_gia,f_tien,f_tien,,</formats>
+    <readonlys>0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0</hides>
+    <defaultvalues>,,,,,,,,,=select ton_tt from tontucthoi where ma_vt='[ma_vt]' and ma_kho ='[ma_kho]' and ma_tt1 ='[ma_tt1]' and ma_tt2 ='[ma_tt2]'  and ma_tt3 ='[ma_tt3]'  and ma_tt4 ='[ma_tt4]'  and ma_tt5 ='[ma_tt5]',,,=[gia_ban_nt]*{ty_gia},=[sl_nhap]*[gia_ban_nt],=[tien_nt1]*{ty_gia} ![sl_nhap]![gia_ban]![gia_ban_nt],,,,,=[tien_nt1] * [ty_le_ck]/100 ![sl_nhap]![gia_ban_nt]![ma_vt],=[tien_ck_ct_nt]!M[ty_gia] ![sl_nhap]![gia_ban_nt]![ma_vt],,,,=([tien_nt1] - [tien_ck_ct_nt])*[thue_suat]/100![gia_ban_nt]![sl_nhap]![ma_thue]![ty_le_ck],=[tien_thue_nt]*{ty_gia} ![tien_nt1]![thue_suat]![gia_ban_nt]![gia_ban]![sl_nhap]![ma_thue]![ty_le_ck]![tien_ck_ct_nt],,,=[tien_nt1] - [tien_ck_ct_nt] + [tien_thue_nt] ![thue_suat]![gia_ban_nt]![gia_ban]![sl_nhap]![ma_thue]![ty_le_ck],=[t_hd_nt]*M[ty_gia] ![thue_suat]![gia_ban_nt]![gia_ban]![sl_nhap]![ma_thue]![ty_le_ck]![tien_ck_ct_nt]![tien_nt1]![tien_thue_nt],1,,=[gia_von_nt] ![pn_gia_tb],=[gia_von_nt]*[sl_nhap] ![pn_gia_tb],=[tien_nhap_nt] ![sl_nhap]![gia_von_nt]![pn_gia_tb],= exec get_tk_vt @M[ma_dvcs]%p@[ma_kho]%p@[ma_vt],</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0</carrys>
+  </DHD7>
+</NewDataSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="tinhtrangvogas12kg_tk" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tinhtrangvogas12kg_tk">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tinhtrangvogas12kg_tk>
+    <gridid>tinhtrangvogas12kg_tk</gridid>
+    <columnsv>so_the_ts,ten_ts,sl_co_gas_dk,sl_khong_gas_dk,Sl_co_gas_dk_tmp,Sl_khong_gas_dk_tmp,sl_co_gas_nhap,sl_khong_gas_nhap,sl_co_gas_xuat,sl_khong_gas_xuat,sl_co_gas_ton,sl_khong_gas_ton,t_sl_ton,sl_co_gas_ton_tmp,sl_khong_gas_ton_tmp</columnsv>
+    <columnse>so_the_ts,ten_ts,sl_co_gas_dk,sl_khong_gas_dk,sl_co_gas_dk,sl_khong_gas_dk,sl_co_gas_nhap,sl_khong_gas_nhap,sl_co_gas_xuat,sl_khong_gas_xuat,sl_co_gas_ton,sl_khong_gas_ton,t_sl_ton,sl_co_gas_ton_tmp,sl_khong_gas_ton_tmp</columnse>
+    <headersv>Số seri vỏ bình,Tên vỏ bình,Có gas đầu kỳ,Không gas đầu kỳ,Có gas đầu kỳ_temp,Không gas đầu kỳ_temp,Có gas nhập,Không gas nhập,Có gas xuất,Không gas xuất,Có gas cuối kỳ,Không gas cuối kỳ,TỔNG NỢ VỎ,Có gas cuối kỳ_temp,Không gas cuối kỳ_temp</headersv>
+    <headerse>Số seri vỏ bình,Tên vỏ bình,Đầu kỳ,K đua,Đầu kỳ,K đua,ff,ff,ff,ff,SL có gas tồn,SL không gas,Số lượng,SL có gas tồn,SL không gas</headerse>
+    <widths>60,120,70,70,70,70,70,70,70,70,70,70,100,70,70</widths>
+    <formats>,,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </tinhtrangvogas12kg_tk>
+</NewDataSet>

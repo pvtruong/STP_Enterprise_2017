@@ -1,0 +1,791 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_kh2" type="xs:string" minOccurs="0" />
+                <xs:element name="dia_chi" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_thoai" type="xs:string" minOccurs="0" />
+                <xs:element name="fax" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="website" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_nh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_nh" type="xs:string" minOccurs="0" />
+                <xs:element name="kh_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ncc_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ma_nv_lh" type="xs:string" minOccurs="0" />
+                <xs:element name="ghi_chu" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tinh_thanh" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_quan_huyen" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_n_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_dn" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_gd" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_lh_dn" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_so_thue" type="xs:string" minOccurs="0" />
+                <xs:element name="dai_dien_pl" type="xs:string" minOccurs="0" />
+                <xs:element name="von_kd" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_loai_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_td" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tl" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="htsh" type="xs:string" minOccurs="0" />
+                <xs:element name="lhkd" type="xs:string" minOccurs="0" />
+                <xs:element name="lvkd" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_dt_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="gia_ct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Ly_do_c_ncc" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ma_qg" type="xs:string" minOccurs="0" />
+                <xs:element name="nh_kh1" type="xs:string" minOccurs="0" />
+                <xs:element name="nh_kh2" type="xs:string" minOccurs="0" />
+                <xs:element name="nh_kh3" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_cn" type="xs:string" minOccurs="0" />
+                <xs:element name="t_dm" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_cmnd" type="xs:string" minOccurs="0" />
+                <xs:element name="td1" type="xs:string" minOccurs="0" />
+                <xs:element name="td2" type="xs:string" minOccurs="0" />
+                <xs:element name="td3" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tc" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="users_have_not_right" type="xs:string" minOccurs="0" />
+                <xs:element name="users_have_right" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_thoai2" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_thoai3" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_thoai4" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_thoai5" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_qg" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_qg2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_quan_huyen" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_tinh_thanh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_loai_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_loai_kh2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_td" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_td2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_dt_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_dt_ct2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_ly_do_c_ncc" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_ly_do_c_ncc2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_tk" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_tk2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma_kh>0933511373</ma_kh>
+    <ten_kh>phạm quốc việt</ten_kh>
+    <ten_kh2 />
+    <dia_chi>nhà b</dia_chi>
+    <dien_thoai>0933511373</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td>00000001</ma_td>
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-10-19T19:28:00+07:00</ngay_tao>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>0933511377</ma_kh>
+    <ten_kh>Phạm Văn Trương</ten_kh>
+    <ten_kh2 />
+    <dia_chi>dfdf</dia_chi>
+    <dien_thoai>0933511377</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td />
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>NV1</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_tao>2015-09-21T17:19:00+07:00</ngay_tao>
+    <ngay_sua>2015-09-26T21:12:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>NV1</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>0933511378</ma_kh>
+    <ten_kh>ZEZE</ten_kh>
+    <ten_kh2 />
+    <dia_chi>ZEZE</dia_chi>
+    <dien_thoai>0933511378</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td>00000001</ma_td>
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-09-25T11:16:00+07:00</ngay_tao>
+    <ngay_sua>1900-01-01T00:00:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>0933511379</ma_kh>
+    <ten_kh>borobor</ten_kh>
+    <ten_kh2 />
+    <dia_chi>bororo</dia_chi>
+    <dien_thoai>0933511379</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td>00000001</ma_td>
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-09-25T11:19:00+07:00</ngay_tao>
+    <ngay_sua>1900-01-01T00:00:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>0933517888</ma_kh>
+    <ten_kh>fast</ten_kh>
+    <ten_kh2 />
+    <dia_chi>fast</dia_chi>
+    <dien_thoai>0933517888</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td>00000001</ma_td>
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-10-19T19:51:00+07:00</ngay_tao>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>0980880</ma_kh>
+    <ten_kh>Khách hàng 5</ten_kh>
+    <ten_kh2 />
+    <dia_chi>Dia chi</dia_chi>
+    <dien_thoai>0980880</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td />
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-09-22T10:02:00+07:00</ngay_tao>
+    <ngay_sua>1900-01-01T00:00:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>09808890</ma_kh>
+    <ten_kh>khách hàng 6</ten_kh>
+    <ten_kh2 />
+    <dia_chi>dia chi</dia_chi>
+    <dien_thoai>09808890</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td />
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-09-22T10:04:00+07:00</ngay_tao>
+    <ngay_sua>1900-01-01T00:00:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>09808898</ma_kh>
+    <ten_kh>Khách hàng 8</ten_kh>
+    <ten_kh2 />
+    <dia_chi>dia chi</dia_chi>
+    <dien_thoai>09808898</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td />
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-09-22T10:16:00+07:00</ngay_tao>
+    <ngay_sua>1900-01-01T00:00:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>09808899</ma_kh>
+    <ten_kh>Khách hàng 9</ten_kh>
+    <ten_kh2 />
+    <dia_chi>dia chi</dia_chi>
+    <dien_thoai>09808899</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td>00000001</ma_td>
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_tao>2015-09-22T10:17:00+07:00</ngay_tao>
+    <ngay_sua>2015-10-26T09:54:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>24434</ma_kh>
+    <ten_kh>Khách hàng 3</ten_kh>
+    <ten_kh2 />
+    <dia_chi />
+    <dien_thoai>24434</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>false</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td>00000001</ma_td>
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-10-17T21:58:00+07:00</ngay_tao>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <users_have_not_right />
+    <users_have_right>ADMIN</users_have_right>
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>KH001</ma_kh>
+    <ten_kh>khách hàng 01</ten_kh>
+    <ten_kh2 />
+    <dia_chi>56 Đường 13C, Bình Trị Đông B, Bình Tân</dia_chi>
+    <dien_thoai>0933511376</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>true</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh>TRUONGPV</ma_nv_lh>
+    <ghi_chu>test
+dfdf
+df</ghi_chu>
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td />
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_tao>2015-05-25T14:57:00+07:00</ngay_tao>
+    <ngay_sua>2015-10-18T07:11:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <ngay_tc>2015-05-25T00:00:00+07:00</ngay_tc>
+    <users_have_not_right />
+    <users_have_right />
+    <dien_thoai2>244342</dien_thoai2>
+    <dien_thoai3>fdfdfd</dien_thoai3>
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>KH002</ma_kh>
+    <ten_kh>Khách hàng 2</ten_kh>
+    <ten_kh2 />
+    <dia_chi />
+    <dien_thoai>89898989</dien_thoai>
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>true</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh>TRUONGPV</ma_nv_lh>
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td />
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_tao>2015-09-17T10:46:00+07:00</ngay_tao>
+    <ngay_sua>2015-10-17T21:57:00+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1 />
+    <nh_kh2 />
+    <nh_kh3 />
+    <tk_cn />
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <ngay_tc>2015-09-17T00:00:00+07:00</ngay_tc>
+    <users_have_not_right />
+    <users_have_right />
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+  </Table>
+  <Table>
+    <ma_kh>KH005</ma_kh>
+    <ten_kh>KH</ten_kh>
+    <ten_kh2 />
+    <dia_chi />
+    <dien_thoai />
+    <fax />
+    <email />
+    <website />
+    <tk_nh />
+    <ten_nh />
+    <kh_yn>true</kh_yn>
+    <ncc_yn>false</ncc_yn>
+    <ma_nv_lh />
+    <ghi_chu />
+    <ma_tinh_thanh />
+    <ma_quan_huyen />
+    <ma_n_kh />
+    <ten_dn />
+    <ten_gd />
+    <ma_lh_dn />
+    <ma_so_thue />
+    <dai_dien_pl />
+    <von_kd />
+    <ma_loai_kh />
+    <ma_td>00000001</ma_td>
+    <htsh />
+    <lhkd />
+    <lvkd />
+    <ma_dt_ct />
+    <gia_ct>0.00000</gia_ct>
+    <Ly_do_c_ncc />
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-10-26T09:48:00+07:00</ngay_tao>
+    <trang_thai>true</trang_thai>
+    <ma_qg />
+    <nh_kh1>MB</nh_kh1>
+    <nh_kh2>KHL</nh_kh2>
+    <nh_kh3 />
+    <tk_cn>131111</tk_cn>
+    <t_dm>0.00000</t_dm>
+    <so_cmnd />
+    <td1 />
+    <td2 />
+    <td3 />
+    <ngay_tc>2015-10-26T00:00:00+07:00</ngay_tc>
+    <users_have_not_right />
+    <users_have_right />
+    <dien_thoai2 />
+    <dien_thoai3 />
+    <dien_thoai4 />
+    <dien_thoai5 />
+    <ten_tk>Phải thu ngắn hạn khách hàng: Hđ SXKD (VND)</ten_tk>
+    <ten_tk2>Receivables from customers</ten_tk2>
+  </Table>
+</NewDataSet>

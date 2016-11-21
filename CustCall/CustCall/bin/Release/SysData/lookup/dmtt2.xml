@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmtt2" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmtt2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="cTable" type="xs:string" minOccurs="0" />
+                <xs:element name="cFields" type="xs:string" minOccurs="0" />
+                <xs:element name="cFinds" type="xs:string" minOccurs="0" />
+                <xs:element name="cKey" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="exe_list" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="ckey2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmtt2>
+    <Code>dmtt2</Code>
+    <cTable>dmtt2</cTable>
+    <cFields>ma,ten,ten2</cFields>
+    <cFinds>ma,ten,ten2</cFinds>
+    <cKey>trang_thai =1</cKey>
+    <gridid>dmc</gridid>
+    <formid>dmtt2</formid>
+    <exe_list>Ldmc.exe#dmtt2</exe_list>
+    <title>Danh mục thuộc tính 2</title>
+    <title2>Danh mục thuộc tính 2</title2>
+    <ckey2 />
+  </dmtt2>
+</NewDataSet>

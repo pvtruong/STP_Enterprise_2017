@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmvt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmvt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmvt>
+    <gridid>dmvt</gridid>
+    <columnsv>ma_vt,ten_vt,ma_dvt,ma_kho,loai_vt,tk_vt,tk_gv,tk_dt,tk_ck,tk_tl</columnsv>
+    <columnse>ma_vt,ten_vt2,ma_dvt,ma_kho,loai_vt,tk_vt,tk_gv,tk_dt,tk_ck,tk_tl</columnse>
+    <headersv>Mã vật tư,Tên vật tư,ĐVT,Kho,Loại vật tư,TK vật tư,TK giá vốn,TK doanh thu,TK chiết khấu,TK trả lại</headersv>
+    <headerse>Item Code ,Item Name,ĐVT,Kho,Loại vật tư,TK vật tư,TK giá vốn,TK doanh thu,TK chiết khấu,TK trả lại</headerse>
+    <widths>100,200,60,80,50,50,50,50,50,50</widths>
+    <formats>,,,,,,,,,</formats>
+    <readonlys>1,1,1,0,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,1,1</hides>
+    <defaultvalues>,,,,HH,1561,6321,51111,5211,5311</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0</carrys>
+  </dmvt>
+</NewDataSet>

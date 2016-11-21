@@ -1,0 +1,204 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbkra28" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbkra28">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_bo_hd</Name>
+    <Type>C</Type>
+    <Value>Hóa đơn, chứng từ bán</Value>
+    <Value2>Invoices, vouchers sold</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_cong</Name>
+    <Type>C</Type>
+    <Value>Cộng:</Value>
+    <Value2>Total:</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_ds</Name>
+    <Type>C</Type>
+    <Value>Doanh số bán chưa có thuế</Value>
+    <Value2>No sales tax</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_dvtien</Name>
+    <Type>C</Type>
+    <Value>Đơn vị tiền: Đồng Việt Nam</Value>
+    <Value2>Currency Unit:VNĐ</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_ghi_chu</Name>
+    <Type>C</Type>
+    <Value>Ghi chú</Value>
+    <Value2>Note</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_hd</Name>
+    <Type>C</Type>
+    <Value>Số hóa đơn</Value>
+    <Value2>Serial No.</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_kem_theo</Name>
+    <Type>C</Type>
+    <Value>(Kèm theo tờ khai thuế GTGT theo mẫu 01/GTGT)</Value>
+    <Value2>(Attached to the VAT declaration form 01/GTGT)</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_kh</Name>
+    <Type>C</Type>
+    <Value>Tên người mua</Value>
+    <Value2>Buyer Name</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_ky_ten_dd</Name>
+    <Type>C</Type>
+    <Value>Ký tên, đóng dấu (Ghi rõ họ tên và chức vụ)</Value>
+    <Value2>Signature and seal (Full name and position)</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_mau_bc</Name>
+    <Type>C</Type>
+    <Value>Mẫu số: 01-1/GTGT</Value>
+    <Value2>Form No.: 01-1/GTGT</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_mau_tt</Name>
+    <Type>C</Type>
+    <Value>(Ban hành kèm theo Thông tư 156/2013/TT-BTC ngày 06/11/2013  của Bộ Tài Chính)</Value>
+    <Value2>(According to Circular no.156/2013/TT-BTC dated 06/11/2013  of the Ministry of Finance)</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_mh</Name>
+    <Type>C</Type>
+    <Value>Mặt hàng</Value>
+    <Value2>Item</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_mst</Name>
+    <Type>C</Type>
+    <Value>Mã số thuế:</Value>
+    <Value2>Cust. Tax Code:</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_mst_kh</Name>
+    <Type>C</Type>
+    <Value>Mã số thuế người mua</Value>
+    <Value2>Buyer Tax Code</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_nam</Name>
+    <Type>C</Type>
+    <Value>Năm</Value>
+    <Value2>year</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_ngay_hd</Name>
+    <Type>C</Type>
+    <Value>Ngày, tháng, năm phát hành</Value>
+    <Value2>Date, Month, Year release</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_ngay_thang_nam</Name>
+    <Type>C</Type>
+    <Value>..............., ngày......... tháng........... năm..........</Value>
+    <Value2>..............., date......... month........... year..........</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_nguoi_dd</Name>
+    <Type>C</Type>
+    <Value>NGƯỜI NỘP THUẾ hoặc ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ</Value>
+    <Value2>Taxpayers or the legal representative of the taxpayer</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_nguoi_nop</Name>
+    <Type>C</Type>
+    <Value>Người nộp thuế :</Value>
+    <Value2>Taxpayer:</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_seri</Name>
+    <Type>C</Type>
+    <Value>Ký hiệu hóa đơn</Value>
+    <Value2>Symbol invoice</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_stt</Name>
+    <Type>C</Type>
+    <Value>STT</Value>
+    <Value2>NO.</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_thang</Name>
+    <Type>C</Type>
+    <Value>Kỳ tính thuế: Tháng</Value>
+    <Value2>Month</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_thue_suat</Name>
+    <Type>C</Type>
+    <Value>Thuế suất (%)</Value>
+    <Value2>Tax Rate  (%)</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_tien_thue</Name>
+    <Type>C</Type>
+    <Value>Thuế GTGT</Value>
+    <Value2>VAT</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_tong_hang</Name>
+    <Type>C</Type>
+    <Value>Tổng giá trị hàng hoá, dịch vụ bán ra:</Value>
+    <Value2>Total VAT on goods and services sold:</Value2>
+  </rbkra28>
+  <rbkra28>
+    <Code>rbkra28</Code>
+    <Name>c_tong_thue</Name>
+    <Type>C</Type>
+    <Value>Tổng thuế GTGT của hàng hoá, dịch vụ bán ra:</Value>
+    <Value2>Total VAT on goods and services sold:</Value2>
+  </rbkra28>
+</NewDataSet>

@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="cdntxt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="cdntxt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="nam" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt_rec_nt" type="xs:string" minOccurs="0" />
+                <xs:element name="stt_rec0" type="xs:string" minOccurs="0" />
+                <xs:element name="pn_co_gia" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="ngay" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="stt_ctntxt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay_ct" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="so_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_kho" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_lo" type="xs:string" minOccurs="0" />
+                <xs:element name="so_luong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_nt" type="xs:string" minOccurs="0" />
+                <xs:element name="tien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_cp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_cp_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ton_kho13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_du_nt13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

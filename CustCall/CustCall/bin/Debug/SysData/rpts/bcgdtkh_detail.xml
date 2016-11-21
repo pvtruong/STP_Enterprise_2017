@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bcgdtkh_detail" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bcgdtkh_detail">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:int" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="name2" type="xs:string" minOccurs="0" />
+                <xs:element name="title0" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="rpt" type="xs:string" minOccurs="0" />
+                <xs:element name="rpt_chart" type="xs:string" minOccurs="0" />
+                <xs:element name="store" type="xs:string" minOccurs="0" />
+                <xs:element name="pilotcolumn" type="xs:string" minOccurs="0" />
+                <xs:element name="pilotrow" type="xs:string" minOccurs="0" />
+                <xs:element name="pilotdata" type="xs:string" minOccurs="0" />
+                <xs:element name="pilotheader" type="xs:string" minOccurs="0" />
+                <xs:element name="pilotheader2" type="xs:string" minOccurs="0" />
+                <xs:element name="pilotwidth" type="xs:string" minOccurs="0" />
+                <xs:element name="pilotformat" type="xs:string" minOccurs="0" />
+                <xs:element name="pilotreadonly" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="tbform" type="xs:string" minOccurs="0" />
+                <xs:element name="idform" type="xs:string" minOccurs="0" />
+                <xs:element name="line_min" type="xs:int" minOccurs="0" />
+                <xs:element name="user_permit_print1" type="xs:string" minOccurs="0" />
+                <xs:element name="user_permit_print12" type="xs:string" minOccurs="0" />
+                <xs:element name="so_lien" type="xs:int" minOccurs="0" />
+                <xs:element name="ten_lien1" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_lien2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_lien3" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_lien4" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_lien5" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_lien6" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_lien7" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_lien8" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_lien9" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="logo" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="mau_so" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bcgdtkh_detail>
+    <code>bcgdtkh_detail</code>
+    <stt>0</stt>
+    <name>Báo cáo gas dư theo khách hàng</name>
+    <name2>Báo cáo gas dư theo khách hàng</name2>
+    <title0>Báo cáo gas dư theo khách hàng</title0>
+    <title2>Báo cáo gas dư theo khách hàng</title2>
+    <rpt>bcgasdutheokh</rpt>
+    <rpt_chart />
+    <store>bcgasdutheokh_detail</store>
+    <pilotcolumn />
+    <pilotrow />
+    <pilotdata />
+    <pilotheader />
+    <pilotheader2 />
+    <pilotwidth />
+    <pilotformat />
+    <pilotreadonly />
+    <gridid>bcgasdutheokh_detail</gridid>
+    <tbform />
+    <idform />
+    <line_min>0</line_min>
+    <user_permit_print1 />
+    <user_permit_print12 />
+    <so_lien>1</so_lien>
+    <ten_lien1 />
+    <ten_lien2 />
+    <ten_lien3 />
+    <ten_lien4 />
+    <ten_lien5 />
+    <ten_lien6 />
+    <ten_lien7 />
+    <ten_lien8 />
+    <ten_lien9 />
+    <ngay_tao>2014-07-25T10:22:37+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <nguoi_sua />
+    <trang_thai>true</trang_thai>
+    <mau_so />
+  </bcgdtkh_detail>
+</NewDataSet>

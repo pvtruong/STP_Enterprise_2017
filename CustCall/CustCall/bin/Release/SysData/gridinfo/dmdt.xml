@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmdt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmdt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmdt>
+    <gridid>dmdt</gridid>
+    <columnsv>ma_dt,ten_dt,ma_nt,nguoi_tao,ngay_tao,trang_thai</columnsv>
+    <columnse>ma_dt,ten_dt2,ma_nt,nguoi_tao,ngay_tao,trang_thai</columnse>
+    <headersv>Mã vụ việc,Vụ việc,Mã ngoại tệ,Người tạo,Ngày tạo,Trạng thái</headersv>
+    <headerse>Object ID,Object Name,,,,</headerse>
+    <widths>100,200,100,100,100,100</widths>
+    <formats>,,,,,</formats>
+    <readonlys>1,1,0,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0</carrys>
+  </dmdt>
+</NewDataSet>

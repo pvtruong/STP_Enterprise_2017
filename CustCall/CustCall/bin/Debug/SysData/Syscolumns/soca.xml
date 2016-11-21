@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="soca" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="soca">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <soca>
+    <name>ma_kho</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>ma_ca</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>ma_may</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>nhan_vien</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>ngay</name>
+    <prec>10</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>tu_gio</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>den_gio</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>so_ct_tu</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>so_ct_den</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>tong_tien</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>tong_tien_ban_giao</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>ghi_chu</name>
+    <prec>256</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+  <soca>
+    <name>ban_giao</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>soca</tablename>
+  </soca>
+</NewDataSet>

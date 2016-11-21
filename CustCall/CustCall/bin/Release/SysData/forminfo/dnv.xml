@@ -1,0 +1,525 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dnv" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dnv">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>000</TextID>
+    <TextV>Danh mục nhân viên</TextV>
+    <TextE>Sales Employee List</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>111</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Điều kiện lọc</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>112</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Tìm</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BH</TextID>
+    <TextV>Bảo Hiểm</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHTCTN0</TextID>
+    <TextV>Bảo hiểm Trợ cấp thất nghiệp</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHTCTN1</TextID>
+    <TextV>Số sổ BHTCTN</TextV>
+    <TextE>Số sổ BHTCTN</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHTCTN2</TextID>
+    <TextV>Ngày tham gia</TextV>
+    <TextE>Ngày tham gia</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHTCTN3</TextID>
+    <TextV>Ngày hết hạn</TextV>
+    <TextE>Ngày hết hạn</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHTCTN4</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Ghi chú</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHXH0</TextID>
+    <TextV>Bảo hiểm Xã hội</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHXH1</TextID>
+    <TextV>Số sổ BHXH</TextV>
+    <TextE>Số sổ BHXH</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHXH2</TextID>
+    <TextV>Ngày tham gia</TextV>
+    <TextE>Ngày tham gia</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHXH3</TextID>
+    <TextV>Ngày hết hạn</TextV>
+    <TextE>Ngày hết hạn</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHXH4</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Ghi chú</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHYT0</TextID>
+    <TextV>Bảo hiểm Y tế</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHYT1</TextID>
+    <TextV>Số số BHYT</TextV>
+    <TextE>Ngày hết hạn</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHYT2</TextID>
+    <TextV>Ngày tham gia</TextV>
+    <TextE>Ngày tham gia</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHYT3</TextID>
+    <TextV>Ngày hết hạn</TextV>
+    <TextE>Ngày hết hạn</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHYT4</TextID>
+    <TextV>Nơi đăng ký KCB</TextV>
+    <TextE>Nơi đăng ký KCB</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>BHYT5</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Ghi chú</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN00</TextID>
+    <TextV>Thông tin cá nhân</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN01</TextID>
+    <TextV>Mã nhân viên</TextV>
+    <TextE>Employees Code</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN02</TextID>
+    <TextV>Tên nhân viên</TextV>
+    <TextE>Employees Name</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN03</TextID>
+    <TextV>Ngày sinh</TextV>
+    <TextE>Ngày sinh</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN04</TextID>
+    <TextV>Nơi sinh</TextV>
+    <TextE>Nơi sinh</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN05</TextID>
+    <TextV>Nguyên quán</TextV>
+    <TextE>Nguyên quán</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN06</TextID>
+    <TextV>Nghề nghiệp</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN07</TextID>
+    <TextV>Loại nhân viên</TextV>
+    <TextE>Loại nhân viên</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN08</TextID>
+    <TextV>Số xe</TextV>
+    <TextE>Số xe</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CN09</TextID>
+    <TextV>Quỹ xe</TextV>
+    <TextE>Quỹ xe</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT00</TextID>
+    <TextV>Thông tin chi tiết</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT01</TextID>
+    <TextV>Dân tộc</TextV>
+    <TextE>Dân tộc</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT02</TextID>
+    <TextV>Tôn giáo</TextV>
+    <TextE>Tôn giáo</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT03</TextID>
+    <TextV>CTY  trực thuộc</TextV>
+    <TextE>Quốc tịch</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT04</TextID>
+    <TextV>Giới tính</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT05</TextID>
+    <TextV>Nam</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT06</TextID>
+    <TextV>Nữ</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT07</TextID>
+    <TextV>Tình trạng hôn nhân</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT08</TextID>
+    <TextV>Số CMND</TextV>
+    <TextE>Số CMND</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT09</TextID>
+    <TextV>Ngày cấp</TextV>
+    <TextE>Ngày cấp</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT10</TextID>
+    <TextV>Nơi cấp</TextV>
+    <TextE>Nơi cấp</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT11</TextID>
+    <TextV>Ngày vào làm</TextV>
+    <TextE>Ngày vào làm</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT12</TextID>
+    <TextV>Ngày nghỉ việc</TextV>
+    <TextE>Ngày tuyển</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT13</TextID>
+    <TextV>Phòng ban</TextV>
+    <TextE>Phòng ban</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT14</TextID>
+    <TextV>Chức vụ</TextV>
+    <TextE>Chức vụ</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT15</TextID>
+    <TextV>Công việc</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT16</TextID>
+    <TextV>Đang làm việc</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT17</TextID>
+    <TextV>Có chấm công</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>CT18</TextID>
+    <TextV>Có tính lương</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>DC00</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>DC01</TextID>
+    <TextV>Hộ khẩu thường trú</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>DC02</TextID>
+    <TextV>Thành phố</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>DC03</TextID>
+    <TextV>Nơi ở hiện nay</TextV>
+    <TextE>Nơi ở hiện nay</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>DC04</TextID>
+    <TextV>Tel nhà riêng</TextV>
+    <TextE>Tel NR</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>DC05</TextID>
+    <TextV>Mobile</TextV>
+    <TextE>Mobile</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>DC06</TextID>
+    <TextV>Fax</TextV>
+    <TextE>Fax</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>DC07</TextID>
+    <TextV>Email</TextV>
+    <TextE>Email</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>KA00</TextID>
+    <TextV>Thông tin khác</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>KA01</TextID>
+    <TextV>Ngày nghỉ việc</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>KA02</TextID>
+    <TextV>Số quyết định nghỉ việc</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>KA03</TextID>
+    <TextV>Lý do nghỉ việc</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>KA04</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Note</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>QD1</TextID>
+    <TextV>In quyết định nghỉ việc</TextV>
+    <TextE>In quyết định nghỉ việc</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK00</TextID>
+    <TextV>Tình trạng sức khỏe</TextV>
+    <TextE />
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK01</TextID>
+    <TextV>Ngày khám</TextV>
+    <TextE>Ngày khám</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK02</TextID>
+    <TextV>Chiều cao</TextV>
+    <TextE>Chiều cao</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK03</TextID>
+    <TextV>Cân nặng</TextV>
+    <TextE>Cân nặng</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK04</TextID>
+    <TextV>Nhóm máu</TextV>
+    <TextE>Nhóm máu</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK05</TextID>
+    <TextV>Thị lực</TextV>
+    <TextE>Thị lực</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK06</TextID>
+    <TextV>Dị tật</TextV>
+    <TextE>Dị tật</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK07</TextID>
+    <TextV>Di truyền</TextV>
+    <TextE>Di truyền</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK08</TextID>
+    <TextV>Dị ứng thuốc</TextV>
+    <TextE>Dị ứng thuốc</TextE>
+  </dnv>
+  <dnv>
+    <FormID>dnv</FormID>
+    <TextID>SK09</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE />
+  </dnv>
+</NewDataSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dpc1_imp1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dpc1_imp1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dpc1_imp1>
+    <gridid>dpc1_imp1</gridid>
+    <columnsv>so_ct,ngay_ct,ma_kh,dien_giai,ma_nt,ty_gia,ma_nvu,tk_no,ma_kh_no,tk_co,tien_nt,tien</columnsv>
+    <columnse>so_ct,ngay_ct,ma_kh,dien_giai,ma_nt,ty_gia,ma_nvu,tk_no,ma_kh_no,tk_co,tien_nt,tien</columnse>
+    <headersv>Số chứng từ,Ngày chứng từ,Mã khách,Diễn giải,Mã ngoại tệ,Tỷ giá,Nghiệp vụ,TK nợ,Mã khách nợ,TK có,Tiền ngoại tệ,Tiền VNĐ</headersv>
+    <headerse>Số chứng từ,Ngày chứng từ,Mã khách,Diễn giải,Mã ngoại tệ,Tỷ giá,Nghiệp vụ,Tài khoản nợ,Mã khách nợ,Tài khoản có,Tiền ngoại tệ,Tiền VNĐ</headerse>
+    <widths>100,100,100,200,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,f_tien,,,,,f_tien_nt,f_tien</formats>
+    <readonlys>0,0,0,0,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </dpc1_imp1>
+</NewDataSet>

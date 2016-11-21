@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="poofso" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="poofso">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <poofso>
+    <gridid>poofso</gridid>
+    <columnsv>so_ct,ngay_ct,ma_kh,ten_kh,ma_vt,ten_vt,ma_dvt,so_luong,gia,tien,ngay_giao</columnsv>
+    <columnse>so_ct,ngay_ct,ma_kh,ten_kh2,ma_vt,ten_vt,ma_dvt,so_luong,gia,tien,ngay_giao</columnse>
+    <headersv>Số đơn hàng,Ngày đơn hàng,Mã nhà cung cấp,Tên nhà cung cấp,Mã sản phẩm,Tên sản phẩm,Đơn vị tính,Số lượng,Giá mua,Tiền,Ngày giao</headersv>
+    <headerse>Số đơn hàn,Ngày chứng từ,Mã nhà cung cấp,Tên nhà cung cấp,Mã sản phẩm,Tên sản phẩm,Đơn vị tính,Số lượng,Giá,Tiền,Ngày giao</headerse>
+    <widths>100,100,100,200,100,200,100,100,100,100,100</widths>
+    <formats>,,,,,,,f_sl,f_tien,f_tien,</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </poofso>
+</NewDataSet>

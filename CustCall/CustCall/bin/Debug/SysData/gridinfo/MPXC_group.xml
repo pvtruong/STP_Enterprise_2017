@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="MPXC_group" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MPXC_group">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <MPXC_group>
+    <gridid>MPXC_group</gridid>
+    <columnsv>sel,so_the_ts,ten_ts,so_ct,ngay_ct,ma_kho,ma_khon,dien_giai,ma_nt,t_sl,t_tien_nt,so_hd</columnsv>
+    <columnse>sel,so_the_ts,ten_ts,so_ct,ngay_ct,ma_kho,ma_khon,dien_giai,ma_nt,t_sl,t_tien_nt,so_hd</columnse>
+    <headersv>Chọn,Serial Vỏ Bình,Tên Vỏ Bình,Số chứng từ,Ngày chứng từ,Mã kho xuất,Mã kho nhập,Diễn giải,Mã ngoại tệ,Số lượng,Tiền,Số hóa đơn</headersv>
+    <headerse>Option,Serial,Name CCDC,Voucher No.  ,Voucher Date.,Issuing Site ID ,Receiving Site ID ,Memo,FC Code,Quantity,Amount,</headerse>
+    <widths>50,150,200,100,100,100,100,200,75,120,120,100</widths>
+    <formats>,,,,,,,,,,,</formats>
+    <readonlys>0,1,0,1,1,1,1,1,1,1,1,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0,1,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,=M[so_hd]</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </MPXC_group>
+</NewDataSet>

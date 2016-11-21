@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmtknh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmtknh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmtknh>
+    <name>tk</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>tknh</name>
+    <prec>24</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>ten_nh</name>
+    <prec>64</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>ten_nh2</name>
+    <prec>64</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>tinh_thanh</name>
+    <prec>24</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>phone</name>
+    <prec>10</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>fax</name>
+    <prec>10</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>email</name>
+    <prec>32</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>home_page</name>
+    <prec>32</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>doi_tac</name>
+    <prec>32</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>ma_so_thue</name>
+    <prec>18</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>ghi_chu</name>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>trang_thai</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>ngay_tao</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>ngay_sua</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>nguoi_tao</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+  <dmtknh>
+    <name>nguoi_sua</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmtknh</tablename>
+  </dmtknh>
+</NewDataSet>

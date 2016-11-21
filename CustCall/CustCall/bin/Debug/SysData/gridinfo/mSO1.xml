@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="mSO1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="mSO1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <mSO1>
+    <gridid>mSO1</gridid>
+    <columnsv>sel,so_ct,ngay_ct,ma_kh,ten_kh,ngay_giao,nguoi_tao,nguoi_sua</columnsv>
+    <columnse>sel,so_ct,ngay_ct,ma_kh,ten_kh2,ngay_giao,nguoi_tao,nguoi_sua</columnse>
+    <headersv>Sel,Số chứng từ,Ngày chứng từ,Mã khách,Tên khách hàng,Ngày giao,Người lập,Người sửa</headersv>
+    <headerse>sel,Số chứng từ,Ngày chứng từ,Mã khách,Tên khách hàng,Ngày giao,Người lập,Người sửa</headerse>
+    <widths>50,100,100,100,200,100,100,100</widths>
+    <formats>,,,,,,,</formats>
+    <readonlys>0,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0</carrys>
+  </mSO1>
+</NewDataSet>

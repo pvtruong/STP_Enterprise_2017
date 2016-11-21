@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="px8" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="px8">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <px8>
+    <Code>px8</Code>
+    <Name>v_dien_thoai</Name>
+    <Type>V</Type>
+    <Value>select dien_thoai from dkh where ma_kh='[ma_kh_dl]'</Value>
+    <Value2>select dien_thoai from dkh where ma_kh='[ma_kh_dl]'</Value2>
+  </px8>
+  <px8>
+    <Code>px8</Code>
+    <Name>v_dien_thoai_dl</Name>
+    <Type>V</Type>
+    <Value>select dien_thoai from ddv where ma_dvcs ='[ma_dvcs]'</Value>
+    <Value2>select dien_thoai from ddv where ma_dvcs ='[ma_dvcs]'</Value2>
+  </px8>
+  <px8>
+    <Code>px8</Code>
+    <Name>v_dien_thoai_khl</Name>
+    <Type>V</Type>
+    <Value>select dien_thoai from dkh where ma_kh='[ma_kh]'</Value>
+    <Value2>select dien_thoai from dkh where ma_kh='[ma_kh]'</Value2>
+  </px8>
+  <px8>
+    <Code>px8</Code>
+    <Name>v_ten_nv</Name>
+    <Type>V</Type>
+    <Value>select ten_nv from dnv where ma_nv='[ma_nv]'</Value>
+    <Value2>select ten_nv from dnv where ma_nv='[ma_nv]'</Value2>
+  </px8>
+</NewDataSet>

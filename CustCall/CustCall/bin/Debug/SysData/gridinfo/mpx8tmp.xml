@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="mpx8tmp" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="mpx8tmp">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <mpx8tmp>
+    <gridid>mpx8tmp</gridid>
+    <columnsv>ngay_ct,so_ct,ma_kh,ten_kh,dia_chi,dien_thoai,t_tien,t_ck,t_tt</columnsv>
+    <columnse>ngay_ct,so_ct,ma_kh,ten_kh,dia_chi,dien_thoai,t_tien,t_ck,t_tt</columnse>
+    <headersv>Ngày,Số,Mã khách,Tên khách hàng,Địa chỉ,Điện thoại,Tiền,Chiết khấu,Phải thu</headersv>
+    <headerse>Ngày ct,SÔ,Mã khách,ten_kh,Địa chỉ,Điện thoại,Tiền,Chiết khấu,Phải thu</headerse>
+    <widths>120,100,100,200,100,100,100,100,100</widths>
+    <formats>f_ngay_gio,,,,,,f_tien,f_tien,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0</carrys>
+  </mpx8tmp>
+</NewDataSet>

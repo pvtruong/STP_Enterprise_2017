@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbkchungtu" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbkchungtu">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbkchungtu>
+    <gridid>rbkchungtu</gridid>
+    <columnsv>ma_dvcs,ngay_ct,ma_ct,so_ct,ma_kh,ten_kh,dien_giai,tk_no,tk_co,tien,ma_bp,ma_phi,ma_dt,ma_sp</columnsv>
+    <columnse>ma_dvcs,ngay_ct,ma_ct,so_ct,ma_kh,ten_kh,dien_giai,tk_no,tk_co,tien,ma_bp,ma_phi,ma_dt,ma_sp</columnse>
+    <headersv>Ma DVCS,Ngày chứng từ,Mã chứng từ,Số chứng từ,Mã khách,Tên khách,Diễn giải,TK nợ,Tk có,Tiền,Mã bộ phận,Mã phí,Mã đối tượng,Mã sản phẩm</headersv>
+    <headerse>,Voucher Date                    ,VC Code                         ,Voucher No.                     ,Cust. ID                        ,Customer Name                   ,Description                     ,Dr. Account                     ,Cr. Account                     ,Amount                          ,Dept. ID                        ,Fee Code                        ,Object ID like,Mã sản phẩm</headerse>
+    <widths>50,100,100,100,100,150,250,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,,f_tien,,,,</formats>
+    <readonlys>0,1,1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </rbkchungtu>
+</NewDataSet>

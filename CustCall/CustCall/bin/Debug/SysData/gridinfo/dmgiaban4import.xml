@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmgiaban4import" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmgiaban4import">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmgiaban4import>
+    <gridid>dmgiaban4import</gridid>
+    <columnsv>ma_vt,ma_dvt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,nganh_hang,nh_vt1,ma_kh,nh_kh2,ma_kho,gia_ban_le,gia_ban_buon,gia_ban_buon1,gia_ban_buon2,gia_ban_buon3,ty_le_giam_gia,tien_giam,tu_ngay,den_ngay,gia_chua_gom_vat</columnsv>
+    <columnse>ma_vt,ma_dvt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,nganh_hang,nh_vt1,ma_kh,nh_kh2,ma_kho,gia_ban_le,gia_ban_buon,gia_ban_buon1,gia_ban_buon2,gia_ban_buon3,ty_le_giam_gia,tien_giam,tu_ngay,den_ngay,gia_chua_gom_vat</columnse>
+    <headersv>GAS,DVT,Mã thuộc tính 1,Mã thuộc tính 2,Mã thuộc tính 3,Mã thuộc tính 4,Mã thuộc tính 5,Ngành hàng,Nhóm hàng,Mã khách,NHOM,Kho,Giá bán lẻ,GIA,Giá bán buôn 2,Giá bán buôn 3,Giá bán buôn 4,Tỷ lệ giảm,Tiền giảm,TU,DEN,Giá chưa VAT</headersv>
+    <headerse>Mã vật tư,Mã ĐVT,Mã thuộc tính 1,Mã thuộc tính 2,Mã thuộc tính 3,Mã thuộc tính 4,Mã thuộc tính 5,Ngành hàng,Nhóm hàng,Mã khách,Nhóm khách,kho,Giá bán lẻ,Giá bán buôn 1,Giá bán buôn 2,Giá bán buôn 3,Giá bán buôn 4,ty_le_giam,Tiền giảm,Hiệu lực từ ngày,Hiệu lực đến ngày,Giá chưa VAT</headerse>
+    <widths>100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,,,,,f_tien,f_tien,f_tien,f_tien,f_tien,,f_tien,,,</formats>
+    <readonlys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,0,1</hides>
+    <defaultvalues>,,,,,,,,,,,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </dmgiaban4import>
+</NewDataSet>

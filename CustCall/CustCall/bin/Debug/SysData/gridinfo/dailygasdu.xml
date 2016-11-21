@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dailygasdu" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dailygasdu">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dailygasdu>
+    <gridid>dailygasdu</gridid>
+    <columnsv>stt,ma_dt,ngay_ct,so_ct,ma_kh,ten_kh,ma_vt,ten_vt,ma_dvt,ma_kho,ton_tt,sl_nhap,gia_ban_nt,gia_ban,tien_nt,tien,ma_nvu,tk_co,tk_tl,dien_giai,ma_hoa_don,ky_hieu_hoa_don,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,pn_gia_tb,gia_von_nt,gia_von,tien_nhap_nt,tien_nhap,tk_vt,tk_gv</columnsv>
+    <columnse>stt,ma_dt,ngay_ct,so_ct,ma_kh,ten_kh,ma_vt,ten_vt2,ma_dvt,ma_kho,ton_tt,sl_nhap,gia_ban_nt,gia_ban,tien_nt,tien,ma_nvu,tk_co,tk_tl,dien_giai,ma_hoa_don,ky_hieu_hoa_don,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,pn_gia_tb,gia_von_nt,gia_von,tien_nhap_nt,tien_nhap,tk_vt,tk_gv</columnse>
+    <headersv>stt,Mã vụ việc,Ngày CT,Số CT,Mã KH,Tên KH,Mã vt,Tên vật tư,ĐVT,Kho,Tồn kho,Số lượng,Giá bán nt,Giá bán,Tiền nt,Tiền,Nghiệp vụ,TK có,TK trả lại,Diễn giải,Mã hóa đơn,Ký hiệu số hóa đơn,Mã thuế,Thuế suất,TK thuế,Tk đối ứng,Tiền thuế nt,Tiền thuế,PN giá TB,Giá vốn,Giá vốn,Tiền vốn,Tiền vốn,TK vật tư,TK giá vốn</headersv>
+    <headerse>stt,Mã vụ việc,Ngày Chứng từ,Số Chứng Từ,Mã KH,Tên KH,Item Code,Item Name,UOM,Site,Inventory,Quantity,Foreign Currency Price,Sales Price,FC Amount,Amount,Nghiệp vụ,Cr. Account,Sales Return Acct.,Note,Mã hóa đơn,Ký hiệu hóa đơn,Tax Code,Tax Rate,Tax Acct.,Ref. Account,FC Tax Amt,Tax Amt,Receipt Arverage,Unit Cost,Unit Cost,Cost Amt.,Cost Amt.,Inventory Acct,Cogs Account</headerse>
+    <widths>50,60,80,90,80,250,80,100,50,60,100,70,100,90,100,90,100,100,100,200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,,,f_sl,f_sl,f_gia_nt,f_gia,f_tien_nt,f_tien,,,,,,,,f_tien,,,f_tien_nt,f_tien,,f_gia_nt,f_gia,f_tien,f_tien,,</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1</hides>
+    <defaultvalues>,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </dailygasdu>
+</NewDataSet>

@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DBL1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DBL1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt_rec" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_ct" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="so_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_nt" type="xs:string" minOccurs="0" />
+                <xs:element name="ty_gia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="line" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_cv" type="xs:string" minOccurs="0" />
+                <xs:element name="luong_cb" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_nghi_phep" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_thuong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_lam_them" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_an" type="xs:decimal" minOccurs="0" />
+                <xs:element name="pc_bh_tra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_khac" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tong_luong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thue_tncn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="phi_khac" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tam_ung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhxh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doan_phi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhtn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tong_phi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_thuc_linh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="trich_luong" type="xs:boolean" minOccurs="0" />
+                <xs:element name="cty_bhxh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cty_bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cty_doan_phi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cty_bhtn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cty_phi_khac" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_phi" type="xs:string" minOccurs="0" />
+                <xs:element name="print_pl" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

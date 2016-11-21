@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dhd2_x0040_DL026" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dhd2_x0040_DL026">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dhd2_x0040_DL026>
+    <gridid>dhd2@DL026</gridid>
+    <columnsv>ma_dt,so_the_ts,ten_ts,ma_kh_cty,sl_co_gas,sl_khong_gas,ban_vo,so_the_ts_doi,ten_ts_doi,sl_co_gas_doi,sl_khong_gas_doi,vo_doi,ma_vt,ten_vt,ma_dvt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_kho,ton_tt,sl_xuat,gia_ban_nt,gia_ban,tien_nt,tien,ma_nvu,tk_no,tk_dt,ty_le_ck,tien_ck_nt,tien_ck,tk_ck,ma_hoa_don,ky_hieu_hoa_don,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,px_gia_dd,gia_von_nt,gia_von,tien_xuat_nt,tien_xuat,tk_vt,tk_gv,dien_giai</columnsv>
+    <columnse>ma_dt,so_the_ts,ten_ts2,ma_kh_cty,sl_co_gas,sl_khong_gas,ban_vo,so_the_ts_doi,ten_ts_doi,sl_co_gas_doi,sl_khong_gas_doi,vo_doi,ma_vt,ten_vt2,ma_dvt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_kho,ton_tt,sl_xuat,gia_ban_nt,gia_ban,tien_nt,tien,ma_nvu,tk_no,tk_dt,ty_le_ck,tien_ck_nt,tien_ck,tk_ck,ma_hoa_don,ky_hieu_hoa_don,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,px_gia_dd,gia_von_nt,gia_von,tien_xuat_nt,tien_xuat,tk_vt,tk_gv,dien_giai</columnse>
+    <headersv>Mã vụ việc,Mã vỏ bình xuất,Tên vỏ,Nơi vỏ bình xuất,SL vỏ có gas xuất,SL vỏ không gas xuất,Bán vỏ,Mã vỏ bình đổi,Tên vỏ đổi,SL vỏ có gas đổi,SL vỏ không gas đổi,Đổi vỏ?,Mã vt,Tên vật tư,ĐVT,Mã tt1,Mã tt2,Mã tt3,Mã tt4,Mã tt5,Kho,Tồn kho,Số lượng,Giá bán nt,Giá bán,Tiền nt,Tiền,Nghiệp vụ,TK nợ,TK dt,Tỷ lệ CK,Tiền Ck nt,Tiền CK,TK CK,Mã hóa đơn,Ký hiệu số hóa đơn,Mã thuế,Thuế suất,TK thuế,Tk đối ứng,Tiền thuế nt,Tiền thuế,PX giá dd,Giá vốn,Giá vốn,Tiền vốn,Tiền vốn,TK vật tư,TK giá vốn,Diễn giải</headersv>
+    <headerse>Mã vụ việc,Số seri vỏ,Tên vỏ,Nơi vỏ bình đi,Số lượng có gas,Số lượng không gas,Bán vỏ,Serial Bình đổi,Tên vỏ đổi,sl bình có gas đổi,sl không gas đổi,,Item Code                       ,Item Name                       ,Unit                            ,Mã tt1,Mã tt2,Mã tt3,Mã tt4,Mã tt5,Site,Inventory,Quantity                        ,Sales Price FC                  ,Sales Price                     ,FC Amoun,Amount                          ,Nghiệp vụ,Dr. Account                     ,Sales Acct.,Discount Rate                   ,Discount Amt FC,Discount Amt.,Account Discount,Mã hóa đơn,Ký hiệu số hóa đơn,Tax code,Tax Rate,Tax Acct.,Ref. Account,FC Tax Amt.,Total Tax,Issuing transaction with specific valuation method,Unit Cost,Unit Cost,Cost Amt.,Cost Amt.,Inventory Acct.,Cogs Acct.,Note</headerse>
+    <widths>70,70,100,70,70,70,40,70,100,50,50,50,100,300,50,100,100,100,100,100,100,100,100,100,100,100,150,100,100,100,50,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,200</widths>
+    <formats>,,,,f_tien,f_tien,,,,,,,,,,,,,,,,f_sl,f_sl,f_gia_nt,f_gia,f_tien_nt,f_tien,,,,f_tien_nt,f_tien_nt,f_tien,,,,,f_tien,,,f_tien_nt,f_tien,,f_gia,f_gia,f_tien,f_tien,,,</formats>
+    <readonlys>0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0</hides>
+    <defaultvalues>,,=select ten_ts from MCC where so_the_ts=@[so_the_ts],DL0026,,,,,=select ten_ts from mcc where so_the_ts=@[so_the_ts_doi],,,,,,,,,,,,DL0026,,,=exec get_giaban_buon @[ma_vt]%p @[ma_dvt]%p @M[ma_kh]%p@M[ty_gia]%p@[ma_tt1]%p@[ma_tt2]%p@[ma_tt3]%p@[ma_tt4]%p@[ma_tt5],=[gia_ban_nt]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![ma_vt]![ma_dvt] ![so_the_ts],=[gia_ban_nt]*[sl_xuat]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![ma_vt]![ma_dvt] !M[]![so_the_ts],=[tien_nt]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt]![so_the_ts],,131111,51111,=exec get_tyleCKban_buon @[ma_vt]%p@[ma_dvt]%p@M[ma_kh]%p@[ma_kho]%p@[sl_xuat]![so_the_ts],=exec get_tienCKban_buon @[ma_vt]%p@[ma_dvt]%p@M[ma_kh]%p@[ma_kho]%p@[sl_xuat]%p@[tien_nt]%p@M[ty_gia]%p@[ty_le_ck]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt] !M[]![so_the_ts],=[tien_ck_nt]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt]![tien_nt]![ty_le_ck]![so_the_ts],,,,,,,=[tk_no]![ma_thue]![ma_vt]![so_the_ts],=([tien_nt]-[tien_ck_nt])*[thue_suat]/100  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt]![ma_thue]!M[]![so_the_ts],=[tien_thue_nt]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt]![tien_nt]![tien_ck_nt] ![ma_thue]![so_the_ts],0,=exec GetGiaVon @[ma_kho]%p@[ma_vt]%p@[ma_dvt]%p@M[ngay_ct]%p@[ma_tt1]%p@[ma_tt2]%p@[ma_tt3]%p@[ma_tt4]%p@[ma_tt5]![so_the_ts],=[gia_von_nt] ![px_gia_dd]![ma_vt]![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]!M[]![ma_kho]![ma_dvt]![so_the_ts],=[sl_xuat]*[gia_von_nt] ![px_gia_dd]![ma_vt]![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]!M[]![ma_kho]![ma_dvt]![so_the_ts],=[tien_xuat_nt] ![sl_xuat]![gia_von_nt]![px_gia_dd]![ma_vt]![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]!M[]![ma_kho]![ma_dvt]![so_the_ts],= exec get_tk_vt @M[ma_dvcs]%p@[ma_kho]%p@[ma_vt]![so_the_ts],6321,</defaultvalues>
+    <carrys>1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </dhd2_x0040_DL026>
+</NewDataSet>

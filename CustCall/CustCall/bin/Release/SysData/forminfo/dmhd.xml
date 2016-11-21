@@ -1,0 +1,153 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmhd" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmhd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>000</TextID>
+    <TextV>Thông tin hợp đồng</TextV>
+    <TextE>Thông tin hợp đồng</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã hợp đồng</TextV>
+    <TextE>Contract ID</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên hợp đồng</TextV>
+    <TextE>Tên hợp đồng</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>003</TextID>
+    <TextV>Tên hợp đồng 2</TextV>
+    <TextE>Tên hợp đồng 2</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>004</TextID>
+    <TextV>Nhân viên bán hàng</TextV>
+    <TextE>Nhân viên bán hàng</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>005</TextID>
+    <TextV>Bộ phận thực hiện</TextV>
+    <TextE>Bộ phận thực hiện</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>006</TextID>
+    <TextV>Ngày hợp đồng</TextV>
+    <TextE>Ngày hợp đồng</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>007</TextID>
+    <TextV>Số hợp đồng</TextV>
+    <TextE>Số hợp đồng</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>008</TextID>
+    <TextV>Ngày bắt đầu</TextV>
+    <TextE>Ngày bắt đầu</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>009</TextID>
+    <TextV>Ngày kết thúc</TextV>
+    <TextE>Ngày kết thúc</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>010</TextID>
+    <TextV>Loại tiền</TextV>
+    <TextE>Loại tiền</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>011</TextID>
+    <TextV>SL vỏ đầu tư</TextV>
+    <TextE>Giá trị ngoại tệ</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>012</TextID>
+    <TextV>Giá trị hệ thống</TextV>
+    <TextE>Giá trị</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>013</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Ghi chú</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>014</TextID>
+    <TextV>Mã khách</TextV>
+    <TextE>Cus ID</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>089</TextID>
+    <TextV>Còn sử dụng</TextV>
+    <TextE>enabled</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Người tạo</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Người sửa</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Ngày tạo</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Ngày sửa</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </dmhd>
+  <dmhd>
+    <FormID>dmhd</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </dmhd>
+</NewDataSet>

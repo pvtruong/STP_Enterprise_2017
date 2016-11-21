@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="cdtk" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="cdtk">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <cdtk>
+    <gridid>cdtk</gridid>
+    <columnsv>tk,du_no00,du_co00,du_no_nt00,du_co_nt00,ma_dvcs,ten_tk</columnsv>
+    <columnse>tk,du_no00,du_co00,du_no_nt00,du_co_nt00,ma_dvcs,ten_tk</columnse>
+    <headersv>Tài khoản,dư nợ,dư có,dư nợ nt,dư có nt,Đơn vị,Tên TK</headersv>
+    <headerse>Account,Debit,Credit,FC Debit,FC Credit,Unit,</headerse>
+    <widths>100,100,100,100,100,100,300</widths>
+    <formats>,f_tien,f_tien,f_tien_nt,f_tien_nt,,</formats>
+    <readonlys>1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0</carrys>
+  </cdtk>
+</NewDataSet>

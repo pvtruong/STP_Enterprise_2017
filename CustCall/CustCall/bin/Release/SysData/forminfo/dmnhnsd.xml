@@ -1,0 +1,213 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmnhnsd" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmnhnsd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>000</TextID>
+    <TextV>Danh mục nhóm người sử dụng</TextV>
+    <TextE>User list</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã nhóm</TextV>
+    <TextE>Code</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên nhóm</TextV>
+    <TextE>Name</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>003</TextID>
+    <TextV>Tên nhóm 2</TextV>
+    <TextE>Name 2</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>004</TextID>
+    <TextV>Nhân viên</TextV>
+    <TextE>Employee ID</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>005</TextID>
+    <TextV>Admin</TextV>
+    <TextE>Admin</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Đóng</TextV>
+    <TextE>&amp;Quit</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Phân quyền theo chức năng</TextV>
+    <TextE>&amp;Asign</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>101</TextID>
+    <TextV>&amp;Chức năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>200</TextID>
+    <TextV>Phân quyền</TextV>
+    <TextE>Phân quyền</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>201</TextID>
+    <TextV>Kế thừa</TextV>
+    <TextE>Inherit</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>202</TextID>
+    <TextV>Nhận</TextV>
+    <TextE>Ok</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>203</TextID>
+    <TextV>Hủy</TextV>
+    <TextE>Cancel</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>204</TextID>
+    <TextV>PQ cho các trường</TextV>
+    <TextE>PQ cho các trường</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>205</TextID>
+    <TextV>Nhắc lại Tên nhóm 2</TextV>
+    <TextE>Re Password</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>206</TextID>
+    <TextV>Hai Tên nhóm 2 phải giống nhau</TextV>
+    <TextE>Tên nhóm 2 phải giống nhau</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>207</TextID>
+    <TextV>Đã hết quyền thêm mới người sử dụng</TextV>
+    <TextE>Đã hết quyền thêm mới người sử dụng</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>208</TextID>
+    <TextV>Tên nhóm 2 tối thiểu phải có 6 ký tự</TextV>
+    <TextE>Tên nhóm 2 tối thiểu phải có 6 ký tự</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>209</TextID>
+    <TextV>Đơn vị cơ sở</TextV>
+    <TextE>Units</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>210</TextID>
+    <TextV>Không được xoá người sử dụng này</TextV>
+    <TextE>Không được xoá người sử dụng này</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>211</TextID>
+    <TextV>DS tài khoản được sử dụng</TextV>
+    <TextE>Acc list</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>212</TextID>
+    <TextV>PQ trạng thái chứng từ</TextV>
+    <TextE>Asign for status</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>213</TextID>
+    <TextV>DS ngành hàng quản lý</TextV>
+    <TextE>DS ngành hàng quản lý</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>300</TextID>
+    <TextV>Còn sử dụng</TextV>
+    <TextE>enabled</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>301</TextID>
+    <TextV>Ngày khóa sổ</TextV>
+    <TextE>Lock date</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>303</TextID>
+    <TextV>Tắt người sử dụng</TextV>
+    <TextE>Stop user</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>304</TextID>
+    <TextV>%n sẽ bị thoát khỏi chương trình trong vòng 1 phút nữa</TextV>
+    <TextE>%n sẽ bị thoát khỏi chương trình trong vòng 1 phút nữa</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>EXT</TextID>
+    <TextV>Số điện thoại nội bộ</TextV>
+    <TextE>EXT number</TextE>
+  </dmnhnsd>
+  <dmnhnsd>
+    <FormID>dmnhnsd</FormID>
+    <TextID>NSD</TextID>
+    <TextV>Nhóm</TextV>
+    <TextE>Group</TextE>
+  </dmnhnsd>
+</NewDataSet>

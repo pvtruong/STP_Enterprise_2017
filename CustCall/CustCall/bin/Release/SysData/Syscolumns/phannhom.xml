@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="phannhom" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="phannhom">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <phannhom>
+    <name>ma_phan_nhom</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>ten_phan_nhom</name>
+    <prec>128</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>ten_phan_nhom2</name>
+    <prec>128</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>bang_nhom</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>cot_loai_nhom</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>cot_ma_nhom</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>cot_ten_nhom</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>cot_ten_nhom2</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>listid_ref</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>cot_ma_nhom_startwidth</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+  <phannhom>
+    <name>num_group</name>
+    <prec>10</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>phannhom</tablename>
+  </phannhom>
+</NewDataSet>

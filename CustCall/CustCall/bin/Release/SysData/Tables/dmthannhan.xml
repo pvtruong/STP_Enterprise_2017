@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmthannhan" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmthannhan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tn" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_than_nhan" type="xs:string" minOccurs="0" />
+                <xs:element name="quan_he" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_sinh_tn" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="email_tn" type="xs:string" minOccurs="0" />
+                <xs:element name="giam_tru_gia_canh_tn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="dia_chi_tn" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_thoai_tn" type="xs:string" minOccurs="0" />
+                <xs:element name="nghe_nghiep_tn" type="xs:string" minOccurs="0" />
+                <xs:element name="noi_lam_viec_tn" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="gtnam" type="xs:boolean" minOccurs="0" />
+                <xs:element name="gtnu" type="xs:boolean" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thu_nhap_tn" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

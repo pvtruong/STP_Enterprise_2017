@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dpo1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dpo1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dpo1>
+    <gridid>dpo1</gridid>
+    <columnsv>ma_vt,ten_vt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,so_luong,gia_nt,gia,tien_nt,tien,ty_le_ck,tien_ck_nt,tien_ck,ma_thue,thue_suat,tien_thue_nt,tien_thue,t_tien_nt,t_tien</columnsv>
+    <columnse>ma_vt,ten_vt2,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,so_luong,gia_nt,gia,tien_nt,tien_nt,ty_le_ck,tien_ck_nt,tien_ck,ma_thue,thue_suat,tien_thue_nt,tien_thue,t_tien_nt,t_tien</columnse>
+    <headersv>Mã vật tư,Tên vật tư,Mã thuộc tính 1,Mã thuộc tính 2,Mã thuộc tính 3,Mã thuộc tính 4,Mã thuộc tính 5,Đvt,Số lượng,Giá nt,Giá,Tiền nt,Tiền,Tỷ lệ CK,Tiền CK nt,Tiền CK,Mã thuế,Thuế suất,Tiền thuế nt,Tiền thuế,Tổng cộng nt,Tổng cộng</headersv>
+    <headerse>Mã vật tư,Tên vật tư,Property 1,Property 2,Property 3,Property 4,Property 5,Đvt,Số lượng,Giá nt,Giá,Tiền nt,Tiền,Tỷ lệ CK,Tiền ck nt,Tiền CK,Mã thuế,Thuế suất,Tiền thuế nt,Tiền thuế,Tổng cộng nt,Tổng cộng</headerse>
+    <widths>100,200,100,100,100,100,100,80,100,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,f_sl,f_tien,f_tien,f_tien_nt,f_tien,f_tien,f_tien_nt,f_tien,,f_tien,f_tien_nt,f_tien,f_tien_nt,f_tien</formats>
+    <readonlys>0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0</readonlys>
+    <hides>0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,=[gia_nt]*M[ty_gia],=[so_luong]*[gia_nt]!M[],=[tien_nt]*M[ty_gia] ![gia_nt]![so_luong],,=[ty_le_ck] * [tien_nt]/100 ![so_luong]![gia_nt]![gia]!M[],=M[ty_gia] * [tien_ck_nt] ![ty_le_ck] ![so_luong]![gia_nt]![gia],,,=([tien_nt]-[tien_ck_nt])*[thue_suat]![ma_thue]/100 ![gia_nt]![so_luong]![ty_le_ck] !M[],=M[ty_gia] * [tien_thue_nt] ![gia]![so_luong]![gia_nt]![tien_nt]![tien_ck_nt]![ty_le_ck],=[tien_nt]+[tien_thue_nt] - [tien_ck_nt]![ma_thue] ![gia_nt]![so_luong]![ty_le_ck]!M[],=[tien]+[tien_thue] - [tien_ck] ![ma_thue] ![gia]![so_luong]![gia_nt]![tien_nt]![ty_le_ck]![tien_ck_nt]!M[]</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0</carrys>
+  </dpo1>
+</NewDataSet>

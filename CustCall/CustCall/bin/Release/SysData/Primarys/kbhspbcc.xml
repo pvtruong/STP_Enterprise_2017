@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="kbhspbcc" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="kbhspbcc">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="COLUMN_NAME" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <kbhspbcc>
+    <COLUMN_NAME>ky</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>ma_bp</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>ma_bp_ts</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>ma_dt</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>ma_hd</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>ma_kh</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>ma_ku</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>ma_phi</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>ma_sp</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>nam</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>so_lsx</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>so_the_ts</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>tk_cp</COLUMN_NAME>
+  </kbhspbcc>
+  <kbhspbcc>
+    <COLUMN_NAME>tk_kh</COLUMN_NAME>
+  </kbhspbcc>
+</NewDataSet>

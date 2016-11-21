@@ -1,0 +1,615 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PXL" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PXL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>000</TextID>
+    <TextV>Phiếu xuất lẻ</TextV>
+    <TextE>Phiếu xuất lẻ</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã khách hàng</TextV>
+    <TextE>Cust.ID</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên khách hàng</TextV>
+    <TextE>Customer Name</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>003</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>004</TextID>
+    <TextV>Danh mục khách hàng</TextV>
+    <TextE>Customer List</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>005</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>006</TextID>
+    <TextV>Điện thoại</TextV>
+    <TextE>Phone</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>007</TextID>
+    <TextV>Tài khoản ngân hàng</TextV>
+    <TextE>Bank Account</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>015</TextID>
+    <TextV>Người liên hệ</TextV>
+    <TextE>Contact Person</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>016</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Filter Condition</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>017</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>032</TextID>
+    <TextV>Chi tiết</TextV>
+    <TextE>Detail</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>033</TextID>
+    <TextV>Các sản phẩm</TextV>
+    <TextE>Products</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>202</TextID>
+    <TextV>Đại diện pháp lý</TextV>
+    <TextE>Legal Representation</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>203</TextID>
+    <TextV>Mã số thuế</TextV>
+    <TextE>Cust. Tax Code</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>204</TextID>
+    <TextV>Số liên</TextV>
+    <TextE>No. of Copies</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>205</TextID>
+    <TextV>Fax</TextV>
+    <TextE>Fax</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>206</TextID>
+    <TextV>Mã số thuế</TextV>
+    <TextE>Cust. Tax Code</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>207</TextID>
+    <TextV>Website</TextV>
+    <TextE>Website</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>209</TextID>
+    <TextV>Hãy chọn 1 phiếu</TextV>
+    <TextE>Select an instrument</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>210</TextID>
+    <TextV>Hình thức sở hữu</TextV>
+    <TextE>Forms Property</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>211</TextID>
+    <TextV>Mã kho</TextV>
+    <TextE>Site ID</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>214</TextID>
+    <TextV>Diễn giải</TextV>
+    <TextE>Memo</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>215</TextID>
+    <TextV>Ngoại tệ</TextV>
+    <TextE>Foreign Currency</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>216</TextID>
+    <TextV>Nhân viên thực hiện</TextV>
+    <TextE>Employees Perform</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>217</TextID>
+    <TextV>Thông tin khách hàng</TextV>
+    <TextE>Customer Information</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>218</TextID>
+    <TextV>Tên người giao dịch</TextV>
+    <TextE>Trading Name</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>219</TextID>
+    <TextV>Lưu và thêm &amp;mới</TextV>
+    <TextE>Save and Append</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>220</TextID>
+    <TextV>Số chứng từ</TextV>
+    <TextE>Voucher No.</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>221</TextID>
+    <TextV>Ngày chứng từ</TextV>
+    <TextE>Voucher Date</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>222</TextID>
+    <TextV>Tiền ngoại tệ</TextV>
+    <TextE>FC Amount</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>223</TextID>
+    <TextV>Mã thuế</TextV>
+    <TextE>Tax Code</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>224</TextID>
+    <TextV>Thuế suất</TextV>
+    <TextE>Tax Rate</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>225</TextID>
+    <TextV>Tiền hoạch toán</TextV>
+    <TextE>Base Curr.</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>226</TextID>
+    <TextV>Tiền hoạch toán</TextV>
+    <TextE>Base Curr.</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>227</TextID>
+    <TextV>&amp;In</TextV>
+    <TextE>&amp;Print</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>228</TextID>
+    <TextV>&amp;Xem</TextV>
+    <TextE>&amp;View</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>229</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>230</TextID>
+    <TextV>Tiêu đề</TextV>
+    <TextE>Title</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>231</TextID>
+    <TextV>Mẫu báo cáo</TextV>
+    <TextE>Report Form</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>232</TextID>
+    <TextV>Từ/đến ngày</TextV>
+    <TextE>Date from/to</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>233</TextID>
+    <TextV>&amp;Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>234</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>300</TextID>
+    <TextV>Tên khách hàng</TextV>
+    <TextE>Customer Name</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>301</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>302</TextID>
+    <TextV>Liên hệ</TextV>
+    <TextE>Contact</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>303</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>400</TextID>
+    <TextV>Thông tin chung</TextV>
+    <TextE>Master</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>401</TextID>
+    <TextV>Thông tin phân tích</TextV>
+    <TextE>Information Analysis</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>402</TextID>
+    <TextV>Tên hợp đồng</TextV>
+    <TextE>Description</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>403</TextID>
+    <TextV>Ngày bắt đầu</TextV>
+    <TextE>Start Date</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>404</TextID>
+    <TextV>Ngày kết thúc</TextV>
+    <TextE>Finish Date</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>405</TextID>
+    <TextV>Sản phẩm/Bán hàng trong nước</TextV>
+    <TextE>Products / Domestic Sales</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>406</TextID>
+    <TextV>Thanh toán</TextV>
+    <TextE>Payment</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>407</TextID>
+    <TextV>Chưa nhập chi tiết</TextV>
+    <TextE>Details not Entered</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>408</TextID>
+    <TextV>Số hd</TextV>
+    <TextE>Inv. No.</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>409</TextID>
+    <TextV>Số seri</TextV>
+    <TextE>Serial No.</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>410</TextID>
+    <TextV>Ngày hd</TextV>
+    <TextE>Inv. Date</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>411</TextID>
+    <TextV>Nhóm hàng</TextV>
+    <TextE>Item Group</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>412</TextID>
+    <TextV>Tiền</TextV>
+    <TextE>Amount</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>413</TextID>
+    <TextV>Tiền Ck</TextV>
+    <TextE>Discount Amt.</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>414</TextID>
+    <TextV>Tiền thuế</TextV>
+    <TextE>Tax</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>415</TextID>
+    <TextV>Thanh toán</TextV>
+    <TextE>Payment</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>416</TextID>
+    <TextV>Không thể xóa vì hóa đơn này đã được thanh toán</TextV>
+    <TextE>This invoice is settled, can not be deleted</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>417</TextID>
+    <TextV>Không thể chỉnh sửa vì hóa đơn đã được thanh toán</TextV>
+    <TextE>Can not edit becase this invoice is settled</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>418</TextID>
+    <TextV>Tổng số lượng</TextV>
+    <TextE>Total Q'ty</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>419</TextID>
+    <TextV>Tổng tiền vốn</TextV>
+    <TextE>Total Cost Amount</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>420</TextID>
+    <TextV>TK nợ</TextV>
+    <TextE>Dr. Account</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>421</TextID>
+    <TextV>TK dt</TextV>
+    <TextE>Sales Acct.</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>422</TextID>
+    <TextV>Vật tư</TextV>
+    <TextE>Item</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>423</TextID>
+    <TextV>Loại phiếu xuất</TextV>
+    <TextE>Pick List Type</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>BHD</TextID>
+    <TextV>Tạo phiếu xuất từ định mức nguyên vật liệu theo hóa đơn bán hàng</TextV>
+    <TextE>Tạo phiếu xuất từ định mức nguyên vật liệu theo hóa đơn bán hàng</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>BPN</TextID>
+    <TextV>Tạo phiếu xuất từ định mức nguyên vật liệu theo phiếu nhập kho thành phẩm</TextV>
+    <TextE>Tạo phiếu xuất từ định mức nguyên vật liệu theo phiếu nhập kho thành phẩm</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>F01</TextID>
+    <TextV>Bộ phận</TextV>
+    <TextE>Dept</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>F02</TextID>
+    <TextV>Phí</TextV>
+    <TextE>Fee</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>F03</TextID>
+    <TextV>Đối tượng</TextV>
+    <TextE>Object</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>KHO</TextID>
+    <TextV>Kho NVL</TextV>
+    <TextE>Store</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>L00</TextID>
+    <TextV>Chương trình đã thực hiện xong. Bạn muốn làm gì tiếp?</TextV>
+    <TextE>The program has done. . You want to do next?</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>L01</TextID>
+    <TextV>Thêm &amp;mới</TextV>
+    <TextE>&amp;New</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>L02</TextID>
+    <TextV>Sao &amp;chép</TextV>
+    <TextE>&amp;Copy</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>L03</TextID>
+    <TextV>&amp;In phiếu</TextV>
+    <TextE>&amp;Print</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>L04</TextID>
+    <TextV>&amp;Quay ra</TextV>
+    <TextE>&amp;Exit</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>L05</TextID>
+    <TextV>Không thể hiện màn hình này lần sau</TextV>
+    <TextE>This is not the Next Screen</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>MBP</TextID>
+    <TextV>Bộ phận</TextV>
+    <TextE>Departure</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>NHD</TextID>
+    <TextV>Ngày hóa đơn từ/đến</TextV>
+    <TextE>Date from/to</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>NVU</TextID>
+    <TextV>Nghiệp vụ</TextV>
+    <TextE>Nghiệp vụ</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>SHD</TextID>
+    <TextV>Số hóa đơn</TextV>
+    <TextE>Invoid num.</TextE>
+  </PXL>
+  <PXL>
+    <FormID>PXL</FormID>
+    <TextID>TPX</TextID>
+    <TextV>Tạo phiếu xuất</TextV>
+    <TextE>Create voucher</TextE>
+  </PXL>
+</NewDataSet>

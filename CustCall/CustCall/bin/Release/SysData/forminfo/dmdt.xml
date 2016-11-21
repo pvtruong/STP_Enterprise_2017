@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmdt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmdt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>000</TextID>
+    <TextV>Danh mục vụ việc, dự án</TextV>
+    <TextE>Object List</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã vụ việc, dự án</TextV>
+    <TextE>Object ID</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên vụ việc, dự án</TextV>
+    <TextE>Object Name</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>003</TextID>
+    <TextV>Còn sử dụng</TextV>
+    <TextE>enabled</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>004</TextID>
+    <TextV>Đơn vị</TextV>
+    <TextE>Unit</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>005</TextID>
+    <TextV>Hợp đồng (ngày)</TextV>
+    <TextE>Object Name 2</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>006</TextID>
+    <TextV>Tiền nt</TextV>
+    <TextE>FC Amount</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>007</TextID>
+    <TextV>Tiền</TextV>
+    <TextE>Amount</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>008</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Note</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>009</TextID>
+    <TextV>Nhóm vv, dự án 1</TextV>
+    <TextE>Object Group 1</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>010</TextID>
+    <TextV>Nhóm vv, dự án 2</TextV>
+    <TextE>Object Group  2</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>011</TextID>
+    <TextV>Nhóm vv, dự án 3</TextV>
+    <TextE>Object Group  3</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>012</TextID>
+    <TextV>Theo dõi số dư</TextV>
+    <TextE>Balance Tracking</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>013</TextID>
+    <TextV>Theo dõi số dư theo khách hàng</TextV>
+    <TextE>Balance Tracking by Customer</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </dmdt>
+  <dmdt>
+    <FormID>dmdt</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </dmdt>
+</NewDataSet>

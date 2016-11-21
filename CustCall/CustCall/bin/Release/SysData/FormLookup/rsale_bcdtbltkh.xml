@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rsale_bcdtbltkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rsale_bcdtbltkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="control" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="notempty" type="xs:boolean" minOccurs="0" />
+                <xs:element name="lookupyn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MultiValue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRecName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData2" type="xs:string" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rsale_bcdtbltkh>
+    <formid>rsale_bcdtbltkh</formid>
+    <codelookup>dmca</codelookup>
+    <control>txtma_ca</control>
+    <field>ma</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_ca</FieldRecName>
+    <FieldrecData>ten</FieldrecData>
+    <FieldrecData2>ten2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rsale_bcdtbltkh>
+  <rsale_bcdtbltkh>
+    <formid>rsale_bcdtbltkh</formid>
+    <codelookup>dmkh</codelookup>
+    <control>txtma_kh</control>
+    <field>ma_kh</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_kh</FieldRecName>
+    <FieldrecData>ten_kh</FieldrecData>
+    <FieldrecData2>ten_kh2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </rsale_bcdtbltkh>
+  <rsale_bcdtbltkh>
+    <formid>rsale_bcdtbltkh</formid>
+    <codelookup>dmkho</codelookup>
+    <control>txtma_kho</control>
+    <field>ma_kho</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_kho</FieldRecName>
+    <FieldrecData>ten_kho</FieldrecData>
+    <FieldrecData2>ten_kho2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rsale_bcdtbltkh>
+  <rsale_bcdtbltkh>
+    <formid>rsale_bcdtbltkh</formid>
+    <codelookup>dmmaybanle</codelookup>
+    <control>txtma_may</control>
+    <field>ma_may</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_may</FieldRecName>
+    <FieldrecData>ten_may</FieldrecData>
+    <FieldrecData2>ten_may2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rsale_bcdtbltkh>
+  <rsale_bcdtbltkh>
+    <formid>rsale_bcdtbltkh</formid>
+    <codelookup>dmnv</codelookup>
+    <control>txtma_nv</control>
+    <field>ma_nv</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_nv</FieldRecName>
+    <FieldrecData>ten_nv</FieldrecData>
+    <FieldrecData2>ten_nv</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rsale_bcdtbltkh>
+</NewDataSet>

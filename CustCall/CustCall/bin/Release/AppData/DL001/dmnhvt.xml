@@ -1,0 +1,116 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="loai_nhom" type="xs:int" minOccurs="0" />
+                <xs:element name="ma_nhom" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_nhom" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_nhom2" type="xs:string" minOccurs="0" />
+                <xs:element name="ghi_chu" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <loai_nhom>1</loai_nhom>
+    <ma_nhom>BEP</ma_nhom>
+    <ten_nhom>Bếp gas</ten_nhom>
+    <ten_nhom2 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>NGAN</nguoi_sua>
+    <ngay_tao>2014-03-05T13:22:34+07:00</ngay_tao>
+    <ngay_sua>2014-03-23T15:50:27+07:00</ngay_sua>
+  </Table>
+  <Table>
+    <loai_nhom>1</loai_nhom>
+    <ma_nhom>CCDC</ma_nhom>
+    <ten_nhom>Công cụ dụng cụ</ten_nhom>
+    <ten_nhom2 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>NGAN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2014-04-04T11:03:20+07:00</ngay_tao>
+  </Table>
+  <Table>
+    <loai_nhom>1</loai_nhom>
+    <ma_nhom>GAS</ma_nhom>
+    <ten_nhom>Gas</ten_nhom>
+    <ten_nhom2 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>NGAN</nguoi_sua>
+    <ngay_sua>2014-04-04T11:26:08+07:00</ngay_sua>
+  </Table>
+  <Table>
+    <loai_nhom>1</loai_nhom>
+    <ma_nhom>KM</ma_nhom>
+    <ten_nhom>Khuyến Mãi</ten_nhom>
+    <ten_nhom2 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+  </Table>
+  <Table>
+    <loai_nhom>1</loai_nhom>
+    <ma_nhom>VAN</ma_nhom>
+    <ten_nhom>Van</ten_nhom>
+    <ten_nhom2 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_sua>2014-03-25T08:11:13+07:00</ngay_sua>
+  </Table>
+  <Table>
+    <loai_nhom>1</loai_nhom>
+    <ma_nhom>VO</ma_nhom>
+    <ten_nhom>Vỏ bình gas</ten_nhom>
+    <ten_nhom2 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>NGAN</nguoi_sua>
+    <ngay_tao>2014-03-05T16:09:41+07:00</ngay_tao>
+    <ngay_sua>2014-04-04T10:52:00+07:00</ngay_sua>
+  </Table>
+  <Table>
+    <loai_nhom>1</loai_nhom>
+    <ma_nhom>VPP</ma_nhom>
+    <ten_nhom>Văn phòng phẩm</ten_nhom>
+    <ten_nhom2 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>NGAN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-11-26T15:09:45+07:00</ngay_tao>
+  </Table>
+  <Table>
+    <loai_nhom>1</loai_nhom>
+    <ma_nhom>VT</ma_nhom>
+    <ten_nhom>Vật tư</ten_nhom>
+    <ten_nhom2 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>NGAN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2014-04-04T11:35:13+07:00</ngay_tao>
+  </Table>
+</NewDataSet>

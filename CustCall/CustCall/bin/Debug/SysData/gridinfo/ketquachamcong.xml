@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ketquachamcong" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ketquachamcong">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ketquachamcong>
+    <gridid>ketquachamcong</gridid>
+    <columnsv>ma_nv,ten_nv,ma_cv,ten_bp,n1_ngay_cong,n2_ngay_cong,n3_ngay_cong,n4_ngay_cong,n5_ngay_cong,n6_ngay_cong,n7_ngay_cong,n8_ngay_cong,n9_ngay_cong,n10_ngay_cong,n11_ngay_cong,n12_ngay_cong,n13_ngay_cong,n14_ngay_cong,n15_ngay_cong,n16_ngay_cong,n17_ngay_cong,n18_ngay_cong,n19_ngay_cong,n20_ngay_cong,n21_ngay_cong,n22_ngay_cong,n23_ngay_cong,n24_ngay_cong,n25_ngay_cong,n26_ngay_cong,n27_ngay_cong,n28_ngay_cong,n29_ngay_cong,n30_ngay_cong,n31_ngay_cong,tong_ngay_cong</columnsv>
+    <columnse>ma_nv,ten_nv,ma_cv,ten_bp,n1_ngay_cong,n2_ngay_cong,n3_ngay_cong,n4_ngay_cong,n5_ngay_cong,n6_ngay_cong,n7_ngay_cong,n8_ngay_cong,n9_ngay_cong,n10_ngay_cong,n11_ngay_cong,n12_ngay_cong,n13_ngay_cong,n14_ngay_cong,n15_ngay_cong,n16_ngay_cong,n17_ngay_cong,n18_ngay_cong,n19_ngay_cong,n20_ngay_cong,n21_ngay_cong,n22_ngay_cong,n23_ngay_cong,n24_ngay_cong,n25_ngay_cong,n26_ngay_cong,n27_ngay_cong,n28_ngay_cong,n29_ngay_cong,n30_ngay_cong,n31_ngay_cong,tong_ngay_cong</columnse>
+    <headersv>Mã nhân viên,Tên nhân viên,Chức vụ,Bộ phận,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,Tổng ngày công</headersv>
+    <headerse>Mã nhân viên,Tên nhân viên,Chức vụ,Tên bộ phận,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,10,tong_ngay_cong</headerse>
+    <widths>100,200,200,150,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl,f_sl</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </ketquachamcong>
+</NewDataSet>

@@ -1,0 +1,591 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="QCC" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="QCC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>000</TextID>
+    <TextV>Cập nhật công cụ dụng cụ</TextV>
+    <TextE>Tools and Supplies List</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>001</TextID>
+    <TextV>Số thẻ CCDC</TextV>
+    <TextE>T&amp;S Code</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên CCDC</TextV>
+    <TextE>T&amp;S Name</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>003</TextID>
+    <TextV>Loại vỏ bình</TextV>
+    <TextE>T&amp;S Type</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>004</TextID>
+    <TextV>Mã tăng CCDC</TextV>
+    <TextE>T&amp;S Incr. Reason</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>005</TextID>
+    <TextV>Ngày tăng</TextV>
+    <TextE>Increase Date</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>006</TextID>
+    <TextV>Ngày tính phân bổ</TextV>
+    <TextE>Distribution On</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>007</TextID>
+    <TextV>Số kỳ phân bổ</TextV>
+    <TextE>Dis. Periods</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>008</TextID>
+    <TextV>Giá trị làm tròn</TextV>
+    <TextE>Diff. Amount</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>009</TextID>
+    <TextV>Kiểu phân bổ</TextV>
+    <TextE>Distribution Type</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>013</TextID>
+    <TextV>Số kỳ pb đầu kỳ</TextV>
+    <TextE>Distributed Pr.</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>014</TextID>
+    <TextV>Mã bộ phận</TextV>
+    <TextE>Dept. ID</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>015</TextID>
+    <TextV>TK Công cụ</TextV>
+    <TextE>T&amp;S Acct.</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>016</TextID>
+    <TextV>TK phân bổ</TextV>
+    <TextE>Dis. Acct.</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>017</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>018</TextID>
+    <TextV>Tổng sản lượng</TextV>
+    <TextE>Total Q'ty</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>019</TextID>
+    <TextV>Tỷ lệ pb nhanh</TextV>
+    <TextE>Quick Dis. Ration</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>020</TextID>
+    <TextV>Mã công cụ này đã tồn tại</TextV>
+    <TextE>Property ID Already Exists</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>032</TextID>
+    <TextV>Chi tiết</TextV>
+    <TextE>Detail</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>033</TextID>
+    <TextV>TK chi phí</TextV>
+    <TextE>Expense Acct.</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>034</TextID>
+    <TextV>Các giao dịch</TextV>
+    <TextE>Transaction</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>040</TextID>
+    <TextV>Số liên</TextV>
+    <TextE>Copys</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>200</TextID>
+    <TextV>Phụ tùng kèm theo</TextV>
+    <TextE>Attached Tools/Supplies</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>201</TextID>
+    <TextV>Thông tin khác</TextV>
+    <TextE>Other Information</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>202</TextID>
+    <TextV>Tên 2</TextV>
+    <TextE>Name 2</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>203</TextID>
+    <TextV>Trọng Lượng Vỏ</TextV>
+    <TextE>Notation</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>204</TextID>
+    <TextV>Thông số kỹ thuật</TextV>
+    <TextE>Specifications</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>205</TextID>
+    <TextV>Nước sản xuất</TextV>
+    <TextE>Producing Countries</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>206</TextID>
+    <TextV>Năm sản xuất</TextV>
+    <TextE>Product. Year</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>207</TextID>
+    <TextV>Ngày sử dụng</TextV>
+    <TextE>Using Date</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>208</TextID>
+    <TextV>Ngày đình chỉ</TextV>
+    <TextE>Suspend Date</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>209</TextID>
+    <TextV>Hãy chọn 1 phiếu</TextV>
+    <TextE>Select an instrument</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>210</TextID>
+    <TextV>Lý do đình chỉ</TextV>
+    <TextE>Reason of Susp.</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>211</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Note</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>212</TextID>
+    <TextV>Tính phân bổ theo giá trị còn lại</TextV>
+    <TextE>Distributed residual value</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>213</TextID>
+    <TextV>Vốn</TextV>
+    <TextE>Capital</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>214</TextID>
+    <TextV>Diễn giải</TextV>
+    <TextE>Memo</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>215</TextID>
+    <TextV>Ngoại tệ</TextV>
+    <TextE>Foreign Currency</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>216</TextID>
+    <TextV>Nhân viên thực hiện</TextV>
+    <TextE>Employees Perform</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>217</TextID>
+    <TextV>Thông tin TSCĐ</TextV>
+    <TextE>Fixed Asset List</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>218</TextID>
+    <TextV>Tên người giao dịch</TextV>
+    <TextE>Trading Name</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>219</TextID>
+    <TextV>Lưu và thêm mới</TextV>
+    <TextE>Save and append</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>220</TextID>
+    <TextV>Số chứng từ</TextV>
+    <TextE>Voucher No.</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>221</TextID>
+    <TextV>Ngày chứng từ</TextV>
+    <TextE>Voucher Date</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>222</TextID>
+    <TextV>Tiền ngoại tệ</TextV>
+    <TextE>FC Amount</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>223</TextID>
+    <TextV>Mã thuế</TextV>
+    <TextE>Tax code</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>224</TextID>
+    <TextV>Thuế suất</TextV>
+    <TextE>Tax Rate</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>225</TextID>
+    <TextV>Tiền hoạch toán</TextV>
+    <TextE>Base Curr.</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>226</TextID>
+    <TextV>Tiền hoạch toán</TextV>
+    <TextE>Base Curr.</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>227</TextID>
+    <TextV>&amp;In</TextV>
+    <TextE>&amp;Print</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>228</TextID>
+    <TextV>&amp;Xem</TextV>
+    <TextE>&amp;View</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>229</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>230</TextID>
+    <TextV>Tiêu đề</TextV>
+    <TextE>Title</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>231</TextID>
+    <TextV>Mẫu báo cáo</TextV>
+    <TextE>Report Form</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>232</TextID>
+    <TextV>Từ/đến ngày</TextV>
+    <TextE>Date from/to</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>233</TextID>
+    <TextV>&amp;Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>234</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>235</TextID>
+    <TextV>Nhóm 1</TextV>
+    <TextE>Group 1</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>236</TextID>
+    <TextV>Nhóm 2</TextV>
+    <TextE>Group 2</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>237</TextID>
+    <TextV>Nhóm 3</TextV>
+    <TextE>Group 3</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>300</TextID>
+    <TextV>Tên CCDC</TextV>
+    <TextE>Description</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>301</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>302</TextID>
+    <TextV>Liên hệ</TextV>
+    <TextE>Contact</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>303</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>400</TextID>
+    <TextV>Thông tin chung</TextV>
+    <TextE>Master</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>401</TextID>
+    <TextV>Thông tin phân tích</TextV>
+    <TextE>Information analysis</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>402</TextID>
+    <TextV>Tên hợp đồng</TextV>
+    <TextE>Description</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>403</TextID>
+    <TextV>Ngày bắt đầu</TextV>
+    <TextE>Start Date</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>404</TextID>
+    <TextV>Ngày kết thúc</TextV>
+    <TextE>Finish Date</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>405</TextID>
+    <TextV>Không thể xóa vì công cụ này đã được tính phân bổ</TextV>
+    <TextE>Can not be deleted because these tools have been distributed</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>406</TextID>
+    <TextV>Thanh toán</TextV>
+    <TextE>Payment</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>407</TextID>
+    <TextV>Chưa nhập chi tiết</TextV>
+    <TextE>Details not Entered</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>408</TextID>
+    <TextV>Thuế VAT</TextV>
+    <TextE>VAT</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>409</TextID>
+    <TextV>Tiền hàng</TextV>
+    <TextE>Amount</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>410</TextID>
+    <TextV>Tiền thuế</TextV>
+    <TextE>Tax</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>411</TextID>
+    <TextV>Tổng tiền</TextV>
+    <TextE>Total Amt</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>420</TextID>
+    <TextV>Tk nợ</TextV>
+    <TextE>Dr. Account</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>421</TextID>
+    <TextV>Tk có</TextV>
+    <TextE>Cr. Account</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>911</TextID>
+    <TextV>Số lượng</TextV>
+    <TextE>Qutity</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>L00</TextID>
+    <TextV>Chương trình đã thực hiện xong. Bạn muốn làm gì tiếp?</TextV>
+    <TextE>The program has done. You want to do next?</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>L01</TextID>
+    <TextV>Thêm &amp;mới</TextV>
+    <TextE>&amp;New</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>L02</TextID>
+    <TextV>Sao &amp;chép</TextV>
+    <TextE>&amp;Copy</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>L03</TextID>
+    <TextV>&amp;In phiếu</TextV>
+    <TextE>&amp;Print</TextE>
+  </QCC>
+  <QCC>
+    <FormID>QCC</FormID>
+    <TextID>L04</TextID>
+    <TextV>&amp;Quay ra</TextV>
+    <TextE>&amp;Exit</TextE>
+  </QCC>
+</NewDataSet>

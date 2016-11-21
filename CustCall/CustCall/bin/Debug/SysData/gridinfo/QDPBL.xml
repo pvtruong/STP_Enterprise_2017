@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="QDPBL" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="QDPBL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <QDPBL>
+    <gridid>QDPBL</gridid>
+    <columnsv>ma_vt,ten_vt,ma_dvt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_kho,ton_tt,sl_xuat,gia_ban_nt,gia_ban,tien_nt1,tien1,tk_no,tk_dt,ty_le_ck,tien_ck_ct_nt,tien_ck_ct,tk_ck,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,px_gia_dd,t_hd_nt,t_hd,gia_von_nt,gia_von,tien_xuat_nt,tien_xuat,tk_vt,tk_gv</columnsv>
+    <columnse>ma_vt,ten_vt2,ma_dvt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_kho,ton_tt,sl_xuat,gia_ban_nt,gia_ban,tien_nt1,tien1,tk_no,tk_dt,ty_le_ck,tien_ck_ct_nt,tien_ck_ct,tk_ck,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,px_gia_dd,t_hd_nt,t_hd,gia_von_nt,gia_von,tien_xuat_nt,tien_xuat,tk_vt,tk_gv</columnse>
+    <headersv>Mã vt,Tên vật tư,ĐVT,Mã tt1,Mã tt2,Mã tt3,Mã tt4,Mã tt5,Kho,Tồn kho,Số lượng,Giá bán nt,Giá bán,Tiền nt,Tiền,TK nợ,TK dt,Tỷ lệ CK,Tiền Ck nt,Tiền CK,TK CK,Mã thuế,Thuế suất,TK thuế,Tk đối ứng,Tiền thuế nt,Tiền thuế,PX giá dd,Tổng tiền nt,Tổng tiền,Giá vốn,Giá vốn,Tiền vốn,Tiền vốn,TK vật tư,TK giá vốn</headersv>
+    <headerse>Item Code                       ,Item Name                       ,Unit                            ,Mã tt1,Mã tt2,Mã tt3,Mã tt4,Mã tt5,Site,Inventory,Quantity                        ,Sales Price FC                  ,Sales Price                     ,FC Amoun,Amount                          ,Dr. Account                     ,Sales Acct.,Discount Rate                   ,Discount Amt FC,Discount Amt.,Account Discount,Tax code,Tax Rate,Tax Acct.,Ref. Account,FC Tax Amt.,Total Tax,Issuing transaction with specific valuation method,Tổng,Tổng,Unit Cost,Unit Cost,Cost Amt.,Cost Amt.,Inventory Acct.,Cogs Acct.</headerse>
+    <widths>100,200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,,f_sl,f_sl,f_gia_nt,f_gia,f_tien_nt,f_tien,,,f_tien_nt,f_tien_nt,f_tien,,,f_tien,,,f_tien_nt,f_tien,,f_tien,f_tien,f_gia,f_gia,f_tien,f_tien,,</formats>
+    <readonlys>0,1,1,0,0,0,0,0,1,1,0,1,1,1,1,0,0,1,1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0</hides>
+    <defaultvalues>,,,,,,,,,=select ton_tt from tontucthoi where ma_vt='[ma_vt]' and ma_kho ='[ma_kho]' and ma_tt1 ='[ma_tt1]' and ma_tt2 ='[ma_tt2]'  and ma_tt3 ='[ma_tt3]'  and ma_tt4 ='[ma_tt4]'  and ma_tt5 ='[ma_tt5]',,=exec get_giaban @[ma_vt]%p @[ma_dvt]%p @M[ma_kh]%p@M[ngay_ct]%p@[ma_tt1]%p@[ma_tt2]%p@[ma_tt3]%p@[ma_tt4]%p@[ma_tt5]%p@M[ma_nt],=[gia_ban_nt]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![ma_vt]![ma_dvt] ,=[gia_ban_nt]*[sl_xuat]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![ma_vt]![ma_dvt] !M[],=[tien_nt1]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt],=select tk_cn from dkh where ma_kh = @M[ma_kh],,,=[tien_nt1]*[ty_le_ck]/100  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt] !M[],=[tien_ck_ct_nt]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt]![tien_nt1]![ty_le_ck],,,,,,=([tien_nt1]-[tien_ck_ct_nt])*[thue_suat]/100  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt]![ma_thue]![ty_le_ck]!M[],=[tien_thue_nt]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt]![tien_nt1]![tien_ck_ct_nt] ![ma_thue]![ty_le_ck],0,=[tien_nt1] -[tien_ck_ct_nt] + [tien_thue_nt] ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt] ![ma_thue]![ty_le_ck],=[t_hd_nt]*M[ty_gia]  ![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![gia_ban_nt]![sl_xuat]![ma_vt]![ma_dvt] ![ma_thue]![ty_le_ck]![tien_ck_ct_nt]![tien_nt1],,=[gia_von_nt] ![px_gia_dd],=[sl_xuat]*[gia_von_nt] ![px_gia_dd],=[tien_xuat_nt] ![sl_xuat]![gia_von_nt]![px_gia_dd],= exec get_tk_vt @M[ma_dvcs]%p@[ma_kho]%p@[ma_vt],</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </QDPBL>
+</NewDataSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="MQCC_group" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MQCC_group">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <MQCC_group>
+    <gridid>MQCC_group</gridid>
+    <columnsv>sel,so_the_ts,ten_ts,so_hieu_ts,ma_bp,loai_ts,so_luong,he_so_vo,trong_luong_vo</columnsv>
+    <columnse>sel,so_the_ts,ten_ts,so_hieu_ts,ma_bp,loai_ts,so_luong,he_so_vo,trong_luong_vo</columnse>
+    <headersv>Chọn,Số thẻ công cụ,Tên công cụ,Số hiệu,Bộ phận sd,Loại công cụ,Số lượng,Hệ số vỏ,Trọng lượng vỏ</headersv>
+    <headerse>Option,T&amp;S Card No.,T&amp;S Name,Notation,Department using,Type,Qutity,Hệ số vỏ,Trọng lượng vỏ</headerse>
+    <widths>50,100,200,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,</formats>
+    <readonlys>0,1,1,1,1,1,1,1,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,1,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0</carrys>
+  </MQCC_group>
+</NewDataSet>

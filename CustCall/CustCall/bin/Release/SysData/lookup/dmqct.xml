@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmqct" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmqct">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="cTable" type="xs:string" minOccurs="0" />
+                <xs:element name="cFields" type="xs:string" minOccurs="0" />
+                <xs:element name="cFinds" type="xs:string" minOccurs="0" />
+                <xs:element name="cKey" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="exe_list" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="ckey2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmqct>
+    <Code>dmqct</Code>
+    <cTable>dmqct</cTable>
+    <cFields>ma_qct,ten_qct,ten_qct2,tien_to,hau_to,tu_so,den_so,so_ht,nguoi_tao,nguoi_sua,ngay_tao,ngay_sua,ngay_tao,trang_thai</cFields>
+    <cFinds>ma_qct,ten_qct,ten_qct2</cFinds>
+    <cKey>trang_thai =1</cKey>
+    <gridid>dmqct</gridid>
+    <formid>dmqct</formid>
+    <exe_list>ldmqct.exe#dmqct</exe_list>
+    <title>Danh mục quyển chứng từ</title>
+    <title2>Danh mục quyển chứng từ</title2>
+    <ckey2 />
+  </dmqct>
+</NewDataSet>

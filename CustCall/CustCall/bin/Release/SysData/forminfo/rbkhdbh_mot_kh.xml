@@ -1,0 +1,165 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbkhdbh_mot_kh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbkhdbh_mot_kh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>000</TextID>
+    <TextV>Bảng kê hóa đơn bán hàng của một khách hàng theo mặt hàng</TextV>
+    <TextE>Bảng kê hóa đơn bán hàng của một khách hàng theo mặt hàng</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>001</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Filter Condition</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>002</TextID>
+    <TextV>Từ ngày/ Đến ngày</TextV>
+    <TextE>From Date/ To date</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>003</TextID>
+    <TextV>Khách hàng</TextV>
+    <TextE>Customer</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>004</TextID>
+    <TextV>Số chứng từ</TextV>
+    <TextE>Số chứng từ</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>005</TextID>
+    <TextV>Mã kho</TextV>
+    <TextE>Mã kho</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>006</TextID>
+    <TextV>Mã bộ phận</TextV>
+    <TextE>Mã bộ phận</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>007</TextID>
+    <TextV>Nhóm theo</TextV>
+    <TextE>Group by</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>009</TextID>
+    <TextV>Đơn vị</TextV>
+    <TextE>Unit</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>011</TextID>
+    <TextV>Mẫu báo cáo</TextV>
+    <TextE>Report Form</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>012</TextID>
+    <TextV>Tiêu đề</TextV>
+    <TextE>Title</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>015</TextID>
+    <TextV>Vật tư</TextV>
+    <TextE>Supplies</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>016</TextID>
+    <TextV>Nhóm vật tư 1</TextV>
+    <TextE>Nhóm vật tư 1</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>017</TextID>
+    <TextV>Nhóm vật tư 2</TextV>
+    <TextE>Nhóm vật tư 2</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>018</TextID>
+    <TextV>Nhóm vật tư 3</TextV>
+    <TextE>Nhóm vật tư 3</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>019</TextID>
+    <TextV>Mã vụ việc</TextV>
+    <TextE>Mã vụ việc</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>200</TextID>
+    <TextV>Chức năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>201</TextID>
+    <TextV>&amp;In</TextV>
+    <TextE>&amp;Print</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>202</TextID>
+    <TextV>&amp;Xem</TextV>
+    <TextE>&amp;View</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>203</TextID>
+    <TextV>Làm tươi</TextV>
+    <TextE>Refresh</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>204</TextID>
+    <TextV>Xem chứng từ</TextV>
+    <TextE>View Voucher</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>900</TextID>
+    <TextV>&amp;Nhận</TextV>
+    <TextE>&amp;OK</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>901</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </rbkhdbh_mot_kh>
+  <rbkhdbh_mot_kh>
+    <FormID>rbkhdbh_mot_kh</FormID>
+    <TextID>999</TextID>
+    <TextV>Thoát</TextV>
+    <TextE>Close</TextE>
+  </rbkhdbh_mot_kh>
+</NewDataSet>

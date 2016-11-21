@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Dpt1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Dpt1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Dpt1>
+    <gridid>Dpt1</gridid>
+    <columnsv>ma_dt,ma_nvu,ten_nvu,tk_no,ten_tk_no,tk_co,ten_tk_co,ma_kh,ten_kh,ty_gia_gs_co,tien_nt,tien,loai_cl_co,dien_giai</columnsv>
+    <columnse>ma_dt,ma_nvu,ten_nvu2,tk_no,ten_tk_no2,tk_co,ten_tk_co2,ma_kh,ten_kh,ty_gia_gs_co,tien_nt,tien,loai_cl_co,dien_giai</columnse>
+    <headersv>Mã vụ việc,Nghiệp vụ,Tên nghiệp vụ,Tk nợ,Tên TK nợ,Tk có,Tên Tk có,Mã khách,Tên khách,Tỷ giá ghi sổ,Tiền nt,Tiền,loai_cl_co,Diễn giải</headersv>
+    <headerse>Mã vụ việc,Nghiệp vụ,Tên nghiệp vụ,Dr. Account                     ,Dr. Account Name               ,Cr. Account                     ,Cr. Account Name,Cust. ID                        ,Customer Name                   ,Book Ex. Rate,FC Amount                       ,Amount                          ,loai_cl_co,Diễn giải</headerse>
+    <widths>100,100,200,100,200,100,200,150,300,100,100,200,0,200</widths>
+    <formats>,,,,,,,,,f_tien,f_tien_nt,f_tien,,</formats>
+    <readonlys>0,0,1,0,1,0,1,0,1,0,0,0,1,0</readonlys>
+    <hides>0,1,1,0,0,0,0,0,0,0,0,0,1,0</hides>
+    <defaultvalues>,,,,,,,=M[ma_kh],,,,=[tien_nt]*{ty_gia},,</defaultvalues>
+    <carrys>0,0,0,0,0,1,1,1,1,0,0,0,1,0</carrys>
+  </Dpt1>
+</NewDataSet>

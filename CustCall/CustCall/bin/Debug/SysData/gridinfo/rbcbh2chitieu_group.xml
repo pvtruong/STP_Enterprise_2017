@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbcbh2chitieu_group" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbcbh2chitieu_group">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbcbh2chitieu_group>
+    <gridid>rbcbh2chitieu_group</gridid>
+    <columnsv>stt,ma,dien_giai,so_luong,gia_von,tien_von,gia_ban,tien_ban,tien_ck,tien_thue,pt,lai</columnsv>
+    <columnse>stt,ma,dien_giai2,so_luong,gia_von,tien_von,gia_ban,tien_ban,tien_ck,tien_thue,pt,lai</columnse>
+    <headersv>STT,Mã,Diễn giải,Số lượng,Giá vốn,Tiền vốn,Giá bán,Tiền bán,Tiền CK,Tiền thuế,Phải thu,Lãi</headersv>
+    <headerse>No.,Code,Memo,Quantity,Unit Cost ,Cost Amt. ,Sales Price ,Sales Amt.,Discount Amt. ,Tax Amt.,Receivable,Profit</headerse>
+    <widths>20,70,200,100,100,100,100,100,100,100,100,100</widths>
+    <formats>f_stt,,,f_sl,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </rbcbh2chitieu_group>
+</NewDataSet>

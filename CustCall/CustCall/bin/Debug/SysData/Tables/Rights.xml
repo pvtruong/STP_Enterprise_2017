@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Rights" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Rights">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Nsd" type="xs:string" minOccurs="0" />
+                <xs:element name="cn" type="xs:string" minOccurs="0" />
+                <xs:element name="Moi" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Sua" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Xoa" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Xem" type="xs:boolean" minOccurs="0" />
+                <xs:element name="InAn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Pq" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CSC" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CSK" type="xs:boolean" minOccurs="0" />
+                <xs:element name="XemNK" type="xs:boolean" minOccurs="0" />
+                <xs:element name="XemDVK" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HLuu" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HXoa" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TM" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NH" type="xs:boolean" minOccurs="0" />
+                <xs:element name="BC" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SG" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SCK" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

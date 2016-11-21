@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Dvatvao_pn6" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Dvatvao_pn6">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Dvatvao_pn6>
+    <gridid>Dvatvao_pn6</gridid>
+    <columnsv>ma_hoa_don,ky_hieu_hoa_don,ma_tc,so_hd,so_seri,ngay_hd,t_tien_nt,t_tien,ma_thue,thue_suat,t_thue_nt,t_thue,tk_thue_no,tk_du,ty_gia_gs_co,ma_kh,ten_kh,dia_chi,ma_so_thue,ten_vt,han_tt,t_hd,ma_kh_cn</columnsv>
+    <columnse>ma_hoa_don,ky_hieu_hoa_don,ma_tc,so_hd,so_seri,ngay_hd,t_tien_nt,t_tien,ma_thue,thue_suat,t_thue_nt,t_thue,tk_thue_no,tk_du,ty_gia_gs_co,ma_kh,ten_kh,dia_chi,ma_so_thue,ten_vt,han_tt,t_hd,ma_kh_cn</columnse>
+    <headersv>Mã hóa đơn,Ký hiệu số hóa đơn,Mã tính chất,Số hóa đơn,Số seri,Ngày hóa đơn,Tiền hàng nt,Tiền hàng,Mã thuế,Thuế suất,Tiền thuế nt,Tiền thuế,Tk thuế,Tk đối ứng,Tỷ giá ghi sổ,Mã khách,Tên khách,Địa chỉ,Mã số thuế,Tên hàng hóa,Hạn thanh toán,Tổng hóa đơn,Mã khách công nợ</headersv>
+    <headerse>Mã hóa đơn,Ký hiệu số hóa đơn,Code,Invoice num,Serial No,Invoice date,FC Amount,Amount,Tax Code,Tax rate,FC Tax Amt.  ,Total Tax,Tax account,Ref. Acct.,Book Rate     ,Cust.ID Tax,Customer Name,Address,Tax Code,Item,Day(s) to Pay,Total Invoice,Cust.ID Debt</headerse>
+    <widths>100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,200,200,100,150,100,100,100</widths>
+    <formats>,,,,,,f_tien_nt,f_tien,,f_tien,f_tien_nt,f_tien,,,f_tien,,,,,,f_tien,f_tien,</formats>
+    <readonlys>0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,=M[ngay_ct],=M[t_tien_nt],=[t_tien_nt]*M[ty_gia],,,=[t_tien_nt]*[thue_suat]/100 ![ma_thue],=[t_thue_nt]*{ty_gia}  ![ma_thue]![t_tien_nt],,,,=M[ma_kh],=M[ten_kh],=M[dia_chi],=select ma_so_thue from dkh where ma_kh =@[ma_kh] --M[ma_kh],,,=[t_thue_nt]![ma_thue] + [t_tien_nt]![so_hd],</defaultvalues>
+    <carrys>0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,0</carrys>
+  </Dvatvao_pn6>
+</NewDataSet>

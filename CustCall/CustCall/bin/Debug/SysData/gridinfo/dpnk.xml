@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Dpnk" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Dpnk">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Dpnk>
+    <gridid>Dpnk</gridid>
+    <columnsv>ma_dt,ma_vt,ten_vt,image,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,ton_tt,sl_nhap,pn_gia_tb,gia_von_nt,gia_von,tien_nhap_nt,tien_nhap,tk_vt,ma_nvu,tk_du,dien_giai</columnsv>
+    <columnse>ma_dt,ma_vt,ten_vt2,image,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,ton_tt,sl_nhap,pn_gia_tb,gia_von_nt,gia_von,tien_nhap_nt,tien_nhap,tk_vt,ma_nvu,tk_du,dien_giai</columnse>
+    <headersv>Mã vụ việc,Mã vật tư,Tên vt,Hình,Mã thuộc tính 1,Mã thuộc tính 2,Mã thuộc tính 3,Mã thuộc tính 4,Mã thuộc tính 5,ĐVT,Mã kho,Tồn kho,Số lượng,Giá trung bình,Giá nt,Giá,Tiền nt,Tiền,Tk vật tư,Nghiệp vụ,Tk đối ứng,Diễn giải</headersv>
+    <headerse>Mã vụ việc,Item Code,Item Name,Image,Property 1,Property 2,Property 3,Property 4,Property 5,Unit,Site ID     ,Inventory,Quantity,Average Cost ,FC Cost,Cost,FC Amount,Amount,Inventory Acct.,Nghiệp vụ,Ref. Acct.,</headerse>
+    <widths>100,100,150,28,100,100,100,100,100,50,100,100,100,100,100,100,100,100,100,100,100,200</widths>
+    <formats>,,,,,,,,,,,f_sl,f_sl,,f_gia_nt,f_gia,f_tien_nt,f_tien,,,,</formats>
+    <readonlys>0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,=select ton_tt from tontucthoi where ma_vt='[ma_vt]' and ma_kho ='[ma_kho]' and ma_tt1 ='[ma_tt1]' and ma_tt2 ='[ma_tt2]'  and ma_tt3 ='[ma_tt3]'  and ma_tt4 ='[ma_tt4]'  and ma_tt5 ='[ma_tt5]',,,=exec GetGiaVon @[ma_kho]%p@[ma_vt]%p@[ma_dvt]%p@M[ngay_ct]%p@[ma_tt1]%p@[ma_tt2]%p@[ma_tt3]%p@[ma_tt4]%p@[ma_tt5],=[gia_von_nt]*M[ty_gia]![ma_vt]![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![ma_kho]![ma_dvt],=[gia_von_nt]*[sl_nhap]![ma_vt]![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]!M[]![ma_kho]![ma_dvt],=[tien_nhap_nt]*M[ty_gia] ![gia_von_nt]![sl_nhap]![ma_vt]![ma_tt1]![ma_tt2]![ma_tt3]![ma_tt4]![ma_tt5]![ma_kho]![ma_dvt],,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0</carrys>
+  </Dpnk>
+</NewDataSet>

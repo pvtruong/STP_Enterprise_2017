@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbacdpscnkh_nt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbacdpscnkh_nt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbacdpscnkh_nt>
+    <gridid>rbacdpscnkh_nt</gridid>
+    <columnsv>stt,ma_kh,ten_kh,tk,no_dk_nt,co_dk_nt,ps_no_nt,ps_co_nt,no_ck_nt,co_ck_nt,no_dk,co_dk,ps_no,ps_co,no_ck,co_ck</columnsv>
+    <columnse>stt,ma_kh,ten_kh,tk,no_dk_nt,co_dk_nt,ps_no_nt,ps_co_nt,no_ck_nt,co_ck_nt,no_dk,co_dk,ps_no,ps_co,no_ck,co_ck</columnse>
+    <headersv>Stt,Mã khách,Tên khách,Tài khoản,Nợ đầu kỳ nt,Có đầu kỳ nt,Phát sinh nợ nt,Phát sinh có nt,Nợ cuối kỳ nt,Có cuối kỳ nt,Nợ đầu kỳ,Có đầu kỳ,Phát sinh nợ,Phát sinh có ,Nợ cuối kỳ,Có cuối kỳ</headersv>
+    <headerse>No.,Cust.ID,Customer Name,Account,Dr. Opening Balance Fc,Cr. Opening Balance  Fc,Debit  Fc,Credit Fc,Dr.Closing Balance    nt,Cr.Closing Balance Fc,Dr. Opening Balance  ,Cr. Opening Balance ,Debit  ,Credit,Dr.Closing Balance   ,Cr.Closing Balance</headerse>
+    <widths>100,100,200,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>f_stt,,,,f_tien_nt,f_tien_nt,f_tien_nt,f_tien_nt,f_tien_nt,f_tien_nt,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </rbacdpscnkh_nt>
+</NewDataSet>

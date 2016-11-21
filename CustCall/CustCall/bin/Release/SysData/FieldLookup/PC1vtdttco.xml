@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PC1vtdttco" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PC1vtdttco">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="tab" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups2" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids2" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="lookup_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="empty_when_readonly" type="xs:boolean" minOccurs="0" />
+                <xs:element name="multivalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PC1vtdttco>
+    <code>PC1</code>
+    <tab>vtdttco</tab>
+    <field>ma_nvu</field>
+    <fieldlookups>ma_nvu,ten_nvu,tk_co</fieldlookups>
+    <fieldgrids>ma_nvu,ten_nvu,tk_co</fieldgrids>
+    <fieldlookups2>ma_nvu,ten_nvu2,tk_co</fieldlookups2>
+    <fieldgrids2>ma_nvu,ten_nvu2,tk_co</fieldgrids2>
+    <codelookup>dmnvu</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>(ma_ct='' or dbo.einstr('PC1',ma_ct)=1)</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when>exists(select 1 from options where name ='notnull_mnv' and value1=1 and [tien_nt]&lt;&gt;0)</not_isnullable_when>
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PC1vtdttco>
+  <PC1vtdttco>
+    <code>PC1</code>
+    <tab>vtdttco</tab>
+    <field>tk_co</field>
+    <fieldlookups>tk,loai_cl_co</fieldlookups>
+    <fieldgrids>tk_co,loai_cl_co</fieldgrids>
+    <fieldlookups2>tk,loai_cl_co</fieldlookups2>
+    <fieldgrids2>tk_co,loai_cl_co</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PC1vtdttco>
+  <PC1vtdttco>
+    <code>PC1</code>
+    <tab>vtdttco</tab>
+    <field>tk_phi</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_phi</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_phi</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when>@[tien_phi_nt] &lt;&gt; 0</not_isnullable_when>
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PC1vtdttco>
+</NewDataSet>

@@ -1,0 +1,134 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmdt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmdt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmdt>
+    <name>ma_dt</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>ten_dt</name>
+    <prec>64</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>ten_dt2</name>
+    <prec>64</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>loai_dt</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>ma_nt</name>
+    <prec>3</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>tien</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>tien_nt</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>nh_dt1</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>nh_dt2</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>nh_dt3</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>ghi_chu</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>trang_thai</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>nguoi_tao</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>nguoi_sua</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>ngay_tao</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>ngay_sua</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>dt_sd_pslk</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+  <dmdt>
+    <name>ct_kh</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmdt</tablename>
+  </dmdt>
+</NewDataSet>

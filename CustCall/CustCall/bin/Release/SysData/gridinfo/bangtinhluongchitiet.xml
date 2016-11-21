@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bangtinhluongchitiet" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bangtinhluongchitiet">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bangtinhluongchitiet>
+    <gridid>bangtinhluongchitiet</gridid>
+    <columnsv>ma_bp,ma_nv,ten_nv,cong_quy_dinh,ngay_cong,luong_bhxh,luong_co_ban,luong_thang,luong_san_pham,luong_khoan_viec,phu_cap,tong_cong,tam_ung,tru_khac,bhxh,cong_doan,ttncn,tong_khau_tru,giu_ho,con_lai</columnsv>
+    <columnse>ma_bp,ma_nv,ten_nv,cong_quy_dinh,ngay_cong,luong_bhxh,luong_co_ban,luong_thang,luong_san_pham,luong_khoan_viec,phu_cap,tong_cong,tam_ung,tru_khac,bhxh,cong_doan,ttncn,tong_khau_tru,giu_ho,con_lai</columnse>
+    <headersv>Bộ phận,Mã nv,Tên nhân viên,Công quy định,Ngày công,Lương BHXH,Lương cơ bản,Lương tháng,Lương sản phẩm,Lương khoán việc,Phụ cấp,Tổng cộng,Tạm ứng,Trừ khác,BHXH%pYT%pTN,Công đoàn,TTNCN,Tổng khấu trừ,Gữi hộ,Còn lại</headersv>
+    <headerse>Bộ phận,Mã nv,Tên nhân viên,Ngày công SX,Ngày công,Luong bhxh,Lương cơ bản,LƯơng tháng,Lương sản phẩm,Lương khoán,Phụ cấp,Tổng cộng,Tạm ứng,Trừ khác,BHXH,Công đoàn,TTNCN,Tổng khấu trừ,Giữ hộ,Còn lại</headerse>
+    <widths>80,60,120,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </bangtinhluongchitiet>
+</NewDataSet>

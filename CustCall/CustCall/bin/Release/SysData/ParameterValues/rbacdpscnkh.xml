@@ -1,0 +1,127 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbacdpscnkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbacdpscnkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_den_ngay</Name>
+    <Type>C</Type>
+    <Value>đến ngày</Value>
+    <Value2>To Date</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_dvt</Name>
+    <Type>C</Type>
+    <Value>Đơn vị tính:</Value>
+    <Value2>Unit:</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_gd</Name>
+    <Type>C</Type>
+    <Value>Giám đốc</Value>
+    <Value2>Director</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_ktt</Name>
+    <Type>C</Type>
+    <Value>Kế toán trưởng</Value>
+    <Value2>Chief Accountant</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_ky_ten</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên)</Value>
+    <Value2>Sign., (Full Name)</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_ky_ten_dd</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên , đón dấu)</Value>
+    <Value2>Sign., Seal (Full Name and Position)</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_ngay_ms</Name>
+    <Type>C</Type>
+    <Value>Ngày mở sổ . . . .</Value>
+    <Value2>On open books . . . .</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_ngay_thang_nam</Name>
+    <Type>C</Type>
+    <Value>..............., ngày......... tháng........... năm..........</Value>
+    <Value2>..............., date......... month........... year..........</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_nguoi_lap</Name>
+    <Type>C</Type>
+    <Value>Người lập</Value>
+    <Value2>Founder</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_nt</Name>
+    <Type>C</Type>
+    <Value>NT</Value>
+    <Value2>in FC</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_ps</Name>
+    <Type>C</Type>
+    <Value>TỔNG PHÁT SINH:</Value>
+    <Value2>TOTAL ARISING</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_tk</Name>
+    <Type>C</Type>
+    <Value>Tài khoản</Value>
+    <Value2>Account</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_tong_trang1</Name>
+    <Type>C</Type>
+    <Value>Sổ này có:</Value>
+    <Value2>This book has</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_tong_trang2</Name>
+    <Type>C</Type>
+    <Value>trang, đánh số từ trang số 1 đến trang</Value>
+    <Value2>pages, is numbered from 1 to</Value2>
+  </rbacdpscnkh>
+  <rbacdpscnkh>
+    <Code>rbacdpscnkh</Code>
+    <Name>c_tu_ngay</Name>
+    <Type>C</Type>
+    <Value>Từ ngày</Value>
+    <Value2>From Date</Value2>
+  </rbacdpscnkh>
+</NewDataSet>

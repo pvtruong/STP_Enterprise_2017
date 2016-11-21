@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmItemOfCbb" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmItemOfCbb">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmItemOfCbb>
+    <name>Form</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+  <dmItemOfCbb>
+    <name>Name</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+  <dmItemOfCbb>
+    <name>Inds</name>
+    <prec>10</prec>
+    <scale>0</scale>
+    <isnullable>0</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+  <dmItemOfCbb>
+    <name>Text</name>
+    <prec>64</prec>
+    <isnullable>0</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+  <dmItemOfCbb>
+    <name>Text2</name>
+    <prec>64</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+  <dmItemOfCbb>
+    <name>print_yn</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+  <dmItemOfCbb>
+    <name>imp_yn</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+  <dmItemOfCbb>
+    <name>val</name>
+    <prec>4000</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+  <dmItemOfCbb>
+    <name>val2</name>
+    <prec>4000</prec>
+    <isnullable>1</isnullable>
+    <tablename>dmItemOfCbb</tablename>
+  </dmItemOfCbb>
+</NewDataSet>

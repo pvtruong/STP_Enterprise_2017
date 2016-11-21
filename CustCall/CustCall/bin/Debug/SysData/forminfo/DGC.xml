@@ -1,0 +1,537 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DGC" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DGC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>000</TextID>
+    <TextV>Đánh giá chênh lệch tỷ giá cho hóa đơn</TextV>
+    <TextE>Đánh giá chênh lệch tỷ giá cho hóa đơn</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã khách hàng</TextV>
+    <TextE>Cust. ID</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên khách hàng</TextV>
+    <TextE>Customer Name</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>003</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>004</TextID>
+    <TextV>Danh mục khách hàng</TextV>
+    <TextE>Customer List</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>005</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>006</TextID>
+    <TextV>Điện thoại</TextV>
+    <TextE>Phone</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>007</TextID>
+    <TextV>Tài khoản ngân hàng</TextV>
+    <TextE>Bank Account</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>008</TextID>
+    <TextV>Khách hàng mua</TextV>
+    <TextE>Buyer</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>009</TextID>
+    <TextV>Khách hàng bán</TextV>
+    <TextE>Supplier ID</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>013</TextID>
+    <TextV>Diễn giải ct gốc</TextV>
+    <TextE>Diễn giải ct gốc</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>014</TextID>
+    <TextV>Quận/huyện</TextV>
+    <TextE>County Code</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>015</TextID>
+    <TextV>Người liên hệ</TextV>
+    <TextE>Contact Person</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>016</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Filter Condition</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>017</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>032</TextID>
+    <TextV>Chi tiết</TextV>
+    <TextE>Detail</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>033</TextID>
+    <TextV>Các sản phẩm</TextV>
+    <TextE>Products</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>034</TextID>
+    <TextV>Số chứng từ kèm theo</TextV>
+    <TextE>Số chứng từ kèm theo</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>200</TextID>
+    <TextV>Lấy hóa đơn</TextV>
+    <TextE>Choose Sale invoice</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>201</TextID>
+    <TextV>Tên giao dịch</TextV>
+    <TextE>Transaction Name</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>202</TextID>
+    <TextV>Đại diện pháp lý</TextV>
+    <TextE>Legal Representation</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>203</TextID>
+    <TextV>Mã số thuế</TextV>
+    <TextE>Cust. Tax Code</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>204</TextID>
+    <TextV>Số liên</TextV>
+    <TextE>No. of Copies</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>205</TextID>
+    <TextV>Fax</TextV>
+    <TextE>Fax</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>206</TextID>
+    <TextV>Mã số thuế</TextV>
+    <TextE>Cust. Tax Code</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>207</TextID>
+    <TextV>Website</TextV>
+    <TextE>Website</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>208</TextID>
+    <TextV>Loại khách hàng</TextV>
+    <TextE>Customer Type</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>209</TextID>
+    <TextV>Hãy chọn ít nhất một chứng từ</TextV>
+    <TextE>Select at least one voucher</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>214</TextID>
+    <TextV>Diễn giải</TextV>
+    <TextE>Description</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>215</TextID>
+    <TextV>Ngoại tệ</TextV>
+    <TextE>Currency ID</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>216</TextID>
+    <TextV>Nhân viên thực hiện</TextV>
+    <TextE>Employees Perform</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>217</TextID>
+    <TextV>Thông tin khách hàng</TextV>
+    <TextE>Customer Information</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>218</TextID>
+    <TextV>Tên người giao dịch</TextV>
+    <TextE>Trading Name</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>219</TextID>
+    <TextV>Lưu và thêm mới</TextV>
+    <TextE>Save And Append</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>220</TextID>
+    <TextV>Số chứng từ</TextV>
+    <TextE>Voucher No.</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>221</TextID>
+    <TextV>Ngày chứng từ</TextV>
+    <TextE>Voucher Date</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>222</TextID>
+    <TextV>Tiền ngoại tệ</TextV>
+    <TextE>Foreign Currency</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>223</TextID>
+    <TextV>Mã thuế</TextV>
+    <TextE>Tax Code</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>224</TextID>
+    <TextV>Thuế suất</TextV>
+    <TextE>Tax Rate</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>225</TextID>
+    <TextV>Tiền hoạch toán</TextV>
+    <TextE>Base Curr.</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>226</TextID>
+    <TextV>Tiền hoạch toán</TextV>
+    <TextE>Base Curr.</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>227</TextID>
+    <TextV>&amp;In</TextV>
+    <TextE>&amp;Print</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>228</TextID>
+    <TextV>&amp;Xem</TextV>
+    <TextE>&amp;View</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>229</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>230</TextID>
+    <TextV>Tiêu đề</TextV>
+    <TextE>Title</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>231</TextID>
+    <TextV>Mẫu báo cáo</TextV>
+    <TextE>Report Form</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>232</TextID>
+    <TextV>Từ/đến ngày</TextV>
+    <TextE>Date from/to</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>233</TextID>
+    <TextV>&amp;Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>234</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>300</TextID>
+    <TextV>Tên khách hàng</TextV>
+    <TextE>Customer Name</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>301</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>302</TextID>
+    <TextV>Liên hệ</TextV>
+    <TextE>Contact</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>303</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>400</TextID>
+    <TextV>Thông tin chung</TextV>
+    <TextE>Master</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>401</TextID>
+    <TextV>Thông tin phân tích</TextV>
+    <TextE>Information Analysis</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>402</TextID>
+    <TextV>Tên hợp đồng</TextV>
+    <TextE>Description</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>403</TextID>
+    <TextV>Ngày bắt đầu</TextV>
+    <TextE>Start Date</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>404</TextID>
+    <TextV>Ngày kết thúc</TextV>
+    <TextE>Finish Date</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>405</TextID>
+    <TextV>Sản phẩm/Dịch vụ</TextV>
+    <TextE>Products / Services</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>406</TextID>
+    <TextV>Thanh toán</TextV>
+    <TextE>Payment</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>407</TextID>
+    <TextV>Chưa nhập chi tiết</TextV>
+    <TextE>Details Not Entered</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>408</TextID>
+    <TextV>Loại phiếu thu</TextV>
+    <TextE>Trans. Type</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>F01</TextID>
+    <TextV>Bộ phận</TextV>
+    <TextE>Dept.</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>F02</TextID>
+    <TextV>Phí</TextV>
+    <TextE>Fee</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>F03</TextID>
+    <TextV>Đối tượng</TextV>
+    <TextE>Object</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>FHD</TextID>
+    <TextV>Từ hóa đơn bán lẻ</TextV>
+    <TextE>From invoice</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>GDT</TextID>
+    <TextV>Lấy dữ liệu</TextV>
+    <TextE>Get data</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>L00</TextID>
+    <TextV>Chương trình đã thực hiện xong. Bạn muốn làm gì tiếp?</TextV>
+    <TextE>The program has done. You want to do next?</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>L01</TextID>
+    <TextV>Thêm &amp;mới</TextV>
+    <TextE>&amp;New</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>L02</TextID>
+    <TextV>Sao &amp;chép</TextV>
+    <TextE>&amp;Copy</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>L03</TextID>
+    <TextV>&amp;In phiếu</TextV>
+    <TextE>&amp;Print</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>L04</TextID>
+    <TextV>&amp;Quay ra</TextV>
+    <TextE>&amp;Exit</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>L05</TextID>
+    <TextV>Không hiện màn hình này lần sau</TextV>
+    <TextE>This is not the next screen</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>SHD</TextID>
+    <TextV>Số hóa đơn</TextV>
+    <TextE>Vno.number</TextE>
+  </DGC>
+  <DGC>
+    <FormID>DGC</FormID>
+    <TextID>Z01</TextID>
+    <TextV>Sửa tỷ giá ghi sổ</TextV>
+    <TextE>Edit Book Ex. Rate</TextE>
+  </DGC>
+</NewDataSet>

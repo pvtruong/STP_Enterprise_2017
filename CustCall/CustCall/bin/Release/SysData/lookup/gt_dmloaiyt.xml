@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="gt_dmloaiyt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="gt_dmloaiyt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="cTable" type="xs:string" minOccurs="0" />
+                <xs:element name="cFields" type="xs:string" minOccurs="0" />
+                <xs:element name="cFinds" type="xs:string" minOccurs="0" />
+                <xs:element name="cKey" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="exe_list" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="ckey2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <gt_dmloaiyt>
+    <Code>gt_dmloaiyt</Code>
+    <cTable>gt_dmloaiyt</cTable>
+    <cFields>ma_loai,ten_loai,ten_loai2</cFields>
+    <cFinds>ma_loai,ten_loai,ten_loai2</cFinds>
+    <cKey>trang_thai=1</cKey>
+    <gridid>gt_dmloaiyt</gridid>
+    <formid>gt_dmloaiyt</formid>
+    <exe_list>Lgtdmloaiyt.exe#gt_dmloaiyt</exe_list>
+    <title>Danh mục loại yếu tố</title>
+    <title2>Danh mục loại yếu tố</title2>
+    <ckey2 />
+  </gt_dmloaiyt>
+</NewDataSet>

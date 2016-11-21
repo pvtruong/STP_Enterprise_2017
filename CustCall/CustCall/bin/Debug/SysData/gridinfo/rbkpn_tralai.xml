@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbkpn_tralai" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbkpn_tralai">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbkpn_tralai>
+    <gridid>rbkpn_tralai</gridid>
+    <columnsv>ngay_ct,so_ct,ma_kh,ten_kh,tien_thue,tien_ban,tien_tt,tien_nhap,dien_giai,ma_bp,ma_ct</columnsv>
+    <columnse>ngay_ct,so_ct,ma_kh,ten_kh2,tien_thue,tien_ban,tien_tt,tien_nhap,dien_giai,ma_bp,ma_ct</columnse>
+    <headersv>Ngày chứng từ,Số chứng từ,Mã khách,Tên khách,Tiền thuế,Tiền bán,Tổng doanh thu,Tiền nhập,Diễn giải,Mã bộ phận,Mã chứng từ</headersv>
+    <headerse>Voucher Date,Voucher No.,Cust.ID,Customer Name,Tiền thuế,Sales Amount,Tổng doanh thu,Tiền nhập,Memo,Mã bộ phận,Mã chứng từ</headerse>
+    <widths>100,100,100,200,100,100,100,100,200,100,100</widths>
+    <formats>,,,,f_tien,f_tien,f_tien,f_tien,,,</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </rbkpn_tralai>
+</NewDataSet>

@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="kbslcc" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="kbslcc">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="listid" type="xs:string" minOccurs="0" />
+                <xs:element name="ctable" type="xs:string" minOccurs="0" />
+                <xs:element name="cview" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="inherit" type="xs:string" minOccurs="0" />
+                <xs:element name="showoldvalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ma_qct" type="xs:string" minOccurs="0" />
+                <xs:element name="field_auto" type="xs:string" minOccurs="0" />
+                <xs:element name="allow_edit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="condition_copy" type="xs:string" minOccurs="0" />
+                <xs:element name="allow_change_code" type="xs:boolean" minOccurs="0" />
+                <xs:element name="grid4import" type="xs:string" minOccurs="0" />
+                <xs:element name="showtop" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_phan_nhom" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <kbslcc>
+    <listid>kbslcc</listid>
+    <ctable>kbslcc</ctable>
+    <cview>kbslcc</cview>
+    <gridid>kbslcc</gridid>
+    <inherit />
+    <showoldvalue>false</showoldvalue>
+    <ma_qct />
+    <field_auto />
+    <allow_edit>true</allow_edit>
+    <title>Cập nhật sản lượng</title>
+    <title2>Tools and Supplies Quantity Input</title2>
+    <condition_copy>1=0</condition_copy>
+    <allow_change_code>true</allow_change_code>
+    <grid4import />
+    <showtop>20</showtop>
+    <ma_phan_nhom />
+  </kbslcc>
+</NewDataSet>

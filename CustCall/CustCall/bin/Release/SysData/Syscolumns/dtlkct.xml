@@ -1,0 +1,135 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dtlkct" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dtlkct">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dtlkct>
+    <name>ma_dvcs</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>nam</name>
+    <prec>4</prec>
+    <scale>0</scale>
+    <isnullable>0</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>ma_dt</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>ma_so</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>lk_no_dk</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>lk_no_dk_nt</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>lk_co_dk</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>lk_co_dk_nt</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>lk_no_nt</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>lk_no</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>lk_co_nt</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>lk_co</name>
+    <prec>18</prec>
+    <scale>5</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>trang_thai</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>ngay_tao</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>ngay_sua</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>nguoi_tao</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+  <dtlkct>
+    <name>nguoi_sua</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>dtlkct</tablename>
+  </dtlkct>
+</NewDataSet>

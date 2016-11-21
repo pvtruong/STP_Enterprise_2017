@@ -1,0 +1,386 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="HD2" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="HD2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_bang_chu</Name>
+    <Type>C</Type>
+    <Value>Số tiền bằng chữ:</Value>
+    <Value2>Amount In Words</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_cong</Name>
+    <Type>C</Type>
+    <Value>Cộng:</Value>
+    <Value2>Total:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ct_goc</Name>
+    <Type>C</Type>
+    <Value>Số chứng từ gốc kèm theo:</Value>
+    <Value2>Enclosed Voucher:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_dia_chi</Name>
+    <Type>C</Type>
+    <Value>Địa chỉ :</Value>
+    <Value2>Address (Dept):</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_dien_giai</Name>
+    <Type>C</Type>
+    <Value>Lý do xuất kho:</Value>
+    <Value2>Reason for export site:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_docso</Name>
+    <Type>C</Type>
+    <Value>Số tiền viết bằng chữ:</Value>
+    <Value2>In words:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_dvt</Name>
+    <Type>C</Type>
+    <Value>Đơn vị tính</Value>
+    <Value2>Unit</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_gd</Name>
+    <Type>C</Type>
+    <Value>Giám đốc</Value>
+    <Value2>Director</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_gia</Name>
+    <Type>C</Type>
+    <Value>Đơn giá</Value>
+    <Value2>Price</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_hd</Name>
+    <Type>C</Type>
+    <Value>Số hóa đơn:</Value>
+    <Value2>Serial No.:</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_hinh_thuc_tt</Name>
+    <Type>C</Type>
+    <Value>Hình thức thanh toán:</Value>
+    <Value2>Hình thức thanh toán:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_kho</Name>
+    <Type>C</Type>
+    <Value>Kho</Value>
+    <Value2>Site</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ktt</Name>
+    <Type>C</Type>
+    <Value>Kế toán trưởng (Trưởng bộ phận)</Value>
+    <Value2>Chief Accountant (Chief department)</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_ky_hieu</Name>
+    <Type>c</Type>
+    <Value>Ký hiệu:</Value>
+    <Value2>Ký hiệu:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ky_ten</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên)</Value>
+    <Value2>Sign., (Full Name)</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ky_ten_dd</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên, đóng dấu)</Value>
+    <Value2>Sign., Seal (Full Name and Position)</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_lien</Name>
+    <Type>c</Type>
+    <Value>Lưu</Value>
+    <Value2>Lưu</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_mau_so</Name>
+    <Type>C</Type>
+    <Value>01GTKT3/001</Value>
+    <Value2>01GTKT3/001</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_mau_tt</Name>
+    <Type>C</Type>
+    <Value>(Ban hành theo QĐ số: 15/2006/QĐ-BTC ngày 20/03/2006 của Bộ trưởng BTC)</Value>
+    <Value2>(According to Decision No. 15/2006/QD-BTC dated 20 March 2006 of the Ministry of Finance)</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_mh</Name>
+    <Type>C</Type>
+    <Value>Mã số</Value>
+    <Value2>Code:</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_mst</Name>
+    <Type>C</Type>
+    <Value>Mã số thuế:</Value>
+    <Value2>Cust. Tax Code:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ngay_ct</Name>
+    <Type>C</Type>
+    <Value>Ngày %d tháng %m năm %y</Value>
+    <Value2>Date %dMonth%m Year %y</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ngay_hd</Name>
+    <Type>C</Type>
+    <Value>Ngày hóa đơn</Value>
+    <Value2>Inv. Date</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ngay_ky</Name>
+    <Type>C</Type>
+    <Value>Ngày . . . tháng . . . năm . . . .</Value>
+    <Value2>Date . . . Month . . . Year . . .</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_nguoi_bh</Name>
+    <Type>c</Type>
+    <Value>Người bán hàng</Value>
+    <Value2>Người bán hàng</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_nguoi_lap</Name>
+    <Type>C</Type>
+    <Value>Người lập phiếu</Value>
+    <Value2>Persons votes</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_nguoi_mh</Name>
+    <Type>c</Type>
+    <Value>Người mua hàng</Value>
+    <Value2>Customer</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_nguoi_nh</Name>
+    <Type>C</Type>
+    <Value>Người nhận hàng</Value>
+    <Value2>Consignee</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_nh</Name>
+    <Type>C</Type>
+    <Value>Tại ngân hàng:</Value>
+    <Value2>Tại ngân hàng:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ong_ba</Name>
+    <Type>C</Type>
+    <Value>Họ và tên người mua hàng:</Value>
+    <Value2>Full name of the consignee:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_quyen_so</Name>
+    <Type>C</Type>
+    <Value>Quyển số:</Value>
+    <Value2>Volume number:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_seri</Name>
+    <Type>C</Type>
+    <Value>Số seri</Value>
+    <Value2>Serial No.</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_sl</Name>
+    <Type>C</Type>
+    <Value>Số lượng</Value>
+    <Value2>Quantity</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_so_ct</Name>
+    <Type>C</Type>
+    <Value>Số chứng từ:</Value>
+    <Value2>Voucher No. :</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_so_tai_khoan</Name>
+    <Type>c</Type>
+    <Value>Số tài khoản:</Value>
+    <Value2>Số tài khoản:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_stt</Name>
+    <Type>C</Type>
+    <Value>STT</Value>
+    <Value2>NO.</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_ten_dv</Name>
+    <Type>C</Type>
+    <Value>Tên đơn vị:</Value>
+    <Value2>Unit Name:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_ten_hang</Name>
+    <Type>C</Type>
+    <Value>Tên hàng hóa dịch vụ</Value>
+    <Value2>Item Name</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_thu_kho</Name>
+    <Type>C</Type>
+    <Value>Thủ kho</Value>
+    <Value2>Contact</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>c_tien</Name>
+    <Type>C</Type>
+    <Value>Thành tiền</Value>
+    <Value2>Amount</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_tong_ck</Name>
+    <Type>C</Type>
+    <Value>Tổng tiền chiết khấu</Value>
+    <Value2>Total Discount Amount</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_tong_thue</Name>
+    <Type>C</Type>
+    <Value>Tiền thuế GTGT:</Value>
+    <Value2>Total Tax Amt.</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_tong_tien</Name>
+    <Type>C</Type>
+    <Value>Tổng tiền hàng:</Value>
+    <Value2>Total Amount</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>c_tong_tt</Name>
+    <Type>C</Type>
+    <Value>Tổng cộng tiền thanh toán:</Value>
+    <Value2>Total Payment</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>docso</Name>
+    <Type>W</Type>
+    <Value>t_tt</Value>
+    <Value2>t_tt</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>docso_nt</Name>
+    <Type>W</Type>
+    <Value>t_tt_nt</Value>
+    <Value2>t_tt_nt</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>dvtien</Name>
+    <Type>C</Type>
+    <Value>đồng chẵn.</Value>
+    <Value2>VND</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>han_tt</Name>
+    <Type>V</Type>
+    <Value>select han_tt from mhd2 where han_tt=@[han_tt]</Value>
+    <Value2>select han_tt from mhd2 where han_tt=@[han_tt]</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>hinh_thuc_tt</Name>
+    <Type>C</Type>
+    <Value>TM/CK</Value>
+    <Value2>TM/CK</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>mau_so</Name>
+    <Type>c</Type>
+    <Value>Mẫu số:</Value>
+    <Value2>Mẫu số:</Value2>
+  </HD2>
+  <HD2>
+    <Code>HD2</Code>
+    <Name>so_tai_khoan</Name>
+    <Type>V</Type>
+    <Value>select tk_nh from dkh where ma_kh=@[ma_kh]</Value>
+    <Value2>select tk_nh from dkh where ma_kh=@[ma_kh]</Value2>
+  </HD2>
+  <HD2>
+    <Code>hd2</Code>
+    <Name>v_so_tai_khoan</Name>
+    <Type>V</Type>
+    <Value>select tk_nh from dkh where ma_kh='[ma_kh]'</Value>
+    <Value2>select tk_nh from dkh where ma_kh='[ma_kh]'</Value2>
+  </HD2>
+</NewDataSet>

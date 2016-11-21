@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmdv" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmdv">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="cTable" type="xs:string" minOccurs="0" />
+                <xs:element name="cFields" type="xs:string" minOccurs="0" />
+                <xs:element name="cFinds" type="xs:string" minOccurs="0" />
+                <xs:element name="cKey" type="xs:string" minOccurs="0" />
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="exe_list" type="xs:string" minOccurs="0" />
+                <xs:element name="title" type="xs:string" minOccurs="0" />
+                <xs:element name="title2" type="xs:string" minOccurs="0" />
+                <xs:element name="ckey2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmdv>
+    <Code>dmdv</Code>
+    <cTable>ddv</cTable>
+    <cFields>ma_dvcs,ten_dvcs,ten_dvcs2,nguoi_pt,dia_chi,dien_thoai</cFields>
+    <cFinds>ma_dvcs,ten_dvcs,ten_dvcs2,nguoi_pt,dia_chi,dien_thoai</cFinds>
+    <cKey>trang_thai = 1</cKey>
+    <gridid>ddv</gridid>
+    <formid>ddv</formid>
+    <exe_list>ddv.exe#ddv</exe_list>
+    <title>Danh mục đơn vị cơ sở</title>
+    <title2>Brand list</title2>
+    <ckey2 />
+  </dmdv>
+</NewDataSet>

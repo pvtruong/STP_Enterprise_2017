@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmgia" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmgia">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="nam" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_kho" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="gia01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt1" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt2" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt3" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt4" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

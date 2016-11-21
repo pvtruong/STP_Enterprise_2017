@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="nstl_gtkhac" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="nstl_gtkhac">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="control" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="notempty" type="xs:boolean" minOccurs="0" />
+                <xs:element name="lookupyn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MultiValue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRecName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData2" type="xs:string" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <nstl_gtkhac>
+    <formid>nstl_gtkhac</formid>
+    <codelookup>dmnv</codelookup>
+    <control>txtma_nv</control>
+    <field>ma_nv</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_nv</FieldRecName>
+    <FieldrecData>ten_nv</FieldrecData>
+    <FieldrecData2>ten_nv</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </nstl_gtkhac>
+</NewDataSet>

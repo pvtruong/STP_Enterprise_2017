@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="fthuyetminh02" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="fthuyetminh02">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="form" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_so" type="xs:string" minOccurs="0" />
+                <xs:element name="no_co" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_no" type="xs:boolean" minOccurs="0" />
+                <xs:element name="dau_cuoi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_tru" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cach_tinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khong_am" type="xs:boolean" minOccurs="0" />
+                <xs:element name="kind" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ghi_chu_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="tk" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_du" type="xs:string" minOccurs="0" />
+                <xs:element name="chi_tieu" type="xs:string" minOccurs="0" />
+                <xs:element name="chi_tieu2" type="xs:string" minOccurs="0" />
+                <xs:element name="tien0" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt0" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_tri" type="xs:string" minOccurs="0" />
+                <xs:element name="gia_tri2" type="xs:string" minOccurs="0" />
+                <xs:element name="bold" type="xs:boolean" minOccurs="0" />
+                <xs:element name="italic" type="xs:boolean" minOccurs="0" />
+                <xs:element name="isnl" type="xs:boolean" minOccurs="0" />
+                <xs:element name="in_ck" type="xs:boolean" minOccurs="0" />
+                <xs:element name="repeat" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ids" type="xs:decimal" minOccurs="0" />
+                <xs:element name="iscal" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

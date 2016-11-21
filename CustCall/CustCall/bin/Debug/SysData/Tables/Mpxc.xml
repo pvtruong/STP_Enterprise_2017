@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Mpxc" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Mpxc">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt_rec" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_dvcs" type="xs:string" minOccurs="0" />
+                <xs:element name="loai_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_gd" type="xs:int" minOccurs="0" />
+                <xs:element name="ngay_ct" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ma_kho" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_khon" type="xs:string" minOccurs="0" />
+                <xs:element name="so_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="ong_ba" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_giai" type="xs:string" minOccurs="0" />
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_phi" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_dt" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_xoa" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_xoa" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_nt" type="xs:string" minOccurs="0" />
+                <xs:element name="ty_gia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="so_hoadon" type="xs:string" minOccurs="0" />
+                <xs:element name="so_bbgnhh" type="xs:string" minOccurs="0" />
+                <xs:element name="so_bbgasdu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

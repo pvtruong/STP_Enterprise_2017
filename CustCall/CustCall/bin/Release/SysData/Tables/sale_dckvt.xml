@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="sale_dckvt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="sale_dckvt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt_rec" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="he_so" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tl_hh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay_ct1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_ct2" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="tg_th" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tl_pb" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sl_dh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sl_tt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_tc1" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tc2" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tc3" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_giai" type="xs:string" minOccurs="0" />
+                <xs:element name="line" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ds_nh_vt1" type="xs:string" minOccurs="0" />
+                <xs:element name="ds_nh_vt2" type="xs:string" minOccurs="0" />
+                <xs:element name="ds_nh_vt3" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_nganh" type="xs:string" minOccurs="0" />
+                <xs:element name="ds_ma_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="tu_so_luong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="den_so_luong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_ban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ty_le_giam" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_giam_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_giam" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ds_ma_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ds_nh_kh1" type="xs:string" minOccurs="0" />
+                <xs:element name="ds_nh_kh2" type="xs:string" minOccurs="0" />
+                <xs:element name="ds_nh_kh3" type="xs:string" minOccurs="0" />
+                <xs:element name="ds_ma_kh_lt" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

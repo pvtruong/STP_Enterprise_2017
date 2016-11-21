@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dvogas_imp" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dvogas_imp">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dvogas_imp>
+    <gridid>dvogas_imp</gridid>
+    <columnsv>so_ct,ngay_ct,so_the_ts,ten_ts,ma_kh,sl_co_gas,sl_khong_gas,sl_nhap</columnsv>
+    <columnse>so_ct,ngay_ct,so_the_ts,ten_ts,ma_kh,sl_co_gas,sl_khong_gas,sl_nhap</columnse>
+    <headersv>Số chứng từ,Ngày chứng từ,Mã công cụ,Tên công cụ,Đại lý,SL có gas,SL không gas,Tổng số lượng</headersv>
+    <headerse>Voucher No.,Voucher Date,Mã công cụ,Tên công cụ,Đại lý,SL có gas,SL không gas,Tổng số lượng</headerse>
+    <widths>100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,f_tien,f_tien,f_tien</formats>
+    <readonlys>0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0</carrys>
+  </dvogas_imp>
+</NewDataSet>

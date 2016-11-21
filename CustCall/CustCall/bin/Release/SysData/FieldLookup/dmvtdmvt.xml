@@ -1,0 +1,205 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmvtdmvt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmvtdmvt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="tab" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups2" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids2" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="lookup_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="empty_when_readonly" type="xs:boolean" minOccurs="0" />
+                <xs:element name="multivalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>loai_vt</field>
+    <fieldlookups>ma_loai_vt</fieldlookups>
+    <fieldgrids>loai_vt</fieldgrids>
+    <fieldlookups2>ma_loai_vt</fieldlookups2>
+    <fieldgrids2>ma_loai_vt</fieldgrids2>
+    <codelookup>dmloaivt</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>ma_dvt</field>
+    <fieldlookups>ma_dvt</fieldlookups>
+    <fieldgrids>ma_dvt</fieldgrids>
+    <fieldlookups2>ma_dvt</fieldlookups2>
+    <fieldgrids2>ma_dvt</fieldgrids2>
+    <codelookup>dmdvt0</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>ma_thue</field>
+    <fieldlookups>ma_thue</fieldlookups>
+    <fieldgrids>ma_thue</fieldgrids>
+    <fieldlookups2>ma_thue</fieldlookups2>
+    <fieldgrids2>ma_thue</fieldgrids2>
+    <codelookup>dmvat</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>nganh_hang</field>
+    <fieldlookups>ma</fieldlookups>
+    <fieldgrids>nganh_hang</fieldgrids>
+    <fieldlookups2>ma</fieldlookups2>
+    <fieldgrids2>nganh_hang</fieldgrids2>
+    <codelookup>dmnganhhang</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>nh_vt1</field>
+    <fieldlookups>ma_nhom</fieldlookups>
+    <fieldgrids>nh_vt1</fieldgrids>
+    <fieldlookups2>ma_nhom</fieldlookups2>
+    <fieldgrids2>nh_vt1</fieldgrids2>
+    <codelookup>dmnhomvt</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>loai_nhom=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>nh_vt2</field>
+    <fieldlookups>ma_nhom</fieldlookups>
+    <fieldgrids>nh_vt2</fieldgrids>
+    <fieldlookups2>ma_nhom</fieldlookups2>
+    <fieldgrids2>nh_vt2</fieldgrids2>
+    <codelookup>dmnhomvt</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>loai_nhom=2</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>nh_vt3</field>
+    <fieldlookups>ma_nhom</fieldlookups>
+    <fieldgrids>nh_vt3</fieldgrids>
+    <fieldlookups2>ma_nhom</fieldlookups2>
+    <fieldgrids2>nh_vt3</fieldgrids2>
+    <codelookup>dmnhomvt</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>loai_nhom=3</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>nha_cung_cap</field>
+    <fieldlookups>ma_kh</fieldlookups>
+    <fieldgrids>nha_cung_cap</fieldgrids>
+    <fieldlookups2>ma_kh</fieldlookups2>
+    <fieldgrids2>nha_cung_cap</fieldgrids2>
+    <codelookup>dmkh</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+  <dmvtdmvt>
+    <code>dmvt</code>
+    <tab>dmvt</tab>
+    <field>tk_vt</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_vt</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_vt</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </dmvtdmvt>
+</NewDataSet>

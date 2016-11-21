@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmstt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmstt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmstt>
+    <name>stt_rec</name>
+    <prec>10</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+  <dmstt>
+    <name>ngay_dn</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+  <dmstt>
+    <name>ngay_ks</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+  <dmstt>
+    <name>nam_bd</name>
+    <prec>4</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+  <dmstt>
+    <name>ngay_lt</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+  <dmstt>
+    <name>ngay_ky1</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+  <dmstt>
+    <name>ngay_ks_ky</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+  <dmstt>
+    <name>ngay_ks_luong</name>
+    <prec>16</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+  <dmstt>
+    <name>mgay_ks_luong</name>
+    <prec>16</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>dmstt</tablename>
+  </dmstt>
+</NewDataSet>

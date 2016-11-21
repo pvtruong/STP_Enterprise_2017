@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bctdgd" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bctdgd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="control" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="notempty" type="xs:boolean" minOccurs="0" />
+                <xs:element name="lookupyn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MultiValue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRecName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData2" type="xs:string" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bctdgd>
+    <formid>bctdgd</formid>
+    <codelookup>dmcc</codelookup>
+    <control>txtso_the_ts</control>
+    <field>so_the_ts</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_ts</FieldRecName>
+    <FieldrecData>ten_ts</FieldrecData>
+    <FieldrecData2>ten_ts2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </bctdgd>
+  <bctdgd>
+    <formid>bctdgd</formid>
+    <codelookup>dmkh</codelookup>
+    <control>txtma_kh</control>
+    <field>ma_kh</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_kh</FieldRecName>
+    <FieldrecData>ten_kh</FieldrecData>
+    <FieldrecData2>ten_kh2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </bctdgd>
+</NewDataSet>

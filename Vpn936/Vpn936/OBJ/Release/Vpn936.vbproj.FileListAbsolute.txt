@@ -1,0 +1,116 @@
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\Vpn9.exe
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\Vpn9.pdb
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\Vpn9.xml
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\ClsControl2.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\ClsLookup.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\Clsql.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\ClsRight.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\ClsStpService.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\ClsSV31.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\ClsVno.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\Ionic.Zip.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\clsab.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\clschat.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\clsViDe.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\clsPopUp.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\Eval3.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\bin\Release\ClsMath.dll
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.frmdklayhd.resources
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.frmPrint.resources
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.frmsearch.resources
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.Frmmain.resources
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.frminput.resources
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.Resources.resources
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn936.vbproj.GenerateResource.Cache
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.exe
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.xml
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.pdb
+C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpn936\Vpn936\obj\Release\Vpn9.Form1.resources
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.exe
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.xml
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.pdb
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\Vpn9.exe.config
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn936.vbprojResolveAssemblyReference.cache
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.Form1.resources
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.frmdklayhd.resources
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.frmPrint.resources
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.frmsearch.resources
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.Frmmain.resources
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.frminput.resources
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn9.Resources.resources
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\obj\Release\Vpn936.vbproj.GenerateResource.Cache
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\Vpn9.exe
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\Vpn9.pdb
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\Vpn9.xml
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\ClsControl2.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\ClsLookup.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\Clsql.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\ClsRight.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\ClsStpService.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\ClsSV31.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\System.Windows.Forms.DataVisualization.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\clsViDe.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\ClsMath.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\clsPopUp.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\clsab.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\Ionic.Zip.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\Eval3.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\clschat.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\ClsVno.dll
+C:\Users\Truong\Box Sync\acc\9.0\Vpn936\Vpn936\bin\Release\stdole.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.xml
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.pdb
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpn9.dll.config
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpn9.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpn9.pdb
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpn9.xml
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Clsql.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\ClsSV31.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\System.Windows.Forms.DataVisualization.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\clsViDe.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\ClsMath.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\clsPopUp.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Ionic.Zip.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\clsab.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpn1.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vqpbl.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vhd2.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vhd1.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpc1.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpt1.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Ldnv.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Ldmtk.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Ldkh.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Ldmvt.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\ClsList.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\ClsRpt.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Eval3.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\clschat.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\ClPrint.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\ClsVno.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\StpControl.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\clsPermit4Field.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\clsphannhomdm.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\ClsPilot.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\stdole.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn936.vbprojResolveAssemblyReference.cache
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.Form1.resources
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.frmdklayhd.resources
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.frmPrint.resources
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.frmsearch.resources
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.Frmmain.resources
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.frminput.resources
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.Resources.resources
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn936.vbproj.GenerateResource.Cache
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\obj\Release\Vpn9.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpxc.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpnk.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpxk.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpn3.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpn4.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpn2.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vhd3.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpn936\Vpn936\bin\Release\Vpx9.dll

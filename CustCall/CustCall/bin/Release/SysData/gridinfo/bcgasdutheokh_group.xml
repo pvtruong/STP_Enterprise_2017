@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bcgasdutheokh_group" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bcgasdutheokh_group">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bcgasdutheokh_group>
+    <gridid>bcgasdutheokh_group</gridid>
+    <columnsv>ma_kh,ten_kh,sl_gas_du,tien_gas_du,kh_tru_sl,kh_tru_tien,kh_k_tru_sl,kh_k_tru_tien</columnsv>
+    <columnse>ma_kh,ten_kh,sl_gas_du,tien_gas_du,kh_tru_sl,kh_tru_tien,kh_k_tru_sl,kh_k_tru_tien</columnse>
+    <headersv>Mã khách,Tên khách,SL gas dư (kg),Tổng thành tiền,SL KH trừ gas dư,Tiền gas dư trừ công nợ KH,SL không trừ ,Tiền không trừ</headersv>
+    <headerse>Mã khách,Tên khách hàng,SL,Tiền,SL khách trừ,Tiền khách trừ,SL khách trừ,Tiền khách trừ</headerse>
+    <widths>100,400,100,150,100,150,100,100</widths>
+    <formats>,,f_sl,f_tien,,f_tien,,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0</carrys>
+  </bcgasdutheokh_group>
+</NewDataSet>

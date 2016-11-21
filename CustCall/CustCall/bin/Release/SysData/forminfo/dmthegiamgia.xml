@@ -1,0 +1,213 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmthegiamgia" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmthegiamgia">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>000</TextID>
+    <TextV>Cập nhật thẻ giảm giá</TextV>
+    <TextE>Cập nhật thẻ giảm giá</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã thẻ</TextV>
+    <TextE>Mã thẻ</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên thẻ</TextV>
+    <TextE>Tên thẻ</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>003</TextID>
+    <TextV>Còn sử dụng</TextV>
+    <TextE>enabled</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>004</TextID>
+    <TextV>Đơn vị</TextV>
+    <TextE>Unit</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>005</TextID>
+    <TextV>Tên thẻ 2</TextV>
+    <TextE>Tên thẻ 2</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>006</TextID>
+    <TextV>Tiền nt</TextV>
+    <TextE>FC Amount</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>007</TextID>
+    <TextV>Tiền</TextV>
+    <TextE>Amount</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>008</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Note</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>009</TextID>
+    <TextV>Là thẻ đại lý</TextV>
+    <TextE>Department Agent</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>010</TextID>
+    <TextV>Tài khoản chi phí lương</TextV>
+    <TextE>Tài khoản chi phí lương</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>011</TextID>
+    <TextV>Tài khoản lương</TextV>
+    <TextE>Tài khoản lương</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>400</TextID>
+    <TextV>Nhóm thẻ</TextV>
+    <TextE>Nhóm thẻ</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>401</TextID>
+    <TextV>Số seri</TextV>
+    <TextE>Số seri</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>402</TextID>
+    <TextV>Loại thẻ</TextV>
+    <TextE>Loại thẻ</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>403</TextID>
+    <TextV>Hiệu lực từ ngày</TextV>
+    <TextE>Hiệu lực từ ngày</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>404</TextID>
+    <TextV>Hiệu lực đến ngày</TextV>
+    <TextE>Hiệu lực đến ngày</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>405</TextID>
+    <TextV>Mệnh giá</TextV>
+    <TextE>Mệnh giá</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>406</TextID>
+    <TextV>TK giá vốn</TextV>
+    <TextE>Tk giá vốn</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>500</TextID>
+    <TextV>0 - Giá bán lẻ, 1- Giá bán buôn 1,  2- Giá bán buôn 2, 3 - Giá bán buôn 3, 4 - Giá bán buôn 4</TextV>
+    <TextE>0 - Giá bán lẻ, 1- Giá bán buôn 1,  2- Giá bán buôn 2, 3 - Giá bán buôn 3, 4 - Giá bán buôn 4</TextE>
+  </dmthegiamgia>
+  <dmthegiamgia>
+    <FormID>dmthegiamgia</FormID>
+    <TextID>SCT</TextID>
+    <TextV>Phiếu bán lẻ</TextV>
+    <TextE>Phiếu bán lẻ</TextE>
+  </dmthegiamgia>
+</NewDataSet>

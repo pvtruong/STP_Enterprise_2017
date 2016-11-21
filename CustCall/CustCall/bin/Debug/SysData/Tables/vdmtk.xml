@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tk" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_tk" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_tk2" type="xs:string" minOccurs="0" />
+              <xs:element name="tk_me" type="xs:string" minOccurs="0" />
+              <xs:element name="ma_nt" type="xs:string" minOccurs="0" />
+              <xs:element name="bac_tk" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="loai_tk" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="tk_cn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="tk_tien" type="xs:boolean" minOccurs="0" />
+              <xs:element name="tk_vt" type="xs:boolean" minOccurs="0" />
+              <xs:element name="tk_tg" type="xs:boolean" minOccurs="0" />
+              <xs:element name="tk_sc" type="xs:boolean" minOccurs="0" />
+              <xs:element name="loai_cl_no" type="xs:decimal" minOccurs="0" />
+              <xs:element name="loai_cl_co" type="xs:decimal" minOccurs="0" />
+              <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+              <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+              <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+              <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="nh_tk1" type="xs:string" minOccurs="0" />
+              <xs:element name="users_have_not_right" type="xs:string" minOccurs="0" />
+              <xs:element name="users_have_right" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_loai_cl_no" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_loai_cl_co" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_loai_cl_no2" type="xs:string" minOccurs="0" />
+              <xs:element name="ten_loai_cl_co2" type="xs:string" minOccurs="0" />
+              <xs:element name="bold" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

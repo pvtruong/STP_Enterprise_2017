@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt_rec_tmp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="dia_chi" type="xs:string" minOccurs="0" />
+                <xs:element name="dien_thoai" type="xs:string" minOccurs="0" />
+                <xs:element name="so_ct" type="xs:string" minOccurs="0" />
+                <xs:element name="id_call_tmp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_ct" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="t_tien" type="xs:string" minOccurs="0" />
+                <xs:element name="t_ck" type="xs:string" minOccurs="0" />
+                <xs:element name="t_tt" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="sl_xuat" type="xs:double" minOccurs="0" />
+                <xs:element name="gia_ban" type="xs:double" minOccurs="0" />
+                <xs:element name="tien" type="xs:double" minOccurs="0" />
+                <xs:element name="ty_le_ck" type="xs:double" minOccurs="0" />
+                <xs:element name="tien_ck" type="xs:double" minOccurs="0" />
+                <xs:element name="tien_tt" type="xs:double" minOccurs="0" />
+                <xs:element name="so_the_ts_xuat" type="xs:string" minOccurs="0" />
+                <xs:element name="sl_vo_xuat" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Table3">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="sl_xuat" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <stt_rec_tmp>ADMIN220151108121747</stt_rec_tmp>
+    <ma_kh>0932657966</ma_kh>
+    <ten_kh>106I/46/5E Lạc Long Quân Q.TB1</ten_kh>
+    <dia_chi>106I/46/5E Lạc Long Quân Q.TB1</dia_chi>
+    <dien_thoai>0932657966</dien_thoai>
+    <so_ct>PBL20151108121747</so_ct>
+    <id_call_tmp>4371</id_call_tmp>
+    <ngay_ct>2015-11-08T12:17:47.0511578+07:00</ngay_ct>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <ngay_tao>08/11/2015 12:17:47 CH</ngay_tao>
+    <t_tien>60000</t_tien>
+    <t_ck>9000</t_ck>
+    <t_tt>51000</t_tt>
+  </Table1>
+  <Table2>
+    <ma_vt>BEP0006</ma_vt>
+    <ten_vt>Bếp Sogo 7B</ten_vt>
+    <sl_xuat>1</sl_xuat>
+    <gia_ban>30000</gia_ban>
+    <tien>30000</tien>
+    <ty_le_ck>10</ty_le_ck>
+    <tien_ck>3000</tien_ck>
+    <tien_tt>27000</tien_tt>
+    <so_the_ts_xuat />
+    <sl_vo_xuat>0</sl_vo_xuat>
+  </Table2>
+  <Table2>
+    <ma_vt>BEP0009</ma_vt>
+    <ten_vt>Bếp hâm Nikko 280</ten_vt>
+    <sl_xuat>1</sl_xuat>
+    <gia_ban>30000</gia_ban>
+    <tien>30000</tien>
+    <ty_le_ck>20</ty_le_ck>
+    <tien_ck>6000</tien_ck>
+    <tien_tt>24000</tien_tt>
+    <so_the_ts_xuat />
+    <sl_vo_xuat>0</sl_vo_xuat>
+  </Table2>
+</NewDataSet>

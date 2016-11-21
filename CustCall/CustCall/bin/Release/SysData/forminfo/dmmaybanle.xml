@@ -1,0 +1,249 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmmaybanle" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmmaybanle">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>000</TextID>
+    <TextV>Danh mục quầy bán lẻ</TextV>
+    <TextE>Danh mục quầy bán lẻ</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã quầy</TextV>
+    <TextE>Mã quầy</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên quầy</TextV>
+    <TextE>Tên quầy</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>003</TextID>
+    <TextV>Còn sử dụng</TextV>
+    <TextE>enabled</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>004</TextID>
+    <TextV>Đơn vị</TextV>
+    <TextE>Unit</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>005</TextID>
+    <TextV>Tên quầy 2</TextV>
+    <TextE>Tên quầy 2</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>006</TextID>
+    <TextV>Tiền nt</TextV>
+    <TextE>FC Amount</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>007</TextID>
+    <TextV>Tiền</TextV>
+    <TextE>Amount</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>008</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Note</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>009</TextID>
+    <TextV>Là máy bán lẻ đại lý</TextV>
+    <TextE>Department Agent</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>010</TextID>
+    <TextV>Tài khoản chi phí lương</TextV>
+    <TextE>Tài khoản chi phí lương</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>011</TextID>
+    <TextV>Tài khoản lương</TextV>
+    <TextE>Tài khoản lương</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>400</TextID>
+    <TextV>Mã kho</TextV>
+    <TextE>Mã kho</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>401</TextID>
+    <TextV>Quầy số</TextV>
+    <TextE>Quầy số</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>402</TextID>
+    <TextV>Loại giá bán</TextV>
+    <TextE>Loại giá bán</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>403</TextID>
+    <TextV>Nhân viên</TextV>
+    <TextE>Nhân viên</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>404</TextID>
+    <TextV>TK tiền mặt</TextV>
+    <TextE>Tk tiền mặt</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>405</TextID>
+    <TextV>TK tiền ngân hàng</TextV>
+    <TextE>TK tiền ngân hàng</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>406</TextID>
+    <TextV>TK trả sau</TextV>
+    <TextE>TK trả sau</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>407</TextID>
+    <TextV>TK giảm giá</TextV>
+    <TextE>TK giảm giá</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>415</TextID>
+    <TextV>TK chiết khấu</TextV>
+    <TextE>TK chiết khấu</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>416</TextID>
+    <TextV>TK doanh thu</TextV>
+    <TextE>TK doanh thu</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>417</TextID>
+    <TextV>TK giá vốn</TextV>
+    <TextE>TK giá vốn</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>500</TextID>
+    <TextV>0 - Giá bán lẻ, 1- Giá bán buôn 1,  2- Giá bán buôn 2, 3 - Giá bán buôn 3, 4 - Giá bán buôn 4</TextV>
+    <TextE>0 - Giá bán lẻ, 1- Giá bán buôn 1,  2- Giá bán buôn 2, 3 - Giá bán buôn 3, 4 - Giá bán buôn 4</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>800</TextID>
+    <TextV>Thông tin chính</TextV>
+    <TextE>Thông tin chính</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>801</TextID>
+    <TextV>Tài khoản mặc định (kế toán)</TextV>
+    <TextE>Tài khoản mặc định (kế toán)</TextE>
+  </dmmaybanle>
+  <dmmaybanle>
+    <FormID>dmmaybanle</FormID>
+    <TextID>KBH</TextID>
+    <TextV>Mã kho bán hộ</TextV>
+    <TextE>Mã kho bán hộ</TextE>
+  </dmmaybanle>
+</NewDataSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DPN5" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DPN5">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DPN5>
+    <gridid>DPN5</gridid>
+    <columnsv>ma_dt,ma_vt,ten_vt,ky_hieu_hoa_don,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,ton_tt,sl_xuat,gia_von_nt,gia_von,tien_hang_nt,tien_hang,ty_le_ck,tien_ck_nt,tien_ck,tien_xuat_nt,tien_xuat,tk_vt,ma_nvu,tk_du,dien_giai,ma_hoa_don,ma_tc,ma_thue,thue_suat,tien_thue_nt,tien_thue,tk_thue_no,tk_du_thue</columnsv>
+    <columnse>ma_dt,ma_vt,ten_vt2,ky_hieu_hoa_don,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,ton_tt,sl_xuat,gia_von_nt,gia_von,tien_hang_nt,tien_hang,ty_le_ck,tien_ck_nt,tien_ck,tien_xuat_nt,tien_xuat,tk_vt,ma_nvu,tk_du,dien_giai,ma_hoa_don,ma_tc,ma_thue,thue_suat,tien_thue_nt,tien_thue,tk_thue_no,tk_du_thue</columnse>
+    <headersv>Mã vụ việc%p dự án,Mã vt,Tên vt,Ký hiệu số hóa đơn,Mã thuộc tính 1,Mã thuộc tính 2,Mã thuộc tính 3,Mã thuộc tính 4,Mã thuộc tính 5,ĐVT,Mã kho,Tồn kho,Số lượng,Giá nt,Giá,Tiền hàng nt,Tiền hàng,Tỷ lệ CK,Tiền CK nt,Tiền CK,Tiền xuất nt,Tiền xuất,Tk vật tư,Nghiệp vụ,Tk đối ứng,Diễn giải,Mã hóa đơn,Mã tính chất,Mã thuế,Thuế suất,Tiền thuế nt,Tiền thuế,TK thuế,Tk đối ứng</headersv>
+    <headerse>Mã vụ việc%p dự án,Item Code,Item Name,Ký hiệu số hóa đơn,Property 1,Property 2,Property 3,Property 4,Property 5,UOM,Site ID ,Tồn kho,Quantity ,FC Price,Price,Tiền hàng nt,Tiền hàng,Tỷ lệ CK,Tiền CK nt,Tiền CK,FC Amount,Amount,Inventory Acct.,Nghiệp vụ,Ref. Acct.,Memo,Mã hóa đơn,Ma tc,Tax Code,Tax Rate,FC Tax Amt.,Tax Amt.,Tax Account  ,Ref. Acct.</headerse>
+    <widths>100,100,100,100,100,100,100,100,100,50,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,200,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,,,,,,,f_sl,f_sl,f_gia_nt,f_gia,f_tien_nt,f_tien,,f_tien_nt,f_tien,f_tien_nt,f_tien,,,,,,,,f_tien,f_tien_nt,f_tien,,</formats>
+    <readonlys>0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0</readonlys>
+    <hides>0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1</hides>
+    <defaultvalues>,,,,,,,,,,,=select ton_tt from tontucthoi where ma_vt='[ma_vt]' and ma_kho ='[ma_kho]' and ma_tt1 ='[ma_tt1]' and ma_tt2 ='[ma_tt2]'  and ma_tt3 ='[ma_tt3]'  and ma_tt4 ='[ma_tt4]'  and ma_tt5 ='[ma_tt5]',,,=[gia_von_nt] * {ty_gia},=[gia_von_nt] * [sl_xuat],=[tien_hang_nt] * {ty_gia} ![gia_von_nt]![sl_xuat],,=[ty_le_ck] * [tien_hang_nt] /100![gia_von_nt] ![sl_xuat],=[tien_hang_nt]*M[ty_gia] ![gia_von_nt] ![sl_xuat]![ty_le_ck],=[tien_hang_nt]-[tien_ck_nt] ![gia_von_nt]![sl_xuat]![ty_le_ck],=[tien_hang_nt]*M[ty_gia]  ![gia_von_nt]![sl_xuat]![ty_le_ck]![tien_ck_nt],,,,,,,,,=[tien_xuat_nt] * [thue_suat]/100 ![gia_von_nt]![sl_xuat]![ma_thue],=[tien_thue_nt]*{ty_gia} ![gia_von_nt]![sl_xuat]![ma_thue]![tien_xuat_nt],,</defaultvalues>
+    <carrys>1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,1,1</carrys>
+  </DPN5>
+</NewDataSet>

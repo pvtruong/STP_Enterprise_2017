@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DPN3" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DPN3">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DPN3>
+    <gridid>DPN3</gridid>
+    <columnsv>ma_vt,ten_vt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,sl_nhap,ma_nt_hd,tien_hang_nt,tien_hang,tien_hang_qd,tien_phi_nt,tien_phi,tien_nhap_nt,tien_nhap,tk_vt,ma_nvu,tk_du,dien_giai,so_hd</columnsv>
+    <columnse>ma_vt,ten_vt2,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,sl_nhap,ma_nt_hd,tien_hang_nt,tien_hang,tien_hang_qd,tien_phi_nt,tien_phi,tien_nhap_nt,tien_nhap,tk_vt,ma_nvu,tk_du,dien_giai,so_hd</columnse>
+    <headersv>Mã vt,Tên vật tư,Mã thuộc tính 1,Mã thuộc tính 2,Mã thuộc tính 3,Mã thuộc tính 4,Mã thuộc tính 5,ĐVT,Kho,Số lượng,Mã ngoại tệ HD,Tiền hàng nt,Tiền hàng,Tiền hàng quy đổi,Tiền phí nt,Tiền phí,Tiền nhập quy đổi,Tiền nhập,Tk vật 
+tư,Nghiệp vụ,Tk đối ứng,Diễn giải,Số hóa đơn</headersv>
+    <headerse>Item Code,Item Code Name,Property 1,Property 2,Property 3,Property 4,Property 5,Unit,Site,Quantity,Mã ngoại tệ HD,FC Amount,Amount,Amount convert,FC Fee Amount ,Fee Amount,FC Amount,Amount,Inventory Acct.,Nghiệp vụ,Ref. Acct.  ,Memo,Inv. No.</headerse>
+    <widths>100,200,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,250,100</widths>
+    <formats>,,,,,,,,,f_sl,,f_tien_nt,f_tien,f_tien_nt,f_tien_nt,f_tien,f_tien_nt,f_tien,,,,,</formats>
+    <readonlys>1,1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0</readonlys>
+    <hides>0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,,,,,=[tien_phi_nt] * {ty_gia},=[tien_hang_qd]+[tien_phi_nt],=[tien_nhap_nt]*{ty_gia} ![tien_phi_nt],,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1</carrys>
+  </DPN3>
+</NewDataSet>

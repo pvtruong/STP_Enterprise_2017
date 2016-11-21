@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bh_sostatus" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bh_sostatus">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bh_sostatus>
+    <gridid>bh_sostatus</gridid>
+    <columnsv>so_ct,ngay_ct,dien_giai,ten_trang_thai,ma_vt,ten_vt,ma_dvt,sl_dh,sl_xuat_kho,sl_hd,con_lai</columnsv>
+    <columnse>so_ct,ngay_ct,dien_giai,ten_trang_thai2,ma_vt,ten_vt2,ma_dvt,sl_dh,sl_xuat_kho,sl_hd,con_lai</columnse>
+    <headersv>Số đơn hàng,Ngày đơn hàng,Diễn giải,Trạng thái,Mã vật tư,Tên vật tư,Đơn vị tính,SL đặt hàng,SL nhập kho,SL hóa đơn,SL chưa ra hóa đơn</headersv>
+    <headerse>Số đơn hàng,Ngày đơn hàng,Diễn giải,Trạng thái,Vật tư,Tên vật tư,Đơn vị tính,SL đặt hàng,SL xuất kho,SL hóa đơn,Sl chưa ra hóa đơn</headerse>
+    <widths>100,100,200,100,100,200,50,100,100,100,100</widths>
+    <formats>,,,,,,,,,,</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,1,0,0</hides>
+    <defaultvalues>,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </bh_sostatus>
+</NewDataSet>

@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="datathuyetminh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="datathuyetminh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <datathuyetminh>
+    <name>ngay_kt01</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>ngay_kt02</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>ngay_kn01</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>ngay_kn02</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>ma_dvcs</name>
+    <prec>128</prec>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>page</name>
+    <prec>2</prec>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>form</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>ma_so</name>
+    <prec>8</prec>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>cot</name>
+    <prec>2</prec>
+    <isnullable>0</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>ngay</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>so</name>
+    <prec>18</prec>
+    <scale>4</scale>
+    <isnullable>1</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>gia_tri</name>
+    <prec>1024</prec>
+    <isnullable>1</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+  <datathuyetminh>
+    <name>gia_tri2</name>
+    <prec>1024</prec>
+    <isnullable>1</isnullable>
+    <tablename>datathuyetminh</tablename>
+  </datathuyetminh>
+</NewDataSet>

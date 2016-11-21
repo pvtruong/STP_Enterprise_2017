@@ -1,0 +1,224 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="QCCvdcc" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="QCCvdcc">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="tab" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups2" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids2" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="lookup_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="empty_when_readonly" type="xs:boolean" minOccurs="0" />
+                <xs:element name="multivalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>loai_ts</field>
+    <fieldlookups>ma</fieldlookups>
+    <fieldgrids>loai_ts</fieldgrids>
+    <fieldlookups2>ma</fieldlookups2>
+    <fieldgrids2>loai_ts</fieldgrids2>
+    <codelookup>dmplcc</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>ma_bp</field>
+    <fieldlookups>ma_bp</fieldlookups>
+    <fieldgrids>ma_bp</fieldgrids>
+    <fieldlookups2>ma_bp</fieldlookups2>
+    <fieldgrids2>ma_bp</fieldgrids2>
+    <codelookup>dmbp</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>ma_nv</field>
+    <fieldlookups>ma,ten,ten2</fieldlookups>
+    <fieldgrids>ma_nv,ten_nv,ten_nv2</fieldgrids>
+    <fieldlookups2>ma,ten,ten2</fieldlookups2>
+    <fieldgrids2>ma_nv,ten_nv,ten_nv2</fieldgrids2>
+    <codelookup>dmnvon</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>ma_tg_ts</field>
+    <fieldlookups>ma</fieldlookups>
+    <fieldgrids>ma_tg_ts</fieldgrids>
+    <fieldlookups2>ma</fieldlookups2>
+    <fieldgrids2>ma_tg_ts</fieldgrids2>
+    <codelookup>dmtgcc</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>loai='1'</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>nh_ts1</field>
+    <fieldlookups>ma_nhom</fieldlookups>
+    <fieldgrids>nh_ts1</fieldgrids>
+    <fieldlookups2>ma_nhom</fieldlookups2>
+    <fieldgrids2>nh_ts1</fieldgrids2>
+    <codelookup>dmnhccdc</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>loai_nhom='1'</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>nh_ts2</field>
+    <fieldlookups>ma_nhom</fieldlookups>
+    <fieldgrids>nh_ts2</fieldgrids>
+    <fieldlookups2>ma_nhom</fieldlookups2>
+    <fieldgrids2>nh_ts2</fieldgrids2>
+    <codelookup>dmnhccdc</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>loai_nhom='2'</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>nh_ts3</field>
+    <fieldlookups>ma_nhom</fieldlookups>
+    <fieldgrids>nh_ts3</fieldgrids>
+    <fieldlookups2>ma_nhom</fieldlookups2>
+    <fieldgrids2>nh_ts3</fieldgrids2>
+    <codelookup>dmnhccdc</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>loai_nhom='3'</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>tk_cp</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_cp</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_cp</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>tk_kh</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_kh</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_kh</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+  <QCCvdcc>
+    <code>QCC</code>
+    <tab>vdcc</tab>
+    <field>tk_ts</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_ts</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_ts</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </QCCvdcc>
+</NewDataSet>

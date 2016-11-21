@@ -1,0 +1,136 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Rights" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Rights">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Rights>
+    <name>Nsd</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>cn</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>Moi</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>Sua</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>Xoa</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>Xem</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>InAn</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>Pq</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>CSC</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>CSK</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>XemNK</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>XemDVK</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>HLuu</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>HXoa</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>TM</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>NH</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>BC</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>SG</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+  <Rights>
+    <name>SCK</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>Rights</tablename>
+  </Rights>
+</NewDataSet>

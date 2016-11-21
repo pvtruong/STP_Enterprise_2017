@@ -1,0 +1,513 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_vt2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_vt2" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="nhieu_dvt" type="xs:boolean" minOccurs="0" />
+                <xs:element name="vt_ton_kho" type="xs:boolean" minOccurs="0" />
+                <xs:element name="gia_ton" type="xs:int" minOccurs="0" />
+                <xs:element name="loai_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="sua_tk_vt" type="xs:boolean" minOccurs="0" />
+                <xs:element name="tk_gv" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_dt" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_dtnb" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_tl" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_dl" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_spdd" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_cl_gv" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_ck" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_cp_km" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_kho" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_so_thue" type="xs:string" minOccurs="0" />
+                <xs:element name="sl_min" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sl_max" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nh_vt1" type="xs:string" minOccurs="0" />
+                <xs:element name="nh_vt2" type="xs:string" minOccurs="0" />
+                <xs:element name="nh_vt3" type="xs:string" minOccurs="0" />
+                <xs:element name="ghi_chu" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="ma_thue" type="xs:string" minOccurs="0" />
+                <xs:element name="tt1_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="tt2_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="tt3_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="tt4_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="tt5_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="nganh_hang" type="xs:string" minOccurs="0" />
+                <xs:element name="gia_mua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_ban_le" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_ban_buon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_ban_buon1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_ban_buon2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_ban_buon3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ty_le_giam_gia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_giam" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_thue_nk" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_thue_ttdb" type="xs:string" minOccurs="0" />
+                <xs:element name="thuong_hieu" type="xs:string" minOccurs="0" />
+                <xs:element name="model" type="xs:string" minOccurs="0" />
+                <xs:element name="noi_san_xuat" type="xs:string" minOccurs="0" />
+                <xs:element name="bao_hanh" type="xs:string" minOccurs="0" />
+                <xs:element name="chuc_nang" type="xs:string" minOccurs="0" />
+                <xs:element name="trong_luong" type="xs:string" minOccurs="0" />
+                <xs:element name="the_tich" type="xs:string" minOccurs="0" />
+                <xs:element name="so_seria" type="xs:string" minOccurs="0" />
+                <xs:element name="xuat_am_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="mo_ta" type="xs:string" minOccurs="0" />
+                <xs:element name="kieu_loai" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_vi_tri" type="xs:string" minOccurs="0" />
+                <xs:element name="gia_nk" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nha_cung_cap" type="xs:string" minOccurs="0" />
+                <xs:element name="van_chuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="sp_lien_quan" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_o_nho" type="xs:string" minOccurs="0" />
+                <xs:element name="han_sd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_chua_thue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="sp_dl" type="xs:boolean" minOccurs="0" />
+                <xs:element name="lo_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="users_have_not_right" type="xs:string" minOccurs="0" />
+                <xs:element name="users_have_right" type="xs:string" minOccurs="0" />
+                <xs:element name="khong_con_mua" type="xs:boolean" minOccurs="0" />
+                <xs:element name="khong_con_ban" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ten_vi_tri" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_vi_tri2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_thue" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_thue2" type="xs:string" minOccurs="0" />
+                <xs:element name="thue_suat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tk_thue_no" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_thue_co" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_thue_nk" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_thue_nk2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_thue_ttdb" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_thue_ttdb2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_nganh_hang" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_nganh_hang2" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_van_chuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_van_chuyen2" type="xs:string" minOccurs="0" />
+                <xs:element name="so_luong" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma_vt>00000001E</ma_vt>
+    <ma_vt2 />
+    <ten_vt>Sản phẩm A</ten_vt>
+    <ten_vt2 />
+    <ma_dvt>bịch</ma_dvt>
+    <nhieu_dvt>false</nhieu_dvt>
+    <vt_ton_kho>true</vt_ton_kho>
+    <gia_ton>1</gia_ton>
+    <loai_vt>TP</loai_vt>
+    <tk_vt>1561</tk_vt>
+    <sua_tk_vt>false</sua_tk_vt>
+    <tk_gv>6321</tk_gv>
+    <tk_dt>51111</tk_dt>
+    <tk_dtnb />
+    <tk_tl>5311</tk_tl>
+    <tk_dl />
+    <tk_spdd />
+    <tk_cl_gv />
+    <tk_ck>5211</tk_ck>
+    <tk_cp_km />
+    <ma_kho />
+    <ma_so_thue />
+    <sl_min>0.00000</sl_min>
+    <sl_max>0.00000</sl_max>
+    <nh_vt1>NH2</nh_vt1>
+    <nh_vt2>NH3</nh_vt2>
+    <nh_vt3>XXX</nh_vt3>
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_tao>2015-05-25T14:57:50+07:00</ngay_tao>
+    <ngay_sua>2015-10-26T15:32:20+07:00</ngay_sua>
+    <ma_thue />
+    <tt1_yn>false</tt1_yn>
+    <tt2_yn>false</tt2_yn>
+    <tt3_yn>false</tt3_yn>
+    <tt4_yn>false</tt4_yn>
+    <tt5_yn>false</tt5_yn>
+    <nganh_hang />
+    <gia_mua>4000.00000</gia_mua>
+    <gia_ban_le>0.00000</gia_ban_le>
+    <gia_ban_buon>0.00000</gia_ban_buon>
+    <gia_ban_buon1>0.00000</gia_ban_buon1>
+    <gia_ban_buon2>0.00000</gia_ban_buon2>
+    <gia_ban_buon3>0.00000</gia_ban_buon3>
+    <ty_le_giam_gia>0.00000</ty_le_giam_gia>
+    <tien_giam>0.00000</tien_giam>
+    <ma_thue_nk />
+    <ma_thue_ttdb />
+    <thuong_hieu />
+    <model />
+    <noi_san_xuat />
+    <bao_hanh />
+    <chuc_nang />
+    <trong_luong />
+    <the_tich />
+    <so_seria />
+    <xuat_am_yn>false</xuat_am_yn>
+    <mo_ta />
+    <kieu_loai />
+    <ma_vi_tri />
+    <gia_nk>0.00000</gia_nk>
+    <nha_cung_cap />
+    <van_chuyen />
+    <sp_lien_quan />
+    <ma_o_nho />
+    <han_sd>0</han_sd>
+    <gia_chua_thue>false</gia_chua_thue>
+    <sp_dl>false</sp_dl>
+    <lo_yn>true</lo_yn>
+    <users_have_not_right />
+    <users_have_right />
+    <khong_con_mua>false</khong_con_mua>
+    <khong_con_ban>false</khong_con_ban>
+    <thue_suat>0.00</thue_suat>
+    <tk_thue_no />
+    <tk_thue_co />
+    <so_luong>1</so_luong>
+  </Table>
+  <Table>
+    <ma_vt>00000002E</ma_vt>
+    <ma_vt2 />
+    <ten_vt>Sản phẩm 2</ten_vt>
+    <ten_vt2 />
+    <ma_dvt>bịch</ma_dvt>
+    <nhieu_dvt>false</nhieu_dvt>
+    <vt_ton_kho>true</vt_ton_kho>
+    <gia_ton>1</gia_ton>
+    <loai_vt>HH</loai_vt>
+    <tk_vt>1561</tk_vt>
+    <sua_tk_vt>false</sua_tk_vt>
+    <tk_gv>6321</tk_gv>
+    <tk_dt>51111</tk_dt>
+    <tk_dtnb />
+    <tk_tl>5311</tk_tl>
+    <tk_dl />
+    <tk_spdd />
+    <tk_cl_gv />
+    <tk_ck>5211</tk_ck>
+    <tk_cp_km />
+    <ma_kho />
+    <ma_so_thue />
+    <sl_min>0.00000</sl_min>
+    <sl_max>0.00000</sl_max>
+    <nh_vt1>NH5</nh_vt1>
+    <nh_vt2 />
+    <nh_vt3 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_tao>2015-09-11T14:20:36+07:00</ngay_tao>
+    <ngay_sua>2015-09-15T20:15:31+07:00</ngay_sua>
+    <ma_thue />
+    <tt1_yn>false</tt1_yn>
+    <tt2_yn>false</tt2_yn>
+    <tt3_yn>false</tt3_yn>
+    <tt4_yn>false</tt4_yn>
+    <tt5_yn>false</tt5_yn>
+    <nganh_hang />
+    <gia_mua>0.00000</gia_mua>
+    <gia_ban_le>0.00000</gia_ban_le>
+    <gia_ban_buon>0.00000</gia_ban_buon>
+    <gia_ban_buon1>0.00000</gia_ban_buon1>
+    <gia_ban_buon2>0.00000</gia_ban_buon2>
+    <gia_ban_buon3>0.00000</gia_ban_buon3>
+    <ty_le_giam_gia>0.00000</ty_le_giam_gia>
+    <tien_giam>0.00000</tien_giam>
+    <ma_thue_nk />
+    <ma_thue_ttdb />
+    <thuong_hieu />
+    <model />
+    <noi_san_xuat />
+    <bao_hanh />
+    <chuc_nang />
+    <trong_luong />
+    <the_tich />
+    <so_seria />
+    <xuat_am_yn>false</xuat_am_yn>
+    <mo_ta />
+    <kieu_loai />
+    <ma_vi_tri />
+    <gia_nk>0.00000</gia_nk>
+    <nha_cung_cap />
+    <van_chuyen />
+    <sp_lien_quan />
+    <ma_o_nho />
+    <han_sd>0</han_sd>
+    <gia_chua_thue>false</gia_chua_thue>
+    <sp_dl>false</sp_dl>
+    <lo_yn>true</lo_yn>
+    <users_have_not_right />
+    <users_have_right />
+    <khong_con_mua>false</khong_con_mua>
+    <khong_con_ban>false</khong_con_ban>
+    <thue_suat>0.00</thue_suat>
+    <tk_thue_no />
+    <tk_thue_co />
+    <so_luong>1</so_luong>
+  </Table>
+  <Table>
+    <ma_vt>00000003E</ma_vt>
+    <ma_vt2 />
+    <ten_vt>Sản phẩm 3</ten_vt>
+    <ten_vt2 />
+    <ma_dvt>cuốn</ma_dvt>
+    <nhieu_dvt>false</nhieu_dvt>
+    <vt_ton_kho>true</vt_ton_kho>
+    <gia_ton>1</gia_ton>
+    <loai_vt>HH</loai_vt>
+    <tk_vt>1561</tk_vt>
+    <sua_tk_vt>false</sua_tk_vt>
+    <tk_gv>6321</tk_gv>
+    <tk_dt>51111</tk_dt>
+    <tk_dtnb />
+    <tk_tl>5311</tk_tl>
+    <tk_dl />
+    <tk_spdd />
+    <tk_cl_gv />
+    <tk_ck>5211</tk_ck>
+    <tk_cp_km />
+    <ma_kho />
+    <ma_so_thue />
+    <sl_min>0.00000</sl_min>
+    <sl_max>0.00000</sl_max>
+    <nh_vt1>NH5</nh_vt1>
+    <nh_vt2 />
+    <nh_vt3 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_tao>2015-09-11T14:21:10+07:00</ngay_tao>
+    <ngay_sua>2015-09-15T20:15:39+07:00</ngay_sua>
+    <ma_thue />
+    <tt1_yn>false</tt1_yn>
+    <tt2_yn>false</tt2_yn>
+    <tt3_yn>false</tt3_yn>
+    <tt4_yn>false</tt4_yn>
+    <tt5_yn>false</tt5_yn>
+    <nganh_hang />
+    <gia_mua>0.00000</gia_mua>
+    <gia_ban_le>0.00000</gia_ban_le>
+    <gia_ban_buon>0.00000</gia_ban_buon>
+    <gia_ban_buon1>0.00000</gia_ban_buon1>
+    <gia_ban_buon2>0.00000</gia_ban_buon2>
+    <gia_ban_buon3>0.00000</gia_ban_buon3>
+    <ty_le_giam_gia>0.00000</ty_le_giam_gia>
+    <tien_giam>0.00000</tien_giam>
+    <ma_thue_nk />
+    <ma_thue_ttdb />
+    <thuong_hieu />
+    <model />
+    <noi_san_xuat />
+    <bao_hanh />
+    <chuc_nang />
+    <trong_luong />
+    <the_tich />
+    <so_seria />
+    <xuat_am_yn>false</xuat_am_yn>
+    <mo_ta />
+    <kieu_loai />
+    <ma_vi_tri />
+    <gia_nk>0.00000</gia_nk>
+    <nha_cung_cap />
+    <van_chuyen />
+    <sp_lien_quan />
+    <ma_o_nho />
+    <han_sd>0</han_sd>
+    <gia_chua_thue>false</gia_chua_thue>
+    <sp_dl>false</sp_dl>
+    <lo_yn>true</lo_yn>
+    <users_have_not_right />
+    <users_have_right />
+    <khong_con_mua>false</khong_con_mua>
+    <khong_con_ban>false</khong_con_ban>
+    <thue_suat>0.00</thue_suat>
+    <tk_thue_no />
+    <tk_thue_co />
+    <so_luong>1</so_luong>
+  </Table>
+  <Table>
+    <ma_vt>00000004E</ma_vt>
+    <ma_vt2 />
+    <ten_vt>SPA</ten_vt>
+    <ten_vt2 />
+    <ma_dvt>Chiếc</ma_dvt>
+    <nhieu_dvt>false</nhieu_dvt>
+    <vt_ton_kho>true</vt_ton_kho>
+    <gia_ton>1</gia_ton>
+    <loai_vt>HH</loai_vt>
+    <tk_vt>1561</tk_vt>
+    <sua_tk_vt>false</sua_tk_vt>
+    <tk_gv>6321</tk_gv>
+    <tk_dt>51111</tk_dt>
+    <tk_dtnb />
+    <tk_tl>5311</tk_tl>
+    <tk_dl />
+    <tk_spdd />
+    <tk_cl_gv />
+    <tk_ck>5211</tk_ck>
+    <tk_cp_km />
+    <ma_kho />
+    <ma_so_thue />
+    <sl_min>10.00000</sl_min>
+    <sl_max>20.00000</sl_max>
+    <nh_vt1>NH2</nh_vt1>
+    <nh_vt2 />
+    <nh_vt3 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua>ADMIN</nguoi_sua>
+    <ngay_tao>2015-10-26T09:23:26+07:00</ngay_tao>
+    <ngay_sua>2015-10-26T09:43:59+07:00</ngay_sua>
+    <ma_thue />
+    <tt1_yn>true</tt1_yn>
+    <tt2_yn>false</tt2_yn>
+    <tt3_yn>false</tt3_yn>
+    <tt4_yn>false</tt4_yn>
+    <tt5_yn>false</tt5_yn>
+    <nganh_hang />
+    <gia_mua>50000.00000</gia_mua>
+    <gia_ban_le>0.00000</gia_ban_le>
+    <gia_ban_buon>0.00000</gia_ban_buon>
+    <gia_ban_buon1>0.00000</gia_ban_buon1>
+    <gia_ban_buon2>0.00000</gia_ban_buon2>
+    <gia_ban_buon3>0.00000</gia_ban_buon3>
+    <ty_le_giam_gia>0.00000</ty_le_giam_gia>
+    <tien_giam>0.00000</tien_giam>
+    <ma_thue_nk />
+    <ma_thue_ttdb />
+    <thuong_hieu />
+    <model />
+    <noi_san_xuat />
+    <bao_hanh />
+    <chuc_nang />
+    <trong_luong />
+    <the_tich />
+    <so_seria />
+    <xuat_am_yn>false</xuat_am_yn>
+    <mo_ta />
+    <kieu_loai />
+    <ma_vi_tri />
+    <gia_nk>0.00000</gia_nk>
+    <nha_cung_cap />
+    <van_chuyen />
+    <sp_lien_quan />
+    <ma_o_nho />
+    <han_sd>0</han_sd>
+    <gia_chua_thue>false</gia_chua_thue>
+    <sp_dl>false</sp_dl>
+    <lo_yn>false</lo_yn>
+    <users_have_not_right />
+    <users_have_right />
+    <khong_con_mua>false</khong_con_mua>
+    <khong_con_ban>false</khong_con_ban>
+    <thue_suat>0.00</thue_suat>
+    <tk_thue_no />
+    <tk_thue_co />
+    <so_luong>1</so_luong>
+  </Table>
+  <Table>
+    <ma_vt>00000005E</ma_vt>
+    <ma_vt2 />
+    <ten_vt>Sản phẩm Z</ten_vt>
+    <ten_vt2 />
+    <ma_dvt>bịch</ma_dvt>
+    <nhieu_dvt>false</nhieu_dvt>
+    <vt_ton_kho>true</vt_ton_kho>
+    <gia_ton>1</gia_ton>
+    <loai_vt>HH</loai_vt>
+    <tk_vt>1561</tk_vt>
+    <sua_tk_vt>false</sua_tk_vt>
+    <tk_gv>6321</tk_gv>
+    <tk_dt>51111</tk_dt>
+    <tk_dtnb />
+    <tk_tl>5311</tk_tl>
+    <tk_dl />
+    <tk_spdd />
+    <tk_cl_gv />
+    <tk_ck>5211</tk_ck>
+    <tk_cp_km />
+    <ma_kho />
+    <ma_so_thue />
+    <sl_min>0.00000</sl_min>
+    <sl_max>0.00000</sl_max>
+    <nh_vt1 />
+    <nh_vt2 />
+    <nh_vt3 />
+    <ghi_chu />
+    <trang_thai>true</trang_thai>
+    <nguoi_tao>ADMIN</nguoi_tao>
+    <nguoi_sua />
+    <ngay_tao>2015-10-29T16:48:50+07:00</ngay_tao>
+    <ma_thue />
+    <tt1_yn>false</tt1_yn>
+    <tt2_yn>false</tt2_yn>
+    <tt3_yn>false</tt3_yn>
+    <tt4_yn>false</tt4_yn>
+    <tt5_yn>false</tt5_yn>
+    <nganh_hang />
+    <gia_mua>0.00000</gia_mua>
+    <gia_ban_le>0.00000</gia_ban_le>
+    <gia_ban_buon>0.00000</gia_ban_buon>
+    <gia_ban_buon1>0.00000</gia_ban_buon1>
+    <gia_ban_buon2>0.00000</gia_ban_buon2>
+    <gia_ban_buon3>0.00000</gia_ban_buon3>
+    <ty_le_giam_gia>0.00000</ty_le_giam_gia>
+    <tien_giam>0.00000</tien_giam>
+    <ma_thue_nk />
+    <ma_thue_ttdb />
+    <thuong_hieu />
+    <model />
+    <noi_san_xuat />
+    <bao_hanh />
+    <chuc_nang />
+    <trong_luong />
+    <the_tich />
+    <so_seria />
+    <xuat_am_yn>false</xuat_am_yn>
+    <mo_ta />
+    <kieu_loai />
+    <ma_vi_tri />
+    <gia_nk>0.00000</gia_nk>
+    <nha_cung_cap />
+    <van_chuyen />
+    <sp_lien_quan />
+    <ma_o_nho />
+    <han_sd>0</han_sd>
+    <gia_chua_thue>false</gia_chua_thue>
+    <sp_dl>false</sp_dl>
+    <lo_yn>false</lo_yn>
+    <users_have_not_right />
+    <users_have_right />
+    <khong_con_mua>false</khong_con_mua>
+    <khong_con_ban>false</khong_con_ban>
+    <thue_suat>0.00</thue_suat>
+    <tk_thue_no />
+    <tk_thue_co />
+    <so_luong>1</so_luong>
+  </Table>
+</NewDataSet>

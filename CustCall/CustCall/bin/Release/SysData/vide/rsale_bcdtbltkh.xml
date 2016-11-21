@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rsale_bcdtbltkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rsale_bcdtbltkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="idvide" type="xs:string" minOccurs="0" />
+                <xs:element name="iditerm" type="xs:string" minOccurs="0" />
+                <xs:element name="headerV" type="xs:string" minOccurs="0" />
+                <xs:element name="headerE" type="xs:string" minOccurs="0" />
+                <xs:element name="exe" type="xs:string" minOccurs="0" />
+                <xs:element name="image" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rsale_bcdtbltkh>
+    <idvide>rsale_bcdtbltkh</idvide>
+    <iditerm>01</iditerm>
+    <headerV>Xem chi tiết</headerV>
+    <headerE>Xem chi tiết</headerE>
+    <exe>rptvcdetail.exe#rsale_ctdtbl "@[tu_ngay],@[den_ngay],@[ma_kho],@[ma_nv],@[ma_ca],@[ma_may],@[ma_dvcs],'',@[ma_kh]"</exe>
+    <image />
+  </rsale_bcdtbltkh>
+  <rsale_bcdtbltkh>
+    <idvide>rsale_bcdtbltkh</idvide>
+    <iditerm>02</iditerm>
+    <headerV>Xem thông tin khách hàng</headerV>
+    <headerE>Xem thông tin khách hàng</headerE>
+    <exe>ldkh.exe#dmkh $[ma_kh]</exe>
+    <image />
+  </rsale_bcdtbltkh>
+</NewDataSet>

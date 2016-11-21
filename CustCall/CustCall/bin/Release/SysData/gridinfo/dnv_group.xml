@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dnv_group" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dnv_group">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dnv_group>
+    <gridid>dnv_group</gridid>
+    <columnsv>ma_nv,ten_nv,ten_bp,nam,so_xe</columnsv>
+    <columnse>ma_nv,ten_nv,ten_bp,nam,so_xe</columnse>
+    <headersv>Mã nhân viên,Tên nhân viên,Bộ phận,Nam,Số xe</headersv>
+    <headerse>Employees Code,Employees Name,Tên BP,nam,Số xe</headerse>
+    <widths>100,160,100,100,80</widths>
+    <formats>,,,,</formats>
+    <readonlys>1,1,0,1,1</readonlys>
+    <hides>0,0,0,1,1</hides>
+    <defaultvalues>,,,1,</defaultvalues>
+    <carrys>0,0,0,0,0</carrys>
+  </dnv_group>
+</NewDataSet>

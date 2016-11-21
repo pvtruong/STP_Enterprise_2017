@@ -1,0 +1,243 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PN5vdpn5" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PN5vdpn5">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="tab" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups2" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids2" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="lookup_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="empty_when_readonly" type="xs:boolean" minOccurs="0" />
+                <xs:element name="multivalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>ma_dvt</field>
+    <fieldlookups>ma_dvt</fieldlookups>
+    <fieldgrids>ma_dvt</fieldgrids>
+    <fieldlookups2>ma_dvt</fieldlookups2>
+    <fieldgrids2>ma_dvt</fieldgrids2>
+    <codelookup>dmdvt</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>ma_vt = @[ma_vt]</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>ma_hoa_don</field>
+    <fieldlookups>ma_hoa_don,ky_hieu_hoa_don</fieldlookups>
+    <fieldgrids>ma_hoa_don,ky_hieu_hoa_don</fieldgrids>
+    <fieldlookups2>ma_hoa_don,ky_hieu_hoa_don</fieldlookups2>
+    <fieldgrids2>ma_hoa_don,ky_hieu_hoa_don</fieldgrids2>
+    <codelookup>dmhoadon</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>ma_kh</field>
+    <fieldlookups>ma_kh</fieldlookups>
+    <fieldgrids>ma_kh</fieldgrids>
+    <fieldlookups2>ma_kh</fieldlookups2>
+    <fieldgrids2>ma_kh</fieldgrids2>
+    <codelookup>dmkh</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>ma_kho</field>
+    <fieldlookups>ma_kho</fieldlookups>
+    <fieldgrids>ma_kho</fieldgrids>
+    <fieldlookups2>ma_kho</fieldlookups2>
+    <fieldgrids2>ma_kho</fieldgrids2>
+    <codelookup>dmkho</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>ma_nvu</field>
+    <fieldlookups>ma_nvu,ten_nvu,tk_no</fieldlookups>
+    <fieldgrids>ma_nvu,ten_nvu,tk_du</fieldgrids>
+    <fieldlookups2>ma_nvu,ten_nvu2,tk_no</fieldlookups2>
+    <fieldgrids2>ma_nvu,ten_nvu2,tk_du</fieldgrids2>
+    <codelookup>dmnvu</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>(ma_ct='' or dbo.einstr('PN5',ma_ct)=1)</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when>exists(select 1 from options where name ='notnull_mnv' and value1=1 and @[ma_vt]&lt;&gt;'' and [tien_xuat_nt]&lt;&gt;0)</not_isnullable_when>
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>ma_tc</field>
+    <fieldlookups>ma_tc</fieldlookups>
+    <fieldgrids>ma_tc</fieldgrids>
+    <fieldlookups2>ma_tc</fieldlookups2>
+    <fieldgrids2>ma_tc</fieldgrids2>
+    <codelookup>dmtc</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when>@[ma_thue]&lt;&gt;''</not_isnullable_when>
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>ma_thue</field>
+    <fieldlookups>ma_thue,tk_thue_no,thue_suat</fieldlookups>
+    <fieldgrids>ma_thue,tk_thue_no,thue_suat</fieldgrids>
+    <fieldlookups2>ma_thue,tk_thue_no,thue_suat</fieldlookups2>
+    <fieldgrids2>ma_thue,tk_thue_no,thue_suat</fieldgrids2>
+    <codelookup>dmvat</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>ma_vt</field>
+    <fieldlookups>ma_vt,ten_vt,ma_dvt,tk_vt,tk_du,sua_tk_vt</fieldlookups>
+    <fieldgrids>ma_vt,ten_vt,ma_dvt,tk_vt,tk_du,sua_tk_vt</fieldgrids>
+    <fieldlookups2>ma_vt,ten_vt2,ma_dvt,tk_vt,tk_du,sua_tk_vt</fieldlookups2>
+    <fieldgrids2>ma_vt,ten_vt2,ma_dvt,tk_vt,tk_du,sua_tk_vt</fieldgrids2>
+    <codelookup>dmvt</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>tk_du</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_du</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_du</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>tk_du_thue</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_du_thue</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_du_thue</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when>@[ma_thue]&lt;&gt;''</not_isnullable_when>
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+  <PN5vdpn5>
+    <code>PN5</code>
+    <tab>vdpn5</tab>
+    <field>tk_vt</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_vt</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_vt</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when>exists(select 1 from dmvt where sua_tk_vt =0 and ma_vt = @[ma_vt])</readonly_when>
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </PN5vdpn5>
+</NewDataSet>

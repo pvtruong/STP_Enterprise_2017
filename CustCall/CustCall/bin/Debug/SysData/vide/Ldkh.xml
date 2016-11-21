@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Ldkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Ldkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="idvide" type="xs:string" minOccurs="0" />
+                <xs:element name="iditerm" type="xs:string" minOccurs="0" />
+                <xs:element name="headerV" type="xs:string" minOccurs="0" />
+                <xs:element name="headerE" type="xs:string" minOccurs="0" />
+                <xs:element name="exe" type="xs:string" minOccurs="0" />
+                <xs:element name="image" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Ldkh>
+    <idvide>Ldkh</idvide>
+    <iditerm>00</iditerm>
+    <headerV />
+    <headerE />
+    <exe />
+    <image />
+  </Ldkh>
+  <Ldkh>
+    <idvide>Ldkh</idvide>
+    <iditerm>01</iditerm>
+    <headerV>Báo giá</headerV>
+    <headerE>Quotation</headerE>
+    <exe>vpbg.exe#L "ma_kh =?ma_kh?"</exe>
+    <image />
+  </Ldkh>
+  <Ldkh>
+    <idvide>Ldkh</idvide>
+    <iditerm>02</iditerm>
+    <headerV>Hợp đồng</headerV>
+    <headerE>Contract</headerE>
+    <exe>vphd.exe#L "ma_kh =?ma_kh?"</exe>
+    <image />
+  </Ldkh>
+  <Ldkh>
+    <idvide>Ldkh</idvide>
+    <iditerm>03</iditerm>
+    <headerV>Thu tiền</headerV>
+    <headerE>Receivable</headerE>
+    <exe>vpt1.exe#L "ma_kh =?ma_kh?"</exe>
+    <image />
+  </Ldkh>
+</NewDataSet>

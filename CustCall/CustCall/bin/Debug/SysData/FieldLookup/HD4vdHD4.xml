@@ -1,0 +1,186 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="HD4vdHD4" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="HD4vdHD4">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="tab" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups2" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids2" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="lookup_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="empty_when_readonly" type="xs:boolean" minOccurs="0" />
+                <xs:element name="multivalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <HD4vdHD4>
+    <code>HD4</code>
+    <tab>vdHD4</tab>
+    <field>ma_hoa_don</field>
+    <fieldlookups>ma_hoa_don,ky_hieu_hoa_don</fieldlookups>
+    <fieldgrids>ma_hoa_don,ky_hieu_hoa_don</fieldgrids>
+    <fieldlookups2>ma_hoa_don,ky_hieu_hoa_don</fieldlookups2>
+    <fieldgrids2>ma_hoa_don,ky_hieu_hoa_don</fieldgrids2>
+    <codelookup>dmhoadon</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </HD4vdHD4>
+  <HD4vdHD4>
+    <code>HD4</code>
+    <tab>vdHD4</tab>
+    <field>ma_kh</field>
+    <fieldlookups>ma_kh,ten_kh</fieldlookups>
+    <fieldgrids>ma_kh,ten_kh</fieldgrids>
+    <fieldlookups2>ma_kh,ten_kh2</fieldlookups2>
+    <fieldgrids2>ma_kh,ten_kh2</fieldgrids2>
+    <codelookup>dmkh</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when>exists(select 1 from dmtk where tk_cn =1 and tk =@[tk_co])</not_isnullable_when>
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </HD4vdHD4>
+  <HD4vdHD4>
+    <code>HD4</code>
+    <tab>vdHD4</tab>
+    <field>ma_nt</field>
+    <fieldlookups>ma_nt,thue_suat,tk_thue_co</fieldlookups>
+    <fieldgrids>ma_nt,thue_suat,tk_thue_co</fieldgrids>
+    <fieldlookups2>ma_nt,thue_suat,tk_thue_co</fieldlookups2>
+    <fieldgrids2>ma_nt,thue_suat,tk_thue_co</fieldgrids2>
+    <codelookup>dmnt</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </HD4vdHD4>
+  <HD4vdHD4>
+    <code>HD4</code>
+    <tab>vdhd4</tab>
+    <field>ma_nvu</field>
+    <fieldlookups>ma_nvu,ten_nvu,tk_no,tk_co</fieldlookups>
+    <fieldgrids>ma_nvu,ten_nvu,tk_no,tk_co</fieldgrids>
+    <fieldlookups2>ma_nvu,ten_nvu2,tk_no,tk_co</fieldlookups2>
+    <fieldgrids2>ma_nvu,ten_nvu2,tk_no,tk_co</fieldgrids2>
+    <codelookup>dmnvu</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>(ma_ct='' or dbo.einstr('HD4',ma_ct)=1)</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when>exists(select 1 from options where name ='notnull_mnv' and value1=1 and [tien_nt]&lt;&gt;0)</not_isnullable_when>
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </HD4vdHD4>
+  <HD4vdHD4>
+    <code>HD4</code>
+    <tab>vdHD4</tab>
+    <field>ma_thue</field>
+    <fieldlookups>ma_thue,tk_thue_co,thue_suat</fieldlookups>
+    <fieldgrids>ma_thue,tk_thue_co,thue_suat</fieldgrids>
+    <fieldlookups2>ma_thue,tk_thue_co,thue_suat</fieldlookups2>
+    <fieldgrids2>ma_thue,tk_thue_co,thue_suat</fieldgrids2>
+    <codelookup>dmvat</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </HD4vdHD4>
+  <HD4vdHD4>
+    <code>HD4</code>
+    <tab>vdHD4</tab>
+    <field>tk_co</field>
+    <fieldlookups>tk,ten_tk</fieldlookups>
+    <fieldgrids>tk_co,ten_tk_co</fieldgrids>
+    <fieldlookups2>tk,ten_tk2</fieldlookups2>
+    <fieldgrids2>tk_co,ten_tk_co2</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </HD4vdHD4>
+  <HD4vdHD4>
+    <code>HD4</code>
+    <tab>vdHD4</tab>
+    <field>tk_du</field>
+    <fieldlookups>tk</fieldlookups>
+    <fieldgrids>tk_du</fieldgrids>
+    <fieldlookups2>tk</fieldlookups2>
+    <fieldgrids2>tk_du</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when>@[ma_thue] &lt;&gt; ''</not_isnullable_when>
+    <readonly_when>@[ma_thue] = ''</readonly_when>
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </HD4vdHD4>
+  <HD4vdHD4>
+    <code>HD4</code>
+    <tab>vdHD4</tab>
+    <field>tk_no</field>
+    <fieldlookups>tk,ten_tk</fieldlookups>
+    <fieldgrids>tk_no,ten_tk_no</fieldgrids>
+    <fieldlookups2>tk,ten_tk2</fieldlookups2>
+    <fieldgrids2>tk_no,ten_tk_no2</fieldgrids2>
+    <codelookup>dmtk</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </HD4vdHD4>
+</NewDataSet>

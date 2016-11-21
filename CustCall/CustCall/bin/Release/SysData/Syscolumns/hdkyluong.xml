@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="hdkyluong" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="hdkyluong">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <hdkyluong>
+    <name>ma_ky_luong</name>
+    <prec>16</prec>
+    <isnullable>0</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>tu_ngay</name>
+    <prec>16</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>den_ngay</name>
+    <prec>16</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>thang</name>
+    <prec>10</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>nam</name>
+    <prec>10</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>ghi_chu</name>
+    <prec>256</prec>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>trang_thai</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>nguoi_tao</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>nguoi_sua</name>
+    <prec>16</prec>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>ngay_tao</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+  <hdkyluong>
+    <name>ngay_sua</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>hdkyluong</tablename>
+  </hdkyluong>
+</NewDataSet>

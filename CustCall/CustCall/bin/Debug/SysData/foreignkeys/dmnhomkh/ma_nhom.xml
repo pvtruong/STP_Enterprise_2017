@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmnhomkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmnhomkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="oTable" type="xs:string" minOccurs="0" />
+                <xs:element name="oColumn" type="xs:string" minOccurs="0" />
+                <xs:element name="rTable" type="xs:string" minOccurs="0" />
+                <xs:element name="rColumn" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmnhomkh>
+    <oTable>dmnhomkh</oTable>
+    <oColumn>ma_nhom</oColumn>
+    <rTable>dkh</rTable>
+    <rColumn>nh_kh1</rColumn>
+  </dmnhomkh>
+  <dmnhomkh>
+    <oTable>dmnhomkh</oTable>
+    <oColumn>ma_nhom</oColumn>
+    <rTable>dkh</rTable>
+    <rColumn>nh_kh2</rColumn>
+  </dmnhomkh>
+  <dmnhomkh>
+    <oTable>dmnhomkh</oTable>
+    <oColumn>ma_nhom</oColumn>
+    <rTable>dkh</rTable>
+    <rColumn>nh_kh3</rColumn>
+  </dmnhomkh>
+</NewDataSet>

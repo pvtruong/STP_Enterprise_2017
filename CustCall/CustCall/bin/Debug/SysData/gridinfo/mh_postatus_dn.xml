@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="mh_postatus_dn" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="mh_postatus_dn">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <mh_postatus_dn>
+    <gridid>mh_postatus_dn</gridid>
+    <columnsv>so_ct,ngay_ct,ma_kh,ten_kh,t_sl,t_tien,t_ck,t_thue,t_tt</columnsv>
+    <columnse>so_ct,ngay_ct,ma_kh,ten_kh2,t_sl,t_tien,t_ck,t_thue,t_tt</columnse>
+    <headersv>Số đơn hàng,Ngày đơn hàng,Mã nhà cung cấp,Tên nhà cung cấp,Tổng số lượng,Tổng tiền hàng,Tổng chiết khấu,Tổng thuế VAT,Tổng thanh toán</headersv>
+    <headerse>Số đơn hàng,Ngày đơn hàng,Mã nhà cung cấp,Tên nhà cung cấp,Tổng số lượng,Tổng tiền,Tổng CK,Tổng thuế,Tổng thanh toán</headerse>
+    <widths>100,100,100,200,100,100,100,100,100</widths>
+    <formats>,,,,f_sl,f_tien,f_tien,f_tien,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0</carrys>
+  </mh_postatus_dn>
+</NewDataSet>

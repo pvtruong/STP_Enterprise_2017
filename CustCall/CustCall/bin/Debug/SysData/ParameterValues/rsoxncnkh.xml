@@ -1,0 +1,309 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rsoxncnkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rsoxncnkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_chung_tu</Name>
+    <Type>C</Type>
+    <Value>Chứng từ</Value>
+    <Value2>Voucher</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ck</Name>
+    <Type>C</Type>
+    <Value>SỐ DƯ CUỐI KỲ</Value>
+    <Value2>CLOSING BALANCE</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_co</Name>
+    <Type>C</Type>
+    <Value>Có</Value>
+    <Value2>Credit</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_co_nt</Name>
+    <Type>C</Type>
+    <Value>Có ngoại tệ</Value>
+    <Value2>FC Credit</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_den_ngay</Name>
+    <Type>C</Type>
+    <Value>đến ngày</Value>
+    <Value2>To Date</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_dien_giai</Name>
+    <Type>C</Type>
+    <Value>Diễn giải</Value>
+    <Value2>Memo</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_dk</Name>
+    <Type>C</Type>
+    <Value>SỐ DƯ ĐẦU KỲ</Value>
+    <Value2>OPENING BLANCE</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_dt</Name>
+    <Type>C</Type>
+    <Value>Đối tượng:</Value>
+    <Value2>Object</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_gd</Name>
+    <Type>C</Type>
+    <Value>Giám đốc</Value>
+    <Value2>Director</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ghi_so</Name>
+    <Type>c</Type>
+    <Value>Ngày, tháng ghi sổ</Value>
+    <Value2>Date book</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ktt</Name>
+    <Type>C</Type>
+    <Value>Kế toán trưởng</Value>
+    <Value2>Chief Accountant</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ky_ten</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên)</Value>
+    <Value2>Sign., (Full Name)</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ky_ten_dd</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên, đóng dấu)</Value>
+    <Value2>Sign., Seal (Full Name and Position)</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_loai_tien</Name>
+    <Type>C</Type>
+    <Value>Loại tiền</Value>
+    <Value2>Amount type</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_mau_bc</Name>
+    <Type>C</Type>
+    <Value>Mẫu số S38-DN</Value>
+    <Value2>Form No. S38-DN</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_mau_so</Name>
+    <Type>C</Type>
+    <Value>Mẫu số S38-DN</Value>
+    <Value2>Form No. S38-DN</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_mau_tt</Name>
+    <Type>C</Type>
+    <Value>(Ban hành theo QĐ số: 15/2006/QĐ-BTC ngày 20/03/2006 của Bộ trưởng BTC)</Value>
+    <Value2>(According to Decision No. 15/2006/QD-BTC dated 20 March 2006 of the Ministry of Finance)</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_nam</Name>
+    <Type>C</Type>
+    <Value>Năm</Value>
+    <Value2>year</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ngay_ms</Name>
+    <Type>C</Type>
+    <Value>Ngày mở sổ . . . . . . . . . .</Value>
+    <Value2>On open books. . . . . . . . . .</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ngay_thang</Name>
+    <Type>C</Type>
+    <Value>Ngày tháng</Value>
+    <Value2>Date</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ngay_thang_nam</Name>
+    <Type>C</Type>
+    <Value>Ngày . . . tháng . . . năm . . .</Value>
+    <Value2>Date . . . Month . . . Year . . .</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_nguoi_gs</Name>
+    <Type>c</Type>
+    <Value>Người ghi sổ</Value>
+    <Value2>Booked Persons</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_no</Name>
+    <Type>C</Type>
+    <Value>Nợ</Value>
+    <Value2>Debit</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_no_nt</Name>
+    <Type>C</Type>
+    <Value>Nợ ngoại tệ</Value>
+    <Value2>FC Debit</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ps</Name>
+    <Type>C</Type>
+    <Value>PHÁT SINH TRONG KỲ</Value>
+    <Value2>ARISING AMOUNT IN PERIOD</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_so_du</Name>
+    <Type>C</Type>
+    <Value>Số dư</Value>
+    <Value2>Balance</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_so_du_nt</Name>
+    <Type>C</Type>
+    <Value>Số dư ngoại tệ</Value>
+    <Value2>FC Balance</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_so_hieu</Name>
+    <Type>C</Type>
+    <Value>Số hiệu</Value>
+    <Value2>Notation</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_so_hieu_tk</Name>
+    <Type>C</Type>
+    <Value>TK đối ứng</Value>
+    <Value2>Ref. Acct.</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_so_ps</Name>
+    <Type>C</Type>
+    <Value>Số phát sinh</Value>
+    <Value2>Arising</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_so_ps_nt</Name>
+    <Type>C</Type>
+    <Value>Số phát sinh ngoại tệ</Value>
+    <Value2>FC Arising</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_so_tien</Name>
+    <Type>C</Type>
+    <Value>Số tiền</Value>
+    <Value2>Amount</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_so_trang</Name>
+    <Type>C</Type>
+    <Value>Số này có . . . trang, đánh số từ trang số 1 đến trang ...</Value>
+    <Value2>This number is. . . pages, numbered from 1 to page ...</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_ten_tk</Name>
+    <Type>C</Type>
+    <Value>Tên tài khoản:</Value>
+    <Value2>Account Name:</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_tk</Name>
+    <Type>C</Type>
+    <Value>Số hiệu tài khoản:</Value>
+    <Value2>Notation Account</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_tk_du</Name>
+    <Type>C</Type>
+    <Value>Số hiệu TK đối ứng</Value>
+    <Value2>Notation Ref. Acct.,</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_tong_ps</Name>
+    <Type>C</Type>
+    <Value>CỘNG PHÁT SINH</Value>
+    <Value2>TOTAL ARISING</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_tong_trang1</Name>
+    <Type>C</Type>
+    <Value>Sổ này có:</Value>
+    <Value2>This book has</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_tong_trang2</Name>
+    <Type>C</Type>
+    <Value>trang, đánh số từ trang số 1 đến trang</Value>
+    <Value2>pages, is numbered from 1 to</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>c_tu_ngay</Name>
+    <Type>C</Type>
+    <Value>Từ ngày</Value>
+    <Value2>From Date</Value2>
+  </rsoxncnkh>
+  <rsoxncnkh>
+    <Code>rsoxncnkh</Code>
+    <Name>xn_kh</Name>
+    <Type>C</Type>
+    <Value>Xác Nhận Khách Hàng</Value>
+    <Value2>Xác Nhận Khách Hàng</Value2>
+  </rsoxncnkh>
+</NewDataSet>

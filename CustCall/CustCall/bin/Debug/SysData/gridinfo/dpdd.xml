@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dpdd" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dpdd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dpdd>
+    <gridid>dpdd</gridid>
+    <columnsv>ma_nv,ten_nv,ma_vt,ten_vt,so_luong_ban_giao,so_luong_hoan_tra,so_luong_con_lai</columnsv>
+    <columnse>ma_nv,ten_nv,ma_vt,ten_vt,so_luong_ban_giao,so_luong_hoan_tra,so_luong_con_lai</columnse>
+    <headersv>Mã nhân viên,Tên nhân viên,Mã vật tư,Tên vật tư,SL bàn giao,SL hoàn trả,SL còn lại</headersv>
+    <headerse>Mã nhân viên,Tên nhân viên,Mã vật tuq,Tên vật tư,sl ban giao,SL hoan tra,SL còn lại</headerse>
+    <widths>100,200,100,200,100,100,100</widths>
+    <formats>,,,,f_tien,f_tien,f_tien</formats>
+    <readonlys>0,1,0,1,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0</carrys>
+  </dpdd>
+</NewDataSet>

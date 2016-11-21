@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bcvtvogas1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bcvtvogas1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="idvide" type="xs:string" minOccurs="0" />
+                <xs:element name="iditerm" type="xs:string" minOccurs="0" />
+                <xs:element name="headerV" type="xs:string" minOccurs="0" />
+                <xs:element name="headerE" type="xs:string" minOccurs="0" />
+                <xs:element name="exe" type="xs:string" minOccurs="0" />
+                <xs:element name="image" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bcvtvogas1>
+    <idvide>bcvtvogas1</idvide>
+    <iditerm>01</iditerm>
+    <headerV>Xem chi tiết</headerV>
+    <headerE>View detail</headerE>
+    <exe>rptvcdetail.exe#dvogas "@[tu_ngay],@[den_ngay],'',@[so_the_ts],@[ma_kh]"</exe>
+    <image />
+  </bcvtvogas1>
+</NewDataSet>

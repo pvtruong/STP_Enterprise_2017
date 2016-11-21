@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="FormLookup" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="FormLookup">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <FormLookup>
+    <name>formid</name>
+    <prec>32</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>codelookup</name>
+    <prec>32</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>control</name>
+    <prec>32</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>field</name>
+    <prec>32</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>notempty</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>lookupyn</name>
+    <prec>1</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>MultiValue</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>ckey</name>
+    <prec>128</prec>
+    <isnullable>1</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>FieldRecName</name>
+    <prec>64</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>FieldrecData</name>
+    <prec>64</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>FieldrecData2</name>
+    <prec>64</prec>
+    <isnullable>0</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>not_isnullable_when</name>
+    <prec>-1</prec>
+    <isnullable>1</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>readonly_when</name>
+    <prec>-1</prec>
+    <isnullable>1</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>min_words</name>
+    <prec>10</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+  <FormLookup>
+    <name>always_refresh_suggest</name>
+    <prec>1</prec>
+    <isnullable>1</isnullable>
+    <tablename>FormLookup</tablename>
+  </FormLookup>
+</NewDataSet>

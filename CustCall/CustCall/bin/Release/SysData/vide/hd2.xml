@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="hd2" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="hd2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="idvide" type="xs:string" minOccurs="0" />
+                <xs:element name="iditerm" type="xs:string" minOccurs="0" />
+                <xs:element name="headerV" type="xs:string" minOccurs="0" />
+                <xs:element name="headerE" type="xs:string" minOccurs="0" />
+                <xs:element name="exe" type="xs:string" minOccurs="0" />
+                <xs:element name="image" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <hd2>
+    <idvide>hd2</idvide>
+    <iditerm>01</iditerm>
+    <headerV>Xem hoạch toán</headerV>
+    <headerE>GL Entries</headerE>
+    <exe>rptvcdetail.exe#rinsocai "?stt_rec?,?ma_ct?"</exe>
+    <image />
+  </hd2>
+  <hd2>
+    <idvide>hd2</idvide>
+    <iditerm>02</iditerm>
+    <headerV>Xem sổ kho</headerV>
+    <headerE>View site book</headerE>
+    <exe>rptvcdetail.exe#rinsokho "?stt_rec?,?ma_ct?"</exe>
+    <image />
+  </hd2>
+  <hd2>
+    <idvide>hd2</idvide>
+    <iditerm>03</iditerm>
+    <headerV>Xem sổ thuế</headerV>
+    <headerE>View tax book</headerE>
+    <exe>rptvcdetail.exe#rinvatra "?stt_rec?,?ma_ct?"</exe>
+    <image />
+  </hd2>
+</NewDataSet>

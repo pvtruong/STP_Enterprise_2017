@@ -1,0 +1,185 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbknhapxuatvt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbknhapxuatvt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="control" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="notempty" type="xs:boolean" minOccurs="0" />
+                <xs:element name="lookupyn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MultiValue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRecName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData2" type="xs:string" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmbp</codelookup>
+    <control>txtma_bp</control>
+    <field>ma_bp</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_bp</FieldRecName>
+    <FieldrecData>ten_bp</FieldrecData>
+    <FieldrecData2>ten_bp2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rbknhapxuatvt>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmct</codelookup>
+    <control>txtma_ct</control>
+    <field>ma_ct</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>true</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName />
+    <FieldrecData />
+    <FieldrecData2 />
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rbknhapxuatvt>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmdt</codelookup>
+    <control>txtma_dt</control>
+    <field>ma_dt</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_dt</FieldRecName>
+    <FieldrecData>ten_dt</FieldrecData>
+    <FieldrecData2>ten_dt2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rbknhapxuatvt>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmhd</codelookup>
+    <control>txtma_hd</control>
+    <field>ma_hd</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_hd</FieldRecName>
+    <FieldrecData>ten_hd</FieldrecData>
+    <FieldrecData2>ten_hd2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rbknhapxuatvt>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmkh</codelookup>
+    <control>txtma_kh</control>
+    <field>ma_kh</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_kh</FieldRecName>
+    <FieldrecData>ten_kh</FieldrecData>
+    <FieldrecData2>ten_kh</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </rbknhapxuatvt>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmkho</codelookup>
+    <control>txtma_kho</control>
+    <field>ma_kho</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_kho</FieldRecName>
+    <FieldrecData>ten_kho</FieldrecData>
+    <FieldrecData2>ten_kho2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rbknhapxuatvt>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmloaivt</codelookup>
+    <control>txtma_loai_vt</control>
+    <field>ma_loai_vt</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_loai_vt</FieldRecName>
+    <FieldrecData>ten_loai_vt</FieldrecData>
+    <FieldrecData2>ten_loai_vt2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rbknhapxuatvt>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmphi</codelookup>
+    <control>txtma_phi</control>
+    <field>ma_phi</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>loai=2</ckey>
+    <FieldRecName>lblten_phi</FieldRecName>
+    <FieldrecData>ten_phi</FieldrecData>
+    <FieldrecData2>ten_phi2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rbknhapxuatvt>
+  <rbknhapxuatvt>
+    <formid>rbknhapxuatvt</formid>
+    <codelookup>dmvt</codelookup>
+    <control>txtma_vt</control>
+    <field>ma_vt</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_vt</FieldRecName>
+    <FieldrecData>ten_vt</FieldrecData>
+    <FieldrecData2>ten_vt2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </rbknhapxuatvt>
+</NewDataSet>

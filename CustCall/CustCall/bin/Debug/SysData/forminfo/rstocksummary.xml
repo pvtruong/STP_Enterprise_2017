@@ -1,0 +1,165 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rstocksummary" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rstocksummary">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>000</TextID>
+    <TextV>Tổng hợp nhập xuất tồn</TextV>
+    <TextE>Stock Summary</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>001</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Filter Condition</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>002</TextID>
+    <TextV>Từ/Đến ngày</TextV>
+    <TextE>Date from/to</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>003</TextID>
+    <TextV>Mã kho</TextV>
+    <TextE>Site ID</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>004</TextID>
+    <TextV>Mã vật tư</TextV>
+    <TextE>Item Code</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>005</TextID>
+    <TextV>Nhóm vật tư</TextV>
+    <TextE>Item Group</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>006</TextID>
+    <TextV>Loại vật tư</TextV>
+    <TextE>Item Type</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>007</TextID>
+    <TextV>In cả chứng từ điều chuyển</TextV>
+    <TextE>Print the document transfer</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>008</TextID>
+    <TextV>Không in vật tư tồn =0</TextV>
+    <TextE>No Print Item Exist =0</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>009</TextID>
+    <TextV>Đơn vị</TextV>
+    <TextE>Unit</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>010</TextID>
+    <TextV>Nhóm theo</TextV>
+    <TextE>Group by</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>011</TextID>
+    <TextV>Mẫu báo cáo</TextV>
+    <TextE>Report Form</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>012</TextID>
+    <TextV>Tiêu đề</TextV>
+    <TextE>Title</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>013</TextID>
+    <TextV>Sản phẩm</TextV>
+    <TextE>Product</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>200</TextID>
+    <TextV>Chức năng</TextV>
+    <TextE>Function</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>201</TextID>
+    <TextV>&amp;In</TextV>
+    <TextE>&amp;Print</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>202</TextID>
+    <TextV>&amp;Xem</TextV>
+    <TextE>&amp;View</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>203</TextID>
+    <TextV>Làm tươi</TextV>
+    <TextE>Refresh</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>204</TextID>
+    <TextV>Xem chứng từ</TextV>
+    <TextE>View Voucher</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>811</TextID>
+    <TextV>Nhóm theo</TextV>
+    <TextE>Group by</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>900</TextID>
+    <TextV>&amp;Nhận</TextV>
+    <TextE>&amp;OK</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>901</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>999</TextID>
+    <TextV>Thoát</TextV>
+    <TextE>Close</TextE>
+  </rstocksummary>
+  <rstocksummary>
+    <FormID>rstocksummary</FormID>
+    <TextID>NCC</TextID>
+    <TextV>Nhà cung cấp</TextV>
+    <TextE>NCC</TextE>
+  </rstocksummary>
+</NewDataSet>

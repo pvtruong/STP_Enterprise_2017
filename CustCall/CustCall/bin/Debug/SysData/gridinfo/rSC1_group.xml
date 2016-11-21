@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rSC1_group" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rSC1_group">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rSC1_group>
+    <gridid>rSC1_group</gridid>
+    <columnsv>ngay_ct,ma_ct,so_ct,ma_ct,ma_kh,ten_kh,dien_giai,tk_du,ten_tk,ps_no,ps_co,ma_dt</columnsv>
+    <columnse>ngay_ct,ma_ct,so_ct,ma_ct,ma_kh,ten_kh,dien_giai,tk_du,ten_tk2,ps_no,ps_co,ma_dt</columnse>
+    <headersv>Ngày chứng từ,Mã chứng từ,Số chứng từ,Mã chứng từ,Mã khách,Tên khách,Diễn giải,TK đối ứng,Tên TK đối ứng,Nợ,Có,Mã vụ việc</headersv>
+    <headerse>Voucher Date,VC Code                         ,Voucher No.                     ,VC Code                         ,Customer code,Customer Name                   ,Description like                ,Ref. Acct.,List of Ref. Acct Name,Debit, Credit,Jobs</headerse>
+    <widths>100,100,100,100,100,200,250,100,200,100,100,100</widths>
+    <formats>,,,,,,,,,f_tien,f_tien,</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,1,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </rSC1_group>
+</NewDataSet>

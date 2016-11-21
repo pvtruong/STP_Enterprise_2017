@@ -1,0 +1,183 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rtkgtgt28" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rtkgtgt28">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_cam_doan</Name>
+    <Type>C</Type>
+    <Value>Tôi cam đoan số liệu khai trên là đúng và chịu trách nhiệm trước pháp luật về những số liệu đã khai ./.</Value>
+    <Value2>I declare open the data is correct and take responsibility before law for the declared data. /.</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_chi_tieu</Name>
+    <Type>C</Type>
+    <Value>Chỉ tiêu</Value>
+    <Value2>Norm</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_cong_hoa</Name>
+    <Type>C</Type>
+    <Value>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</Value>
+    <Value2>SOCIALIST REPUBLIC OF VIETNAM</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_dia_chi</Name>
+    <Type>C</Type>
+    <Value>[04] Địa chỉ trụ sở:</Value>
+    <Value2>[04] Address office:</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_dien_thoai</Name>
+    <Type>C</Type>
+    <Value>[07] Điện thoại:</Value>
+    <Value2>[07] Phone:</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_doc_lap</Name>
+    <Type>C</Type>
+    <Value>Độc Lập - Tự Do - Hạnh Phúc</Value>
+    <Value2>Independence - Freedom - Happiness</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_dvtien</Name>
+    <Type>C</Type>
+    <Value>Đơn vị tiền: Đồng Việt Nam</Value>
+    <Value2>Currency Unit:VNĐ</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_fax</Name>
+    <Type>C</Type>
+    <Value>[08] Fax:</Value>
+    <Value2>[08] Fax:</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_gia_tri</Name>
+    <Type>C</Type>
+    <Value>Giá trị HHDV (chưa có thuế)</Value>
+    <Value2>The value of goods and services (without tax)</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_ky_ten_dd</Name>
+    <Type>C</Type>
+    <Value>Ký tên, đóng dấu (Ghi rõ họ tên và chức vụ)</Value>
+    <Value2>Signature and seal (Full name and position)</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_mail</Name>
+    <Type>C</Type>
+    <Value>[09] Email:</Value>
+    <Value2>[09] Email:</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_mau_so</Name>
+    <Type>C</Type>
+    <Value>Mẫu số: 01/GTGT</Value>
+    <Value2>Form No.: 01/GTGT</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_mau_tt</Name>
+    <Type>C</Type>
+    <Value>(Ban hành kèm theo Thông tư 156/2013/TT-BTC ngày 06/11/2013  của Bộ Tài Chính)</Value>
+    <Value2>(According to Circular no.156/2013/TT-BTC dated 06/11/2013  of the Ministry of Finance)</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_mst</Name>
+    <Type>C</Type>
+    <Value>[03] Mã số thuế:</Value>
+    <Value2>[03]Tax Code:</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_nam</Name>
+    <Type>C</Type>
+    <Value>Năm</Value>
+    <Value2>year</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_ngay_thang_nam</Name>
+    <Type>C</Type>
+    <Value>..............., ngày......... tháng........... năm..........</Value>
+    <Value2>..............., date......... month........... year..........</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_nguoi_dd</Name>
+    <Type>C</Type>
+    <Value>NGƯỜI NỘP THUẾ hoặc ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ</Value>
+    <Value2>Taxpayers or the legal representative of the taxpayer</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_nguoi_nop</Name>
+    <Type>C</Type>
+    <Value>[02] Người nộp thuế :</Value>
+    <Value2>[02] Taxpayers :</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_quan_huyen</Name>
+    <Type>C</Type>
+    <Value>[05] Quận/ huyện:</Value>
+    <Value2>[05] District:</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_stt</Name>
+    <Type>C</Type>
+    <Value>STT</Value>
+    <Value2>NO.</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_thang</Name>
+    <Type>C</Type>
+    <Value>[01] Kỳ tính thuế: Tháng</Value>
+    <Value2>Month</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_thue</Name>
+    <Type>C</Type>
+    <Value>Thuế GTGT</Value>
+    <Value2>VAT</Value2>
+  </rtkgtgt28>
+  <rtkgtgt28>
+    <Code>rtkgtgt28</Code>
+    <Name>c_tinh_thanh</Name>
+    <Type>C</Type>
+    <Value>[06] Tỉnh/ Thành phố:</Value>
+    <Value2>[06] Provin/ City:</Value2>
+  </rtkgtgt28>
+</NewDataSet>

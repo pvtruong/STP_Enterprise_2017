@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bcslbltheongay" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bcslbltheongay">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bcslbltheongay>
+    <gridid>bcslbltheongay</gridid>
+    <columnsv>ma_kh_dl,ten_kh_dl,pilot</columnsv>
+    <columnse>ma_kh_dl,ten_kh_dl,pilot</columnse>
+    <headersv>Mã đại lý,Tên đại lý,pilot</headersv>
+    <headerse>ma_dvcs,Tên đại lý,pilot</headerse>
+    <widths>100,300,pilot</widths>
+    <formats>,,</formats>
+    <readonlys>1,1,1</readonlys>
+    <hides>0,0,0</hides>
+    <defaultvalues>,,</defaultvalues>
+    <carrys>0,0,0</carrys>
+  </bcslbltheongay>
+</NewDataSet>

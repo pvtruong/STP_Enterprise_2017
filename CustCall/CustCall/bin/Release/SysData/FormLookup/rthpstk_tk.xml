@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rthpstk_tk" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rthpstk_tk">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="control" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="notempty" type="xs:boolean" minOccurs="0" />
+                <xs:element name="lookupyn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MultiValue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRecName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData2" type="xs:string" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rthpstk_tk>
+    <formid>rthpstk_tk</formid>
+    <codelookup>dmct</codelookup>
+    <control>txtma_ct</control>
+    <field>ma_ct</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>true</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName />
+    <FieldrecData />
+    <FieldrecData2 />
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rthpstk_tk>
+  <rthpstk_tk>
+    <formid>rthpstk_tk</formid>
+    <codelookup>dmdt</codelookup>
+    <control>txtma_vv</control>
+    <field>ma_dt</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_vv</FieldRecName>
+    <FieldrecData>ten_dt</FieldrecData>
+    <FieldrecData2>ten_dt2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rthpstk_tk>
+  <rthpstk_tk>
+    <formid>rthpstk_tk</formid>
+    <codelookup>dmkh</codelookup>
+    <control>txtma_kh</control>
+    <field>ma_kh</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_kh</FieldRecName>
+    <FieldrecData>ten_kh</FieldrecData>
+    <FieldrecData2>ten_kh2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </rthpstk_tk>
+  <rthpstk_tk>
+    <formid>rthpstk_tk</formid>
+    <codelookup>rdmtk</codelookup>
+    <control>txttk</control>
+    <field>tk</field>
+    <notempty>true</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_tk</FieldRecName>
+    <FieldrecData>ten_tk</FieldrecData>
+    <FieldrecData2>ten_tk2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rthpstk_tk>
+  <rthpstk_tk>
+    <formid>rthpstk_tk</formid>
+    <codelookup>rdmtk</codelookup>
+    <control>txttk_du</control>
+    <field>tk</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>lblten_tk_du</FieldRecName>
+    <FieldrecData>ten_tk</FieldrecData>
+    <FieldrecData2>ten_tk2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </rthpstk_tk>
+</NewDataSet>

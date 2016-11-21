@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bangtinhluong" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bangtinhluong">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="thang" type="xs:int" minOccurs="0" />
+                <xs:element name="nam" type="xs:int" minOccurs="0" />
+                <xs:element name="cong_quy_dinh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay_cong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_bhxh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_co_ban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_thang" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_san_pham" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_khoan_viec" type="xs:decimal" minOccurs="0" />
+                <xs:element name="phu_cap" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tong_cong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tam_ung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tru_khac" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhxh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_doan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ttncn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tong_khau_tru" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giu_ho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="con_lai" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

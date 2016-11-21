@@ -1,0 +1,891 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="XHD" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="XHD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>000</TextID>
+    <TextV>Xuất hóa đơn</TextV>
+    <TextE>Sale</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã khách hàng:</TextV>
+    <TextE>Cust. ID</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên khách hàng:</TextV>
+    <TextE>Customer Name</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>003</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>004</TextID>
+    <TextV>Quầy số</TextV>
+    <TextE>Quầy số</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>005</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>006</TextID>
+    <TextV>Điện thoại</TextV>
+    <TextE>Phone</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>007</TextID>
+    <TextV>Tài khoản ngân hàng</TextV>
+    <TextE>Bank Account</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>008</TextID>
+    <TextV>Mã khách không được trống</TextV>
+    <TextE>Mã khách không được trống</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>009</TextID>
+    <TextV>Chọn phiếu bán lẻ</TextV>
+    <TextE>Chọn phiếu bán lẻ</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>013</TextID>
+    <TextV>Chọn dữ liệu</TextV>
+    <TextE>Select data</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>015</TextID>
+    <TextV>Người liên hệ</TextV>
+    <TextE>Contact Person</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>016</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Filter Condition</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>017</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>032</TextID>
+    <TextV>Chi tiết</TextV>
+    <TextE>Details</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>033</TextID>
+    <TextV>Các sản phẩm</TextV>
+    <TextE>Products</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>034</TextID>
+    <TextV>Các giao dịch</TextV>
+    <TextE>Transactions</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>200</TextID>
+    <TextV>Hình thức thanh toán</TextV>
+    <TextE>Hình thức thanh toán</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>201</TextID>
+    <TextV>Tên giao dịch</TextV>
+    <TextE>Transaction Name</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>202</TextID>
+    <TextV>Tiền vốn</TextV>
+    <TextE>Tiền vốn</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>203</TextID>
+    <TextV>Mã số thuế</TextV>
+    <TextE>Cust. Tax Code</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>204</TextID>
+    <TextV>Số liên</TextV>
+    <TextE>No. of Copies</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>205</TextID>
+    <TextV>Fax</TextV>
+    <TextE>Fax</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>206</TextID>
+    <TextV>Mã số thuế</TextV>
+    <TextE>Tax Code</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>207</TextID>
+    <TextV>Khác hàng %k đã vượt định mức nợ %t,Bạn có muốn tiếp tục lưu không?</TextV>
+    <TextE>Khác hàng %k đã vượt định mức nợ %t,Bạn có muốn tiếp tục lưu không?</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>208</TextID>
+    <TextV>Loại khách hàng</TextV>
+    <TextE>Customer Type</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>209</TextID>
+    <TextV>Hãy chọn 1 phiếu</TextV>
+    <TextE>Select at least one voucher</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>210</TextID>
+    <TextV>Số tiền thu nhỏ hơn số tiền phải thu</TextV>
+    <TextE>Số tiền thu nhỏ hơn số tiền phải thu</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>214</TextID>
+    <TextV>Diễn giải</TextV>
+    <TextE>Memo</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>215</TextID>
+    <TextV>Ngoại tệ</TextV>
+    <TextE>Foreign Currency</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>216</TextID>
+    <TextV>Nhân viên thực hiện</TextV>
+    <TextE>Employese Perform</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>217</TextID>
+    <TextV>Thông tin khách hàng</TextV>
+    <TextE>Customer Information</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>218</TextID>
+    <TextV>Tên người giao dịch</TextV>
+    <TextE>Transaction Name</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>219</TextID>
+    <TextV>Lưu và thêm mới</TextV>
+    <TextE>Save and Append</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>220</TextID>
+    <TextV>Số chứng từ</TextV>
+    <TextE>Voucher No.</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>221</TextID>
+    <TextV>Ngày chứng từ</TextV>
+    <TextE>Voucher Date</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>222</TextID>
+    <TextV>Tiền ngoại tệ</TextV>
+    <TextE>FC Amount</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>223</TextID>
+    <TextV>Mã thuế</TextV>
+    <TextE>Tax code</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>224</TextID>
+    <TextV>Thuế suất</TextV>
+    <TextE>Tax Rate</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>225</TextID>
+    <TextV>Tiền hoạch toán</TextV>
+    <TextE>Base Curr.</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>226</TextID>
+    <TextV>Tiền hoạch toán</TextV>
+    <TextE>Base Curr.</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>227</TextID>
+    <TextV>&amp;In</TextV>
+    <TextE>&amp;Print</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>228</TextID>
+    <TextV>&amp;Xem</TextV>
+    <TextE>&amp;View</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>229</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>230</TextID>
+    <TextV>Tiêu đề</TextV>
+    <TextE>Title</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>231</TextID>
+    <TextV>Mẫu báo cáo</TextV>
+    <TextE>Report Form</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>232</TextID>
+    <TextV>Từ/đến ngày</TextV>
+    <TextE>Date from/to</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>233</TextID>
+    <TextV>&amp;Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>234</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>300</TextID>
+    <TextV>Tên khách hàng</TextV>
+    <TextE>Customer Name</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>301</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>302</TextID>
+    <TextV>Liên hệ</TextV>
+    <TextE>Contact</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>303</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>400</TextID>
+    <TextV>Chủ thẻ</TextV>
+    <TextE>Chủ thẻ</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>401</TextID>
+    <TextV>Số thẻ</TextV>
+    <TextE>Số thẻ</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>402</TextID>
+    <TextV>Số tiền</TextV>
+    <TextE>Số tiền</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>403</TextID>
+    <TextV>Thanh toán</TextV>
+    <TextE>Thanh toán</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>404</TextID>
+    <TextV>Hủy</TextV>
+    <TextE>Hủy</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>405</TextID>
+    <TextV>Thanh toán bằng VISA</TextV>
+    <TextE>Thanh toán bằng VISA</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>406</TextID>
+    <TextV>Thanh toán</TextV>
+    <TextE>Payment</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>407</TextID>
+    <TextV>Chưa nhập chi tiết</TextV>
+    <TextE>Details Not Entered</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>408</TextID>
+    <TextV>Số hóa đơn</TextV>
+    <TextE>Inv. No.</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>409</TextID>
+    <TextV>Số seri</TextV>
+    <TextE>Serial</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>410</TextID>
+    <TextV>Ngày hđ</TextV>
+    <TextE>Inv. Date</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>411</TextID>
+    <TextV>Nhóm hàng</TextV>
+    <TextE>Item Group</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>412</TextID>
+    <TextV>Tổng tiền hàng</TextV>
+    <TextE>Amount</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>413</TextID>
+    <TextV>Chiết khấu</TextV>
+    <TextE>Discount Amt.</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>414</TextID>
+    <TextV>Tiền thuế</TextV>
+    <TextE>Tax</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>415</TextID>
+    <TextV>Tổng hóa đơn</TextV>
+    <TextE>Tổng hóa đơn</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>416</TextID>
+    <TextV>Không thể xóa vì hóa đơn này đã được thanh toán</TextV>
+    <TextE>This invoice is settled, can not be deleted</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>417</TextID>
+    <TextV>Không thể chỉnh sửa vì hóa đơn đã được thanh toán</TextV>
+    <TextE>Can not edit becase this invoice is settled</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>418</TextID>
+    <TextV>Tổng số lượng</TextV>
+    <TextE>Total Q'ty</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>419</TextID>
+    <TextV>Tiền trả lại</TextV>
+    <TextE>return</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>420</TextID>
+    <TextV>TK nợ</TextV>
+    <TextE>Dr. Account</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>421</TextID>
+    <TextV>TK dt</TextV>
+    <TextE>Sales Acct.</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>422</TextID>
+    <TextV>Phải thu</TextV>
+    <TextE>Phải thu</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>499</TextID>
+    <TextV>Thẻ giảm giá</TextV>
+    <TextE>Thẻ giảm giá</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>500</TextID>
+    <TextV>Nhập mã khách hàng:</TextV>
+    <TextE>Nhập mã khách hàng:</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>501</TextID>
+    <TextV>Quay lại</TextV>
+    <TextE>Quay lại</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>502</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Tìm khách hàng</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>503</TextID>
+    <TextV>Khôi phục HĐ</TextV>
+    <TextE>Khôi phục hóa đơn</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>504</TextID>
+    <TextV>Bỏ qua</TextV>
+    <TextE>Bỏ qua</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>505</TextID>
+    <TextV>Nhập mã sản phẩm</TextV>
+    <TextE>Nhập mã sản phẩm</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>506</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Tìm sản phẩm</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>507</TextID>
+    <TextV>Số lượng</TextV>
+    <TextE>Số lượng</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>508</TextID>
+    <TextV>Xóa sản phẩm</TextV>
+    <TextE>Xóa sản phẩm</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>509</TextID>
+    <TextV>Thẻ giảm giá</TextV>
+    <TextE>Thẻ giảm giá</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>510</TextID>
+    <TextV>Tạm hủy</TextV>
+    <TextE>Tạm hủy</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>511</TextID>
+    <TextV>khách hàng</TextV>
+    <TextE>Nhập khách hàng</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>512</TextID>
+    <TextV>Thanh toán</TextV>
+    <TextE>Thanh toán</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>513</TextID>
+    <TextV>Cập nhật số lượng</TextV>
+    <TextE>Cập nhật số lượng</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>514</TextID>
+    <TextV>Chưa nhập sản phẩm nào</TextV>
+    <TextE>Chưa nhập sản phẩm nào</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>515</TextID>
+    <TextV>Chọn phương thức thanh toán:</TextV>
+    <TextE>Chọn phương thức thanh toán:</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>516</TextID>
+    <TextV>Tiền mặt</TextV>
+    <TextE>Tiền mặt</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>517</TextID>
+    <TextV>Visa/Master</TextV>
+    <TextE>Thẻ Visa/Master</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>518</TextID>
+    <TextV>Trả sau</TextV>
+    <TextE>Trả sau</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>519</TextID>
+    <TextV>Nhập số tiền</TextV>
+    <TextE>Nhập số tiền</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>520</TextID>
+    <TextV>Lưu phiếu</TextV>
+    <TextE>Lưu phiếu</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>521</TextID>
+    <TextV>Nhập mã số Thẻ giảm giá/chiết khấu</TextV>
+    <TextE>Nhập mã số Thẻ giảm giá/chiết khấu</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>522</TextID>
+    <TextV>Sản phẩm</TextV>
+    <TextE>Nhập sản phẩm</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>523</TextID>
+    <TextV>In phiếu tính tiền</TextV>
+    <TextE>In phiếu tính tiền</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>524</TextID>
+    <TextV>Phiếu mới</TextV>
+    <TextE>Phiếu mới</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>525</TextID>
+    <TextV>Xem phiếu</TextV>
+    <TextE>Xem phiếu</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>526</TextID>
+    <TextV>In phiếu</TextV>
+    <TextE>In phiếu</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>527</TextID>
+    <TextV>Số thẻ này đã được sử dụng</TextV>
+    <TextE>Số thẻ này đã được sử dụng</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>528</TextID>
+    <TextV>Thẻ này đã hết hạn sử dụng hoặc số lần sử dụng đã hết</TextV>
+    <TextE>Thẻ này đã hết hạn sử dụng hoặc số lần sử dụng đã hết</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>529</TextID>
+    <TextV>Bạn có chắc chắn xóa sản phẩm này không?</TextV>
+    <TextE>Bạn có chắc chắn xóa sản phẩm này không?</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>530</TextID>
+    <TextV>Sửa giá bán</TextV>
+    <TextE>Sửa giá bán</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>600</TextID>
+    <TextV>Chọn ca làm việc</TextV>
+    <TextE>Chọn ca làm việc</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>601</TextID>
+    <TextV>Quầy số</TextV>
+    <TextE>Quầy số</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>602</TextID>
+    <TextV>Ca làm việc</TextV>
+    <TextE>Ca làm việc</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>603</TextID>
+    <TextV>Bán hàng</TextV>
+    <TextE>Bán hàng</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>604</TextID>
+    <TextV>Thoát (Esc)</TextV>
+    <TextE>Exit(Esc)</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>800</TextID>
+    <TextV>Phiếu bán hàng này chưa hoàn thành, bạn có chắc chắn muốn tắt màn hình này không?</TextV>
+    <TextE>Phiếu bán hàng này chưa hoàn thành, bạn có chắc chắn muốn tắt màn hình này không?</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>801</TextID>
+    <TextV>Thoát(Esc)</TextV>
+    <TextE>Exit(Esc)</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>802</TextID>
+    <TextV>Quản lý(F12)</TextV>
+    <TextE>Management(F12)</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>803</TextID>
+    <TextV>Bạn có chắc chắn bán chịu cho khách hàng này không?</TextV>
+    <TextE>Bạn có chắc chắn bán chịu cho khách hàng này không?</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>F01</TextID>
+    <TextV>Bộ phận</TextV>
+    <TextE>Dept.</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>F02</TextID>
+    <TextV>Phí</TextV>
+    <TextE>Fee</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>F03</TextID>
+    <TextV>Đối tượng</TextV>
+    <TextE>Object</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>KHD</TextID>
+    <TextV>Ký hiệu số HĐ</TextV>
+    <TextE>Ký hiệu số HĐ</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>KHO</TextID>
+    <TextV>Kho</TextV>
+    <TextE>Store</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>L00</TextID>
+    <TextV>Chương trình đã thực hiện xong. Bạn muốn làm gì tiếp?</TextV>
+    <TextE>The program has done. You want to do next?</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>L01</TextID>
+    <TextV>Thêm &amp;mới</TextV>
+    <TextE>&amp;New</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>L02</TextID>
+    <TextV>Sao &amp;chép</TextV>
+    <TextE>&amp;Copy</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>L03</TextID>
+    <TextV>&amp;In phiếu</TextV>
+    <TextE>&amp;Print</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>L04</TextID>
+    <TextV>&amp;Quay ra</TextV>
+    <TextE>&amp;Exit</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>L05</TextID>
+    <TextV>Không hiện màn hình này lần sau</TextV>
+    <TextE>This is not the Next Screen</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>MHD</TextID>
+    <TextV>Mã hóa đơn</TextV>
+    <TextE>Mã hóa đơn</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>MTH</TextID>
+    <TextV>Mã thuế</TextV>
+    <TextE>VAT</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>TKT</TextID>
+    <TextV>1111</TextV>
+    <TextE>1111</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>Z01</TextID>
+    <TextV>Hạn thanh toán</TextV>
+    <TextE>Day(s) to Pay</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>Z02</TextID>
+    <TextV>Sửa tỷ lệ CK</TextV>
+    <TextE>Discount rate</TextE>
+  </XHD>
+  <XHD>
+    <FormID>XHD</FormID>
+    <TextID>Z03</TextID>
+    <TextV>Thẻ này không phải của khách hàng %s</TextV>
+    <TextE>Thẻ này không phải của khách hàng %s</TextE>
+  </XHD>
+</NewDataSet>

@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="BL1VDBL1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BL1VDBL1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="tab" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups2" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids2" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="lookup_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="empty_when_readonly" type="xs:boolean" minOccurs="0" />
+                <xs:element name="multivalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BL1VDBL1>
+    <code>BL1</code>
+    <tab>VDBL1</tab>
+    <field>ma_bp</field>
+    <fieldlookups>ma_bp,ten_bp</fieldlookups>
+    <fieldgrids>ma_bp,ten_bp</fieldgrids>
+    <fieldlookups2>ma_bp,ten_bp2</fieldlookups2>
+    <fieldgrids2>ma_bp,ten_bp2</fieldgrids2>
+    <codelookup>dmbp</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </BL1VDBL1>
+  <BL1VDBL1>
+    <code>BL1</code>
+    <tab>VDBL1</tab>
+    <field>ma_cv</field>
+    <fieldlookups>ma_chuc_vu,ten_chuc_vu</fieldlookups>
+    <fieldgrids>ma_cv,ten_cv</fieldgrids>
+    <fieldlookups2>ma_chuc_vu,ten_chuc_vu2</fieldlookups2>
+    <fieldgrids2>ma_cv,ten_cv2</fieldgrids2>
+    <codelookup>hdchucvu</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </BL1VDBL1>
+  <BL1VDBL1>
+    <code>BL1</code>
+    <tab>VDBL1</tab>
+    <field>ma_nv</field>
+    <fieldlookups>ma_nv,ten_nv,ma_cv,ma_bp</fieldlookups>
+    <fieldgrids>ma_nv,ten_nv,ma_cv,ma_bp</fieldgrids>
+    <fieldlookups2>ma_nv,ten_nv,ma_cv,ma_bp</fieldlookups2>
+    <fieldgrids2>ma_nv,ten_nv,ma_cv,ma_bp</fieldgrids2>
+    <codelookup>dmnv</codelookup>
+    <isnullable>false</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>true</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </BL1VDBL1>
+</NewDataSet>

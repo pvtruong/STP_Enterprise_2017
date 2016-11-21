@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dhd3_x0040_DL042" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dhd3_x0040_DL042">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dhd3_x0040_DL042>
+    <gridid>dhd3@DL042</gridid>
+    <columnsv>ma_dt,trang_thai_vo,so_the_ts,ten_ts,ma_kh_cty,sl_co_gas,sl_khong_gas,so_the_ts_doi,sl_co_gas_doi,sl_khong_gas_doi,vo_doi,ma_vt,ten_vt,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,ton_tt,sl_nhap,gia_ban_nt,gia_ban,tien_nt,tien,ma_nvu,tk_co,tk_tl,ma_hoa_don,ky_hieu_hoa_don,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,pn_gia_tb,gia_von_nt,gia_von,tien_nhap_nt,tien_nhap,tk_vt,tk_gv,dien_giai</columnsv>
+    <columnse>ma_dt,trang_thai_vo,so_the_ts,ten_ts,ma_kh_cty,sl_co_gas,sl_khong_gas,so_the_ts_doi,sl_co_gas_doi,sl_khong_gas_doi,vo_doi,ma_vt,ten_vt2,ma_tt1,ma_tt2,ma_tt3,ma_tt4,ma_tt5,ma_dvt,ma_kho,ton_tt,sl_nhap,gia_ban_nt,gia_ban,tien_nt,tien,ma_nvu,tk_co,tk_tl,ma_hoa_don,ky_hieu_hoa_don,ma_thue,thue_suat,tk_thue_co,tk_du,tien_thue_nt,tien_thue,pn_gia_tb,gia_von_nt,gia_von,tien_nhap_nt,tien_nhap,tk_vt,tk_gv,dien_giai</columnse>
+    <headersv>Mã vụ việc,Có gas,Mã vỏ thu về,Tên vỏ thu về,Nơi vỏ bình đến,SL vỏ có gas,SL vỏ không gas,Mã vỏ bình đổi,SL Vỏ có gas đổi ,SL Vỏ không gas đổi,Đổi vỏ?,Mã vt,Tên vật tư,Mã tt1,Mã tt2,Mã tt3,Mã tt4,Mã tt5,ĐVT,Kho,Tồn kho,Số lượng,Giá bán nt,Giá bán,Tiền nt,Tiền,Nghiệp vụ,TK có,TK trả lại,Mã hóa đơn,Ký hiệu số hóa đơn,Mã thuế,Thuế suất,TK thuế,Tk đối ứng,Tiền thuế nt,Tiền thuế,PN giá TB,Giá vốn,Giá vốn,Tiền vốn,Tiền vốn,TK vật tư,TK giá vốn,Diễn giải</headersv>
+    <headerse>Mã vụ việc,Có gas,Số seri vỏ,Tên vỏ,Nơi vỏ bình đến,Số lượng có gas,Số lượng không gas,Serial Bình đổi,sl có gas đổi,sl bình không gas đổi,Đổi vỏ?,Item Code,Item Name,Mã tt1,Mã tt2,Mã tt3,Mã tt4,Mã tt5,UOM,Site,Inventory,Quantity,Foreign Currency Price,Sales Price ,FC Amount,Amount,Nghiệp vụ,Cr. Account ,Sales Return Acct.,Mã hóa đơn,Ký hiệu hóa đơn,Tax Code,Tax Rate,Tax Acct.,Ref. Account,FC Tax Amt,Tax Amt,Receipt Arverage,Unit Cost,Unit Cost ,Cost Amt.,Cost Amt.,Inventory Acct,Cogs Account,Note</headerse>
+    <widths>70,50,80,80,80,80,80,80,70,70,50,80,100,100,100,100,100,100,60,60,100,70,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,200</widths>
+    <formats>,,,,,f_tien,f_tien,,,,,,,,,,,,,,f_sl,f_sl,f_gia_nt,f_gia,f_tien_nt,f_tien,,,,,,,f_tien,,,f_tien_nt,f_tien,,f_gia_nt,f_gia,f_tien,f_tien,,,</formats>
+    <readonlys>0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0</hides>
+    <defaultvalues>,,,=select ten_ts from MCC where so_the_ts=@[so_the_ts],,,,,,,,,,,,,,,,DL0042,=select ton_tt from tontucthoi where ma_vt='[ma_vt]' and ma_kho ='[ma_kho]' and ma_tt1 ='[ma_tt1]' and ma_tt2 ='[ma_tt2]'  and ma_tt3 ='[ma_tt3]'  and ma_tt4 ='[ma_tt4]'  and ma_tt5 ='[ma_tt5]'![so_the_ts],,=exec get_giaban_buon @[ma_vt]%p @[ma_dvt]%p @M[ma_kh]%p@M[ty_gia]%p@[ma_tt1]%p@[ma_tt2]%p@[ma_tt3]%p@[ma_tt4]%p@[ma_tt5]![so_the_ts]![so_the_ts],=[gia_ban_nt]*{ty_gia},=[sl_nhap]*[gia_ban_nt],=[tien_nt]*{ty_gia} ![sl_nhap]![gia_ban]![gia_ban_nt],,131111,5311,,,,,,,=[tien_nt]*[thue_suat]/100![gia_ban_nt]![sl_nhap]![ma_thue],=[tien_thue_nt]*{ty_gia} ![tien]![thue_suat]![gia_ban_nt]![gia_ban]![sl_nhap]![ma_thue],1,,=[gia_von_nt] ![pn_gia_tb],=[gia_von_nt]*[sl_nhap] ![pn_gia_tb],=[tien_nhap_nt] ![sl_nhap]![gia_von_nt]![pn_gia_tb],= exec get_tk_vt @M[ma_dvcs]%p@[ma_kho]%p@[ma_vt],6321,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0</carrys>
+  </dhd3_x0040_DL042>
+</NewDataSet>

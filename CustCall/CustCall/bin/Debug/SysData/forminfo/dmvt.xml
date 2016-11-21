@@ -1,0 +1,579 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmvt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmvt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>000</TextID>
+    <TextV>Danh mục vật tư/hàng hóa</TextV>
+    <TextE>Item List</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã vật tư</TextV>
+    <TextE>Code</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên vật tư</TextV>
+    <TextE>Name</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>003</TextID>
+    <TextV>Tên 2</TextV>
+    <TextE>Name 2</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>004</TextID>
+    <TextV>Đơn vị tính</TextV>
+    <TextE>UOM</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>005</TextID>
+    <TextV>TK thuế nợ</TextV>
+    <TextE>Dr.Account Tax</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>006</TextID>
+    <TextV>TK thuế có</TextV>
+    <TextE>Cr.Account Tax</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>008</TextID>
+    <TextV>Còn sử dụng</TextV>
+    <TextE>enabled</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>017</TextID>
+    <TextV>&amp;Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>018</TextID>
+    <TextV>Sửa tk vt</TextV>
+    <TextE>Edit Inventory Account</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>019</TextID>
+    <TextV>Tk trả lại</TextV>
+    <TextE>Return Acct.</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>020</TextID>
+    <TextV>Tk chênh lệch vật tư</TextV>
+    <TextE>Cost Difference Acct.</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>021</TextID>
+    <TextV>Tk đại lý</TextV>
+    <TextE>Agent Account</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>022</TextID>
+    <TextV>Mã thuế</TextV>
+    <TextE>Tax Code</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>029</TextID>
+    <TextV>Hình</TextV>
+    <TextE>Image</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Nhận</TextV>
+    <TextE>&amp;Ok</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>100</TextID>
+    <TextV>Chức năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>101</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>102</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>103</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>104</TextID>
+    <TextV>&amp;Đóng</TextV>
+    <TextE>&amp;Close</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>105</TextID>
+    <TextV>Loại vt</TextV>
+    <TextE>Item Type</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>106</TextID>
+    <TextV>Nhóm vt1</TextV>
+    <TextE>Group 1</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>107</TextID>
+    <TextV>Nhóm vt2</TextV>
+    <TextE>Group 2</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>108</TextID>
+    <TextV>Nhóm vt3</TextV>
+    <TextE>Group 3</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>109</TextID>
+    <TextV>Theo dõi tồn kho</TextV>
+    <TextE>Stock Item</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>110</TextID>
+    <TextV>TK vật tư</TextV>
+    <TextE>Inventory Acct.</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>111</TextID>
+    <TextV>Tk gv</TextV>
+    <TextE>Cogs Account</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>112</TextID>
+    <TextV>TK dt</TextV>
+    <TextE>Sales Acct.</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>113</TextID>
+    <TextV>TK ck</TextV>
+    <TextE>Discount Acct.</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>114</TextID>
+    <TextV>TK spdd</TextV>
+    <TextE>Work-in-process Account</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>115</TextID>
+    <TextV>Thông tin chính</TextV>
+    <TextE>Information 1</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>116</TextID>
+    <TextV>Tài khoản</TextV>
+    <TextE>Account</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>117</TextID>
+    <TextV>Đơn vị tính quy đổi</TextV>
+    <TextE>Unit Exchange</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>118</TextID>
+    <TextV>PP tính giá xuất</TextV>
+    <TextE>Calculate export price</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>119</TextID>
+    <TextV>Mã kho</TextV>
+    <TextE>Site ID</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>199</TextID>
+    <TextV>Ngành hàng</TextV>
+    <TextE>Ngành hàng</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>200</TextID>
+    <TextV>Quản lý theo thuộc tính</TextV>
+    <TextE>Use property</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>201</TextID>
+    <TextV>Sử dụng thuộc tính 1</TextV>
+    <TextE>property 1</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>202</TextID>
+    <TextV>Sử dụng thuộc tính 2</TextV>
+    <TextE>property 2</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>203</TextID>
+    <TextV>Sử dụng thuộc tính 3</TextV>
+    <TextE>property 3</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>204</TextID>
+    <TextV>Sử dụng thuộc tính 4</TextV>
+    <TextE>property 4</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>205</TextID>
+    <TextV>Sử dụng thuộc tính 5</TextV>
+    <TextE>property 5</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>206</TextID>
+    <TextV>In mã vạch</TextV>
+    <TextE>Print bar code</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>300</TextID>
+    <TextV>Tồn tối thiểu</TextV>
+    <TextE>Tồn tối thiểu</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>301</TextID>
+    <TextV>Tồn tối đa</TextV>
+    <TextE>Tồn tối đa</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>302</TextID>
+    <TextV>Giá bán lẻ</TextV>
+    <TextE>Giá bán lẻ</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>303</TextID>
+    <TextV>Giá bán buôn 1</TextV>
+    <TextE>Giá bán buôn 1</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>304</TextID>
+    <TextV>Giá bán buôn 2</TextV>
+    <TextE>Giá bán buôn 2</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>305</TextID>
+    <TextV>Giá bán buôn 3</TextV>
+    <TextE>Giá bán buôn 3</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>306</TextID>
+    <TextV>Giá bán buôn 4</TextV>
+    <TextE>Giá bán buôn 4</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>307</TextID>
+    <TextV>Tỷ lệ giảm giá</TextV>
+    <TextE>Tỷ lệ giảm giá</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>308</TextID>
+    <TextV>Tiền giảm</TextV>
+    <TextE>Tiền giảm</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>400</TextID>
+    <TextV>Giá mua</TextV>
+    <TextE>Giá mua</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>401</TextID>
+    <TextV>Giá nhập khẩu</TextV>
+    <TextE>Giá nhập khẩu</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>402</TextID>
+    <TextV>Mã thuế nhập khẩu</TextV>
+    <TextE>Mã thuế nk</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>403</TextID>
+    <TextV>Mã thuế TTDB</TextV>
+    <TextE>Mã thuế TTDB</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>500</TextID>
+    <TextV>Thương hiệu</TextV>
+    <TextE>Thương hiệu</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>501</TextID>
+    <TextV>Số seri</TextV>
+    <TextE>Số seri</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>502</TextID>
+    <TextV>Model</TextV>
+    <TextE>Model</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>503</TextID>
+    <TextV>Trọng lượng</TextV>
+    <TextE>Trọng lượng</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>504</TextID>
+    <TextV>Nơi sản xuất</TextV>
+    <TextE>Nơi sản xuất</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>505</TextID>
+    <TextV>Thể tích</TextV>
+    <TextE>Thể tích</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>506</TextID>
+    <TextV>Bảo hành</TextV>
+    <TextE>Bảo hành</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>507</TextID>
+    <TextV>Nhà cung cấp</TextV>
+    <TextE>Nhà cung cấp</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>508</TextID>
+    <TextV>Chức năng</TextV>
+    <TextE>Chức năng</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>509</TextID>
+    <TextV>Vị trí</TextV>
+    <TextE>Vị trí</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>510</TextID>
+    <TextV>Cho phép xuất âm</TextV>
+    <TextE>Cho phép xuất âm</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>600</TextID>
+    <TextV>Mô tả</TextV>
+    <TextE>Mô tả</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>601</TextID>
+    <TextV>Kiểu loại</TextV>
+    <TextE>Kiểu loại</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>700</TextID>
+    <TextV>Chọn loại vật tư</TextV>
+    <TextE>Chọn loại vật tư</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>701</TextID>
+    <TextV>Chọn nhóm vật tư 1</TextV>
+    <TextE>Chọn nhóm vật tư 1</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>702</TextID>
+    <TextV>Chọn nhóm vật tư 2</TextV>
+    <TextE>Chọn nhóm vật tư 2</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>703</TextID>
+    <TextV>Chọn nhóm vật tư 3</TextV>
+    <TextE>Chọn nhóm vật tư 3</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>900</TextID>
+    <TextV>Thông tin nhập hàng</TextV>
+    <TextE>Thông tin nhập hàng</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>901</TextID>
+    <TextV>Chính sách bán hàng</TextV>
+    <TextE>Chính sách bán hàng</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>902</TextID>
+    <TextV>Mô tả chi tiết</TextV>
+    <TextE>Mô tả chi tiết</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>903</TextID>
+    <TextV>Thông tin khác</TextV>
+    <TextE>Thông tin khác</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>905</TextID>
+    <TextV>Giá bán</TextV>
+    <TextE>Giá bán</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>906</TextID>
+    <TextV>Cập nhật giá bán</TextV>
+    <TextE>Cập nhật giá bán</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>907</TextID>
+    <TextV>Bảng kê phiếu nhập</TextV>
+    <TextE>Bảng kê phiếu nhập</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>908</TextID>
+    <TextV>Bảng kê phiếu xuất</TextV>
+    <TextE>Bảng kê phiếu xuất</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>910</TextID>
+    <TextV>Từ ngày</TextV>
+    <TextE>Từ ngày</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>911</TextID>
+    <TextV>Đến ngày</TextV>
+    <TextE>Đến ngày</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>912</TextID>
+    <TextV>Lọc</TextV>
+    <TextE>Lọc</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>GCT</TextID>
+    <TextV>Giá chưa VAT</TextV>
+    <TextE>Giá chưa VAT</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>MNCC</TextID>
+    <TextV>Mã vật tư của NCC</TextV>
+    <TextE>Mã vật tư/hàng hóa của NCC</TextE>
+  </dmvt>
+  <dmvt>
+    <FormID>dmvt</FormID>
+    <TextID>SDL</TextID>
+    <TextV>Là sản phẩm bán hộ</TextV>
+    <TextE>Là sản phẩm bán hộ</TextE>
+  </dmvt>
+</NewDataSet>

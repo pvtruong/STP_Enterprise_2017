@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmvt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmvt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmvt>
+    <Code>dmvt</Code>
+    <Name>ma_vach</Name>
+    <Type>C</Type>
+    <Value>Mã vạch</Value>
+    <Value2>Bar code</Value2>
+  </dmvt>
+  <dmvt>
+    <Code>dmvt</Code>
+    <Name>ma_vt</Name>
+    <Type>C</Type>
+    <Value>Mã vật tư</Value>
+    <Value2>Item ID</Value2>
+  </dmvt>
+  <dmvt>
+    <Code>dmvt</Code>
+    <Name>ten_vt</Name>
+    <Type>C</Type>
+    <Value>Tên vật tư</Value>
+    <Value2>Item name</Value2>
+  </dmvt>
+  <dmvt>
+    <Code>dmvt</Code>
+    <Name>ten_vt2</Name>
+    <Type>C</Type>
+    <Value>Tên vật tư 2</Value>
+    <Value2>Item name 2</Value2>
+  </dmvt>
+</NewDataSet>

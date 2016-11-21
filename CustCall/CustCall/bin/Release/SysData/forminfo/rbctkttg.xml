@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbctkttg" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbctkttg">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>000</TextID>
+    <TextV>Báo cáo tồn kho theo thời gian</TextV>
+    <TextE>Aging Stock by Time</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>001</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Filter Condition</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>002</TextID>
+    <TextV>Đến ngày</TextV>
+    <TextE>Date from/to</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>003</TextID>
+    <TextV>Mã kho</TextV>
+    <TextE>Site.ID</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>004</TextID>
+    <TextV>Mã vật tư</TextV>
+    <TextE>Item Code</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>005</TextID>
+    <TextV>Tính theo</TextV>
+    <TextE>Calculated by</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>006</TextID>
+    <TextV>Chu kỳ</TextV>
+    <TextE>Period</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>007</TextID>
+    <TextV>Số kỳ</TextV>
+    <TextE>Number of Periods</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>009</TextID>
+    <TextV>Đơn vị</TextV>
+    <TextE>Unit</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>011</TextID>
+    <TextV>Mẫu báo cáo</TextV>
+    <TextE>Report Form</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>012</TextID>
+    <TextV>Tiêu đề</TextV>
+    <TextE>Title</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>016</TextID>
+    <TextV>Nhóm theo</TextV>
+    <TextE>Group by</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>200</TextID>
+    <TextV>Chức năng</TextV>
+    <TextE>Function</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>201</TextID>
+    <TextV>&amp;In</TextV>
+    <TextE>&amp;Print</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>202</TextID>
+    <TextV>&amp;Xem</TextV>
+    <TextE>&amp;View</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>203</TextID>
+    <TextV>Làm tươi</TextV>
+    <TextE>Refresh</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>204</TextID>
+    <TextV>Xem chứng từ</TextV>
+    <TextE>View Voucher</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>900</TextID>
+    <TextV>&amp;Nhận</TextV>
+    <TextE>&amp;OK</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>901</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>999</TextID>
+    <TextV>Thoát</TextV>
+    <TextE>Close</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>ck</TextID>
+    <TextV>10</TextV>
+    <TextE>1</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>sk</TextID>
+    <TextV>3</TextV>
+    <TextE>4</TextE>
+  </rbctkttg>
+  <rbctkttg>
+    <FormID>rbctkttg</FormID>
+    <TextID>tt</TextID>
+    <TextV>1</TextV>
+    <TextE>2</TextE>
+  </rbctkttg>
+</NewDataSet>

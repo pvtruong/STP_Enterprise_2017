@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="gt_cdytdd" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="gt_cdytdd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ky" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nam" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_yt" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_sp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp" type="xs:string" minOccurs="0" />
+                <xs:element name="so_lsx" type="xs:string" minOccurs="0" />
+                <xs:element name="dd_dk" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dd_dk_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ps_tk0" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ps_tk_nt0" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ps_tk" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ps_tk_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gt_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ps_tk2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ps_tk_nt2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dd_ck" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dd_ck_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

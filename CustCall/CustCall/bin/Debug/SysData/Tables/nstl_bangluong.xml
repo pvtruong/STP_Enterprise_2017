@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="nstl_bangluong" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="nstl_bangluong">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ky" type="xs:int" minOccurs="0" />
+                <xs:element name="nam" type="xs:int" minOccurs="0" />
+                <xs:element name="ma_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="hs_luong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_cb" type="xs:decimal" minOccurs="0" />
+                <xs:element name="phu_cap_ql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="phu_cap_khac" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tong_luong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tam_ung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="khau_tru_bhxh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="khau_tru_bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="khau_tru_bhtn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="khau_tru_ttncn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_khau_tru" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giam_tru_gia_canh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thu_nhap_tinh_thue" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thuc_nhan" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

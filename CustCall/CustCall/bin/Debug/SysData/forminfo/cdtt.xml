@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="cdtt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="cdtt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>000</TextID>
+    <TextV>Đầu kỳ hàng hoá, vật tư theo thuộc tính</TextV>
+    <TextE>Opening Item Balance by property</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã kho</TextV>
+    <TextE>Site ID</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>002</TextID>
+    <TextV>Mã vật tư</TextV>
+    <TextE>Item Code</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>003</TextID>
+    <TextV>Tồn đầu</TextV>
+    <TextE>Opening Q'ty</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>004</TextID>
+    <TextV>Dư đầu</TextV>
+    <TextE>Opening Balance</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>005</TextID>
+    <TextV>Dư đầu nt</TextV>
+    <TextE>FC Opening Balance</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>006</TextID>
+    <TextV>Diễn giải</TextV>
+    <TextE>Memo</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>200</TextID>
+    <TextV>Mã thuộc tính 1</TextV>
+    <TextE>Property 1</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>201</TextID>
+    <TextV>Mã thuộc tính 2</TextV>
+    <TextE>Property 2</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>202</TextID>
+    <TextV>Mã thuộc tính 3</TextV>
+    <TextE>Property 3</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>203</TextID>
+    <TextV>Mã thuộc tính 4</TextV>
+    <TextE>Property 4</TextE>
+  </cdtt>
+  <cdtt>
+    <FormID>cdtt</FormID>
+    <TextID>204</TextID>
+    <TextV>Mã thuộc tính 5</TextV>
+    <TextE>Property 5</TextE>
+  </cdtt>
+</NewDataSet>

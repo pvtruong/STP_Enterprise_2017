@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="res_dmban" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="res_dmban">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_kv" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_loai_ban" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_ban" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_ban" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_ban2" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:int" minOccurs="0" />
+                <xs:element name="x" type="xs:decimal" minOccurs="0" />
+                <xs:element name="y" type="xs:decimal" minOccurs="0" />
+                <xs:element name="width" type="xs:decimal" minOccurs="0" />
+                <xs:element name="height" type="xs:decimal" minOccurs="0" />
+                <xs:element name="backcolor" type="xs:string" minOccurs="0" />
+                <xs:element name="forecolor" type="xs:string" minOccurs="0" />
+                <xs:element name="status" type="xs:int" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

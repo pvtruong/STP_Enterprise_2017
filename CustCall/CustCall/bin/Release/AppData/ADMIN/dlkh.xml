@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_loai_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="ten2" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma_loai_kh>KBB</ma_loai_kh>
+    <ten>Nhóm Khách Hàng Bán Buôn</ten>
+    <ten2>KHBB</ten2>
+    <nguoi_tao>ADMIN3</nguoi_tao>
+    <ngay_tao>2013-06-14T14:28:14+07:00</ngay_tao>
+    <nguoi_sua />
+    <trang_thai>true</trang_thai>
+  </Table>
+  <Table>
+    <ma_loai_kh>KBL</ma_loai_kh>
+    <ten>Nhóm Khách Hàng Lẻ</ten>
+    <ten2>KHL</ten2>
+    <nguoi_tao>ADMIN3</nguoi_tao>
+    <ngay_tao>2013-06-14T14:28:01+07:00</ngay_tao>
+    <nguoi_sua>ADMIN2</nguoi_sua>
+    <ngay_sua>2013-11-22T11:02:55+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+  </Table>
+  <Table>
+    <ma_loai_kh>NCC</ma_loai_kh>
+    <ten>Nhóm Nhà Cung Cấp</ten>
+    <ten2>NCC</ten2>
+    <nguoi_tao>ADMIN3</nguoi_tao>
+    <ngay_tao>2013-06-14T13:57:14+07:00</ngay_tao>
+    <nguoi_sua>ADMIN2</nguoi_sua>
+    <ngay_sua>2013-11-22T11:02:58+07:00</ngay_sua>
+    <trang_thai>true</trang_thai>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="bccapphatdodung" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="bccapphatdodung">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <bccapphatdodung>
+    <gridid>bccapphatdodung</gridid>
+    <columnsv>so_ct,ngay_ct,ma_nv,ten_nv,ma_vt,ten_vt,so_luong_ban_giao,so_luong_hoan_tra,so_luong_con_lai</columnsv>
+    <columnse>so_ct,ngay_ct,ma_nv,ten_nv,ma_vt,ten_vt,so_luong_ban_giao,so_luong_hoan_tra,so_luong_con_lai</columnse>
+    <headersv>Số phiếu,Ngày,Mã nhân viên,Tên nhân viên,Mã vật tư,Tên vật tư,SL cấp phát,SL hoàn trả,SL còn lại</headersv>
+    <headerse>Số chứng từ,Ngày ct,Mã nhân viên,Ten nhân viên,Mã vật tư,Tên vật tư,so_luong_cap_phat,so_luong_hoan_tra,so_luong_con_lai</headerse>
+    <widths>100,100,100,200,100,200,100,100,100</widths>
+    <formats>,,,,,,f_tien,f_tien,f_tien</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0</carrys>
+  </bccapphatdodung>
+</NewDataSet>

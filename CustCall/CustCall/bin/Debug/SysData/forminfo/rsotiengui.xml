@@ -1,0 +1,141 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rsotiengui" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rsotiengui">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>000</TextID>
+    <TextV>S08-DN: Sổ tiền gửi ngân hàng</TextV>
+    <TextE>S08-DN:Book Bank</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>001</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Filter Condition</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>002</TextID>
+    <TextV>Từ/Đến ngày</TextV>
+    <TextE>Date from/to</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>003</TextID>
+    <TextV>Tài khoản</TextV>
+    <TextE>Account</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>004</TextID>
+    <TextV>&amp;Nhận</TextV>
+    <TextE>&amp;OK</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>005</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>006</TextID>
+    <TextV>Dự án</TextV>
+    <TextE>Project</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>008</TextID>
+    <TextV>Nhà cung cấp</TextV>
+    <TextE>Supplier</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>009</TextID>
+    <TextV>Đơn vị</TextV>
+    <TextE>Unit</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>010</TextID>
+    <TextV>Nhóm theo</TextV>
+    <TextE>Group by</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>011</TextID>
+    <TextV>Mẫu báo cáo</TextV>
+    <TextE>Report Form</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>012</TextID>
+    <TextV>Tiêu đề</TextV>
+    <TextE>Title</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>013</TextID>
+    <TextV>Sản phẩm</TextV>
+    <TextE>Products</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>200</TextID>
+    <TextV>Chức năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>201</TextID>
+    <TextV>&amp;In</TextV>
+    <TextE>&amp;Print</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>202</TextID>
+    <TextV>&amp;Xem</TextV>
+    <TextE>&amp;View</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>203</TextID>
+    <TextV>Làm tươi</TextV>
+    <TextE>Refresh</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>204</TextID>
+    <TextV>Xem chứng từ</TextV>
+    <TextE>View Voucher</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>999</TextID>
+    <TextV>Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </rsotiengui>
+  <rsotiengui>
+    <FormID>rsotiengui</FormID>
+    <TextID>mtk</TextID>
+    <TextV>111101</TextV>
+    <TextE>111101</TextE>
+  </rsotiengui>
+</NewDataSet>

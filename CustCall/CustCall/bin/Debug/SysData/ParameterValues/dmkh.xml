@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmkh>
+    <Code>dmkh</Code>
+    <Name>ma_kh</Name>
+    <Type>C</Type>
+    <Value>Mã khách</Value>
+    <Value2>Cust. ID</Value2>
+  </dmkh>
+  <dmkh>
+    <Code>dmkh</Code>
+    <Name>ma_vach</Name>
+    <Type>C</Type>
+    <Value>Mã vạch</Value>
+    <Value2>Barcode</Value2>
+  </dmkh>
+  <dmkh>
+    <Code>dmkh</Code>
+    <Name>ten_kh</Name>
+    <Type>C</Type>
+    <Value>Tên khách</Value>
+    <Value2>Cust. Name</Value2>
+  </dmkh>
+  <dmkh>
+    <Code>dmkh</Code>
+    <Name>ten_kh2</Name>
+    <Type>C</Type>
+    <Value>Tên khách 2</Value>
+    <Value2>Cust. Name 2</Value2>
+  </dmkh>
+</NewDataSet>

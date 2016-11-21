@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rsale_bkctblvt" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rsale_bkctblvt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="idvide" type="xs:string" minOccurs="0" />
+                <xs:element name="iditerm" type="xs:string" minOccurs="0" />
+                <xs:element name="headerV" type="xs:string" minOccurs="0" />
+                <xs:element name="headerE" type="xs:string" minOccurs="0" />
+                <xs:element name="exe" type="xs:string" minOccurs="0" />
+                <xs:element name="image" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rsale_bkctblvt>
+    <idvide>rsale_bkctblvt</idvide>
+    <iditerm>01</iditerm>
+    <headerV>Xem chứng từ</headerV>
+    <headerE>View voucher</headerE>
+    <exe>stt_rec</exe>
+    <image />
+  </rsale_bkctblvt>
+  <rsale_bkctblvt>
+    <idvide>rsale_bkctblvt</idvide>
+    <iditerm>02</iditerm>
+    <headerV>Xem thông tin của mặt hàng</headerV>
+    <headerE>Xem thông tin của mặt hàng</headerE>
+    <exe>ldmvt.exe#dmvt $[ma_vt]</exe>
+    <image />
+  </rsale_bkctblvt>
+</NewDataSet>

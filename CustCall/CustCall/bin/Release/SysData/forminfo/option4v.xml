@@ -1,0 +1,147 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="option4v" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="option4v">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>000</TextID>
+    <TextV>Tùy chọn</TextV>
+    <TextE>Options</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>001</TextID>
+    <TextV>Không bật màn hình chức năng</TextV>
+    <TextE>Không bật màn hình chức năng</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>002</TextID>
+    <TextV>Giao dịch mặc định</TextV>
+    <TextE>Default transaction</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>003</TextID>
+    <TextV>Trạng thái mặc định</TextV>
+    <TextE>Default status</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>004</TextID>
+    <TextV>Mã ngoại tệ mặc định</TextV>
+    <TextE>Default currency code</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>005</TextID>
+    <TextV>Số liên khi in</TextV>
+    <TextE>No. of Copies</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>006</TextID>
+    <TextV>Kiểu kiểm tra số chứng từ</TextV>
+    <TextE>Type of voucher check</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>007</TextID>
+    <TextV>0.Không kiểm tra,1.ngày,2.tháng,3.năm,4.tất</TextV>
+    <TextE>0 - No , 1 - Day, 2 - Month, 3 -Year , 4 -All</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>008</TextID>
+    <TextV>Số dòng chứng từ</TextV>
+    <TextE>Rows on Voucher</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>200</TextID>
+    <TextV>Thông tin chính</TextV>
+    <TextE>General</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>201</TextID>
+    <TextV>Thông tin chung</TextV>
+    <TextE>Master</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>202</TextID>
+    <TextV>Thông tin chi tiết</TextV>
+    <TextE>Detail info</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>203</TextID>
+    <TextV>Nhãn</TextV>
+    <TextE>Label</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>204</TextID>
+    <TextV>Thông tin mẫu in</TextV>
+    <TextE>Parameter 4 print form</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>205</TextID>
+    <TextV>Trạng thái giao dịch</TextV>
+    <TextE>Status</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>206</TextID>
+    <TextV>Các giao dịch</TextV>
+    <TextE>Transition</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>207</TextID>
+    <TextV>Cho phép sửa số chứng từ</TextV>
+    <TextE>Allow editing voucher number</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>900</TextID>
+    <TextV>&amp;Nhận</TextV>
+    <TextE>OK</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>901</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>Cancel</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>HDV</TextID>
+    <TextV>Ẩn thông tin chi tiết khi duyệt chứng từ</TextV>
+    <TextE>Hide detail view</TextE>
+  </option4v>
+  <option4v>
+    <FormID>option4v</FormID>
+    <TextID>QCT</TextID>
+    <TextV>Quyển chứng từ</TextV>
+    <TextE>Serial ID</TextE>
+  </option4v>
+</NewDataSet>

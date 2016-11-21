@@ -1,0 +1,36 @@
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\Vso1.exe
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\Vso1.pdb
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\Vso1.xml
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\ClsControl2.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\ClsLookup.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\Clsql.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\ClsRight.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\ClsStpService.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\ClsSV31.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\ClsVno.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\Ionic.Zip.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\clsab.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\ClPrint.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\clsViDe.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\clsPopUp.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\bin\Debug\ClsMath.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\ResolveAssemblyReference.cache
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.frmdklayhd.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.frmPrint.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.frmsearch.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.Frmmain.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.frminput.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.Resources.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso135.vbproj.GenerateResource.Cache
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.exe
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.xml
+J:\STP01\#E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.pdb
+H:\STP01\E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.exe
+H:\STP01\E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.xml
+H:\STP01\E\STP SOURCE\ACC\3.5\Sales\Vso135\Vso135\obj\Debug\Vso1.pdb
+D:\Source\acc\7.1\voucher\Vso135\Vso135\obj\Debug\Vso1.exe
+D:\Source\acc\7.1\voucher\Vso135\Vso135\obj\Debug\Vso1.xml
+D:\Source\acc\7.1\voucher\Vso135\Vso135\obj\Debug\Vso1.pdb
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.1\Vso135\obj\Debug\Vso1.exe
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.1\Vso135\obj\Debug\Vso1.xml
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.1\Vso135\obj\Debug\Vso1.pdb

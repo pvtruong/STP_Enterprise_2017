@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="XHD" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="XHD">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="control" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="notempty" type="xs:boolean" minOccurs="0" />
+                <xs:element name="lookupyn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MultiValue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRecName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldrecData2" type="xs:string" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <XHD>
+    <formid>XHD</formid>
+    <codelookup>dmhoadon</codelookup>
+    <control>txtma_hoa_don</control>
+    <field>ma_hoa_don</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>txtky_hieu_hoa_don</FieldRecName>
+    <FieldrecData>ky_hieu_hoa_don</FieldrecData>
+    <FieldrecData2>ky_hieu_hoa_don</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </XHD>
+  <XHD>
+    <formid>XHD</formid>
+    <codelookup>dmhttt</codelookup>
+    <control>txthinh_thuc_tt</control>
+    <field>ma_ht</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_hinh_thuc_tt</FieldRecName>
+    <FieldrecData>ten_ht</FieldrecData>
+    <FieldrecData2>ten_ht2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </XHD>
+  <XHD>
+    <formid>XHD</formid>
+    <codelookup>dmkh</codelookup>
+    <control>txtma_kh</control>
+    <field>ma_kh</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>txtten_kh,txtdia_chi,txtma_so_thue,txtnh_kh2</FieldRecName>
+    <FieldrecData>ten_kh,dia_chi,ma_so_thue,nh_kh2</FieldrecData>
+    <FieldrecData2>ten_kh2,dia_chi,ma_so_thue,nh_kh2</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </XHD>
+  <XHD>
+    <formid>XHD</formid>
+    <codelookup>dmnv</codelookup>
+    <control>txtma_nv</control>
+    <field>ma_nv</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName>ten_nv</FieldRecName>
+    <FieldrecData>ten_nv</FieldrecData>
+    <FieldrecData2>ten_nv</FieldrecData2>
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </XHD>
+  <XHD>
+    <formid>XHD</formid>
+    <codelookup>dmvt</codelookup>
+    <control>txtma_vt</control>
+    <field>ma_vt</field>
+    <notempty>false</notempty>
+    <lookupyn>true</lookupyn>
+    <MultiValue>false</MultiValue>
+    <ckey>1=1</ckey>
+    <FieldRecName />
+    <FieldrecData />
+    <FieldrecData2 />
+    <not_isnullable_when />
+    <readonly_when />
+    <min_words>100</min_words>
+    <always_refresh_suggest>true</always_refresh_suggest>
+  </XHD>
+</NewDataSet>

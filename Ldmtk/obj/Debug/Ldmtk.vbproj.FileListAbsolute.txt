@@ -1,0 +1,81 @@
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Ldmtk.exe
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Ldmtk.pdb
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Ldmtk.xml
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsControl2.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsList.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsLookup.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Clsql.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsStpService.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsRight.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsMath.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\clsab.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Interop.Excel.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\office.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\clsPopUp.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsVno.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Ionic.Zip.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\clsPermit4Field.dll
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\ResolveAssemblyReference.cache
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.dkloc.resources
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.Frmmain.resources
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.tk.resources
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.Resources.resources
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.vbproj.GenerateResource.Cache
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.exe
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.xml
+E:\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.pdb
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.exe
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.xml
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.pdb
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Ldmtk.exe
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Ldmtk.pdb
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Ldmtk.xml
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsStpService.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsRight.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsMath.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\clsab.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Interop.Excel.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\office.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\clsPopUp.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\ClsVno.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Ionic.Zip.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\Microsoft.Vbe.Interop.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\bin\Debug\clsPermit4Field.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\ResolveAssemblyReference.cache
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.dkloc.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.Frmmain.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.tk.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.Resources.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.vbproj.GenerateResource.Cache
+J:\STP01\#E\STP SOURCE\ACC\3.5\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.exe
+J:\STP01\#E\STP SOURCE\ACC\3.5\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.xml
+J:\STP01\#E\STP SOURCE\ACC\3.5\List\Ldmtk\Ldmtk\obj\Debug\Ldmtk.pdb
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\Ldmtk.exe
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\Ldmtk.xml
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\Ldmtk.pdb
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\Ldmtk.exe
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\Ldmtk.pdb
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\Ldmtk.xml
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\ClsControl2.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\ClsList.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\ClsLookup.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\Clsql.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\ClsVno.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\ClsMath.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\Ionic.Zip.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\clsPopUp.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\clsPermit4Field.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\clsab.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\ClsRight.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\ClsStpService.dll
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\ResolveAssemblyReference.cache
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\Ldmtk.dkloc.resources
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\Ldmtk.Frmmain.resources
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\Ldmtk.tk.resources
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\Ldmtk.Resources.resources
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\obj\Debug\Ldmtk.vbproj.GenerateResource.Cache
+D:\Source\acc\5.0\list\Ldmtk\Ldmtk\bin\Debug\clsViDe.dll
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Ldmtk\obj\Debug\Ldmtk.exe
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Ldmtk\obj\Debug\Ldmtk.xml
+C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Ldmtk\obj\Debug\Ldmtk.pdb

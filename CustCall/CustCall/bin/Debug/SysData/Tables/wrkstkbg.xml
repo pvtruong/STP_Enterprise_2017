@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="wrkstkbg" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="wrkstkbg">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_kho" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_vi_tri" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_vt" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_lo" type="xs:string" minOccurs="0" />
+                <xs:element name="ton_dau" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="du_dau" type="xs:decimal" minOccurs="0" />
+                <xs:element name="du_dau_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_tt1" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt2" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt3" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt4" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="rbkra28" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="rbkra28">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <rbkra28>
+    <gridid>rbkra28</gridid>
+    <columnsv>stt,ma_hoa_don,ky_hieu_hoa_don,so_seri,so_hd,ngay_hd,ten_kh,ma_so_thue,ten_vt,t_tien,ma_thue,thue_suat,t_thue,ghi_chu,ngay_ct</columnsv>
+    <columnse>stt,ma_hoa_don,ky_hieu_hoa_don,so_seri,so_hd,ngay_hd,ten_kh,ma_so_thue,ten_vt,t_tien,ma_thue,thue_suat,t_thue,ghi_chu,ngay_ct</columnse>
+    <headersv>STT,Mã hóa đơn,Ký hiệu số hóa đơn,Số seri,Số hóa đơn,Ngày,Tên người bán,Mã số thuế,Tên hàng hóa,Tiền chưa thuế,Mã thuế,Thuế suất,Thuế GTGT,Ghi chú,Ngày chứng từ gốc</headersv>
+    <headerse>No.,Mã hóa đơn,Ký hiệu số hóa đơn,Serial No.,Inv. No.,Date,Supplier  Name,Cust. Tax Code,Item ,Amount not Tax,Code Tax,Tax Rate  ,VAT,Note,Voucher Date Original</headerse>
+    <widths>30,100,100,60,50,60,200,100,200,100,100,55,100,100,100</widths>
+    <formats>f_tien,,,,,,,,,f_tien,,f_tien,f_tien,,</formats>
+    <readonlys>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </rbkra28>
+</NewDataSet>

@@ -1,0 +1,471 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextID" type="xs:string" minOccurs="0" />
+                <xs:element name="TextV" type="xs:string" minOccurs="0" />
+                <xs:element name="TextE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>001</TextID>
+    <TextV>Mã khách hàng</TextV>
+    <TextE>Cust.ID</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>002</TextID>
+    <TextV>Tên khách hàng</TextV>
+    <TextE>Customer Name</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>003</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>004</TextID>
+    <TextV>Danh mục khách hàng</TextV>
+    <TextE>Customer List</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>005</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>006</TextID>
+    <TextV>Điện thoại</TextV>
+    <TextE>Phone</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>007</TextID>
+    <TextV>Tài khoản ngân hàng</TextV>
+    <TextE>Bank Account</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>008</TextID>
+    <TextV>Khách hàng mua</TextV>
+    <TextE>Buyer</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>009</TextID>
+    <TextV>Khách hàng bán</TextV>
+    <TextE>Supplier</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>010</TextID>
+    <TextV>Định mức</TextV>
+    <TextE>Định mức</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>011</TextID>
+    <TextV>Tài khoản công nợ</TextV>
+    <TextE>Tài khoản công nợ</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>013</TextID>
+    <TextV>Tỉnh/thành</TextV>
+    <TextE>Code Provinces</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>014</TextID>
+    <TextV>Quận/huyện</TextV>
+    <TextE>County Code</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>015</TextID>
+    <TextV>Người liên hệ</TextV>
+    <TextE>Contact Person</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>016</TextID>
+    <TextV>Điều kiện lọc</TextV>
+    <TextE>Filter Condition</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>017</TextID>
+    <TextV>Tìm</TextV>
+    <TextE>Sea&amp;rch</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>032</TextID>
+    <TextV>Chi tiết</TextV>
+    <TextE>Detail</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>033</TextID>
+    <TextV>Các sản phẩm</TextV>
+    <TextE>Products</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>034</TextID>
+    <TextV>Các giao dịch</TextV>
+    <TextE>Transactions</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>090</TextID>
+    <TextV>Người tạo</TextV>
+    <TextE>Created</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>091</TextID>
+    <TextV>Người sửa</TextV>
+    <TextE>Modify</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>092</TextID>
+    <TextV>Ngày tạo</TextV>
+    <TextE>Created Time</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>093</TextID>
+    <TextV>Ngày sửa</TextV>
+    <TextE>Last Modify</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>094</TextID>
+    <TextV>&amp;Lưu</TextV>
+    <TextE>&amp;Save</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>095</TextID>
+    <TextV>&amp;Hủy</TextV>
+    <TextE>&amp;Cancel</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>096</TextID>
+    <TextV>&amp;Mới</TextV>
+    <TextE>&amp;New</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>097</TextID>
+    <TextV>&amp;Sửa</TextV>
+    <TextE>&amp;Edit</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>098</TextID>
+    <TextV>&amp;Xóa</TextV>
+    <TextE>&amp;Delete</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>099</TextID>
+    <TextV>&amp;Thoát</TextV>
+    <TextE>&amp;Close</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>100</TextID>
+    <TextV>&amp;Chức Năng</TextV>
+    <TextE>&amp;Function</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>200</TextID>
+    <TextV>Tên đối ngoại</TextV>
+    <TextE>Foreign Name</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>201</TextID>
+    <TextV>Tên giao dịch</TextV>
+    <TextE>Trading Name</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>202</TextID>
+    <TextV>Đại diện pháp lý</TextV>
+    <TextE>Legal Representation</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>203</TextID>
+    <TextV>Mã số thuế</TextV>
+    <TextE>Cust. Tax Code</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>204</TextID>
+    <TextV>Quốc gia</TextV>
+    <TextE>Country</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>205</TextID>
+    <TextV>Fax</TextV>
+    <TextE>Fax</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>206</TextID>
+    <TextV>Email</TextV>
+    <TextE>Email</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>207</TextID>
+    <TextV>Website</TextV>
+    <TextE>Website</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>208</TextID>
+    <TextV>Loại khách hàng</TextV>
+    <TextE>Customer Type</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>209</TextID>
+    <TextV>Ngày thành lập</TextV>
+    <TextE>Foundation Date</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>210</TextID>
+    <TextV>Hình thức sở hữu</TextV>
+    <TextE>Forms Property</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>211</TextID>
+    <TextV>Loại hình kinh doanh</TextV>
+    <TextE>Business Type</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>212</TextID>
+    <TextV>Lĩnh vực kinh doanh</TextV>
+    <TextE>Business Field</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>213</TextID>
+    <TextV>Vốn</TextV>
+    <TextE>Capital</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>214</TextID>
+    <TextV>Đối thủ cạnh tranh chính</TextV>
+    <TextE>Competitors Main</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>215</TextID>
+    <TextV>Giá cạnh tranh</TextV>
+    <TextE>Crice Competition</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>216</TextID>
+    <TextV>Lý do chọn nhà cung cấp</TextV>
+    <TextE>Reason choose Supplier</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>300</TextID>
+    <TextV>Tên khách hàng</TextV>
+    <TextE>Customer Name</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>301</TextID>
+    <TextV>Địa chỉ</TextV>
+    <TextE>Address</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>302</TextID>
+    <TextV>Liên hệ</TextV>
+    <TextE>Contact</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>303</TextID>
+    <TextV>Trạng thái</TextV>
+    <TextE>Status</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>400</TextID>
+    <TextV>Thông tin chung</TextV>
+    <TextE>Master</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>401</TextID>
+    <TextV>Thông tin phân tích</TextV>
+    <TextE>Information Analysis</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>402</TextID>
+    <TextV>Nhân viên</TextV>
+    <TextE>Employees</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>403</TextID>
+    <TextV>Từ ngày/Đến ngày</TextV>
+    <TextE>Date form/to</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>404</TextID>
+    <TextV>Nơi làm việc</TextV>
+    <TextE>Workplace</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>405</TextID>
+    <TextV>Loại công việc</TextV>
+    <TextE>Type of Work</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>406</TextID>
+    <TextV>Chi tiết công việc</TextV>
+    <TextE>Detail of Work</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>407</TextID>
+    <TextV>Tiến độ</TextV>
+    <TextE>Progress</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>408</TextID>
+    <TextV>Ghi chú</TextV>
+    <TextE>Note</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>409</TextID>
+    <TextV>Vụ việc (Nhóm KH 1)</TextV>
+    <TextE>Cust. Group 1</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>411</TextID>
+    <TextV>Địa danh (Nhóm KH 2)</TextV>
+    <TextE>Cust. Group 2</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>412</TextID>
+    <TextV>Sale (Nhóm KH 3)</TextV>
+    <TextE>Cust. Group 3</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>413</TextID>
+    <TextV>Tên khách 2</TextV>
+    <TextE>Customer Name 2</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>414</TextID>
+    <TextV>Tài khoản ngân hàng</TextV>
+    <TextE>Bank Accoumt</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>415</TextID>
+    <TextV>Tại ngân hàng</TextV>
+    <TextE>Bank</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>416</TextID>
+    <TextV>In mã vạch</TextV>
+    <TextE>Print bar code</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>500</TextID>
+    <TextV>Chọn loại khách hàng</TextV>
+    <TextE>Chọn loại khách</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>501</TextID>
+    <TextV>Vụ việc (Nhóm KH 1)</TextV>
+    <TextE>Chọn nhóm khách 1</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>502</TextID>
+    <TextV>Địa danh (Nhóm KH 2)</TextV>
+    <TextE>Chọn nhóm khách 2</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>503</TextID>
+    <TextV>Sale (Nhóm KH 3)</TextV>
+    <TextE>Chọn nhóm khách 3</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>CMND</TextID>
+    <TextV>CMND</TextV>
+    <TextE>ID</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>KH1</TextID>
+    <TextV>T/ tin  xuất hoá đơn</TextV>
+    <TextE>Other 1</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>KH2</TextID>
+    <TextV>T/ tin  ký hợp đồng</TextV>
+    <TextE>Other 2</TextE>
+  </dmkh>
+  <dmkh>
+    <FormID>dmkh</FormID>
+    <TextID>KH3</TextID>
+    <TextV>Thông tin khác 3</TextV>
+    <TextE>Other 3</TextE>
+  </dmkh>
+</NewDataSet>

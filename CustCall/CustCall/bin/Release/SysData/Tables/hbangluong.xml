@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="hbangluong" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="hbangluong">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_ky_luong" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_cong_viec0" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_cong_viec" type="xs:string" minOccurs="0" />
+                <xs:element name="cong_lam_viec" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_tang_ca" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_lam_them" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_phep" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_kphep" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_xnghi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_ky_luat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_om" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_thai_san" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_cn_le_tet" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_thay_phien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_tai_nan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cong_tong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay_hl" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="luong_nd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_thuc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_ngay" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hslcb" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luonglamthem" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dmluongngay" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_nhom_luong0" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_nhom_luong" type="xs:string" minOccurs="0" />
+                <xs:element name="he_so" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_cong_ngay" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_cong_sp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_lam_them" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_phu_cap" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_tong_cong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_dong_quy" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_tra_quy" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ly_do_khau_tru" type="xs:string" minOccurs="0" />
+                <xs:element name="tien_khau_tru" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_tong_tru" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tien_con_lai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="phucapluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong_thang" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

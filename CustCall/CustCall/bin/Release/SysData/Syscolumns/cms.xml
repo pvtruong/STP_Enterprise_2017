@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="cms" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="cms">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="prec" type="xs:short" minOccurs="0" />
+                <xs:element name="scale" type="xs:int" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:int" minOccurs="0" />
+                <xs:element name="tablename" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <cms>
+    <name>cms</name>
+    <prec>50</prec>
+    <isnullable>1</isnullable>
+    <tablename>cms</tablename>
+  </cms>
+  <cms>
+    <name>so_user</name>
+    <prec>10</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>cms</tablename>
+  </cms>
+  <cms>
+    <name>day_left</name>
+    <prec>2</prec>
+    <scale>0</scale>
+    <isnullable>1</isnullable>
+    <tablename>cms</tablename>
+  </cms>
+  <cms>
+    <name>day_trial</name>
+    <prec>23</prec>
+    <scale>3</scale>
+    <isnullable>1</isnullable>
+    <tablename>cms</tablename>
+  </cms>
+  <cms>
+    <name>company_code</name>
+    <prec>64</prec>
+    <isnullable>1</isnullable>
+    <tablename>cms</tablename>
+  </cms>
+  <cms>
+    <name>url_for_update</name>
+    <prec>512</prec>
+    <isnullable>1</isnullable>
+    <tablename>cms</tablename>
+  </cms>
+</NewDataSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dhd2_km" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dhd2_km">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dhd2_km>
+    <gridid>dhd2_km</gridid>
+    <columnsv>ma_dt,ma_vt,ten_vt,ma_dvt,ma_kho,ton_tt,sl_xuat,px_gia_dd,gia_von_nt,gia_von,tien_xuat_nt,tien_xuat,tk_vt,tk_gv</columnsv>
+    <columnse>ma_dt,ma_vt,ten_vt,ma_dvt,ma_kho,ton_tt,sl_xuat,px_gia_dd,gia_von_nt,gia_von,tien_xuat_nt,tien_xuat,tk_vt,tk_gv</columnse>
+    <headersv>Mã vụ việc,Mã sản phẩm,Tên sản phẩm,Đơn vị tính,Mã kho,Tồn kho,SL xuất,PX giá dd,Giá vốn,Giá vốn,Tiền vốn,Tiền vốn,TK vật tư,TK giá vốn</headersv>
+    <headerse>Mã vụ việc,Mã sản phẩm,Tên sản phẩm,Đơn vị tính,Mã kho,Tồn kho,SL xuất,Issuing transaction with specific valuation method,Unit Cost,Unit Cost,Cost Amt.,Cost Amt.,Inventory Acct.,Cogs Acct.</headerse>
+    <widths>100,100,200,100,100,100,100,100,100,100,100,100,100,100</widths>
+    <formats>,,,,,f_sl,,,f_gia,f_gia,f_tien,f_tien,,</formats>
+    <readonlys>0,0,1,0,0,1,0,0,0,0,0,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,1,0,1,0,0</hides>
+    <defaultvalues>,,,,,=select ton_tt from tontucthoi where ma_vt='[ma_vt]' and ma_kho ='[ma_kho]' and ma_tt1 ='[ma_tt1]' and ma_tt2 ='[ma_tt2]'  and ma_tt3 ='[ma_tt3]'  and ma_tt4 ='[ma_tt4]'  and ma_tt5 ='[ma_tt5]',,0,,=[gia_von_nt] ![px_gia_dd],=[sl_xuat]*[gia_von_nt] ![px_gia_dd],=[tien_xuat_nt] ![sl_xuat]![gia_von_nt]![px_gia_dd],= exec get_tk_vt @M[ma_dvcs]%p@[ma_kho]%p@[ma_vt],</defaultvalues>
+    <carrys>1,0,0,0,0,0,0,0,0,0,0,0,0,0</carrys>
+  </dhd2_km>
+</NewDataSet>

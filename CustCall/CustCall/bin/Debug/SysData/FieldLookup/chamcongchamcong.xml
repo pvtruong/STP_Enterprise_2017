@@ -1,0 +1,623 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="chamcongchamcong" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="chamcongchamcong">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="code" type="xs:string" minOccurs="0" />
+                <xs:element name="tab" type="xs:string" minOccurs="0" />
+                <xs:element name="field" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldlookups2" type="xs:string" minOccurs="0" />
+                <xs:element name="fieldgrids2" type="xs:string" minOccurs="0" />
+                <xs:element name="codelookup" type="xs:string" minOccurs="0" />
+                <xs:element name="isnullable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ckey" type="xs:string" minOccurs="0" />
+                <xs:element name="lookup_yn" type="xs:boolean" minOccurs="0" />
+                <xs:element name="not_isnullable_when" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly_when" type="xs:string" minOccurs="0" />
+                <xs:element name="empty_when_readonly" type="xs:boolean" minOccurs="0" />
+                <xs:element name="multivalue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="min_words" type="xs:int" minOccurs="0" />
+                <xs:element name="always_refresh_suggest" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n1</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n1</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n1</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n10</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n10</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n10</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n11</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n11</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n11</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n12</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n12</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n12</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n13</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n13</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n13</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n14</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n14</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n14</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n15</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n15</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n15</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n16</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n16</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n16</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n17</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n17</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n17</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n18</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n18</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n18</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n19</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n19</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n19</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n2</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n2</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n2</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n20</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n20</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n20</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n21</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n21</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n21</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n22</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n22</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n22</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n23</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n23</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n23</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n24</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n24</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n24</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n25</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n25</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n25</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n26</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n26</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n26</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n27</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n27</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n27</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n28</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n28</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n28</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n29</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n29</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n29</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n3</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n3</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n3</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n30</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n30</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n30</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n31</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n31</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n31</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n4</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n4</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n4</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n5</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n5</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n5</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n6</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n6</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n6</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n7</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n7</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n7</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n8</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n8</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n8</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+  <chamcongchamcong>
+    <code>chamcong</code>
+    <tab>chamcong</tab>
+    <field>n9</field>
+    <fieldlookups>ma_loai_cong</fieldlookups>
+    <fieldgrids>n9</fieldgrids>
+    <fieldlookups2>ma_loai_cong</fieldlookups2>
+    <fieldgrids2>n9</fieldgrids2>
+    <codelookup>dmloaicong</codelookup>
+    <isnullable>true</isnullable>
+    <ckey>1=1</ckey>
+    <lookup_yn>true</lookup_yn>
+    <not_isnullable_when />
+    <readonly_when />
+    <empty_when_readonly>false</empty_when_readonly>
+    <multivalue>false</multivalue>
+    <min_words>100</min_words>
+    <always_refresh_suggest>false</always_refresh_suggest>
+  </chamcongchamcong>
+</NewDataSet>

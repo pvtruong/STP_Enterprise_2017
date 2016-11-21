@@ -1,0 +1,226 @@
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\Vts.exe
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\Vts.pdb
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\Vts.xml
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClPrint.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClsControl2.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClsLookup.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\Clsql.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClsRight.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClsSV.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClsVno.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\Ionic.Zip.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\clsab.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\Form.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\DriveInfoEx.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\clsViDe.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\Control.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\clsPopUp.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClsMsg.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\Interop.Excel.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClsSqlRemoting.dll
+D:\SOURCE\CRM\Vts\Vts\bin\Debug\ClsMath.dll
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\ResolveAssemblyReference.cache
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.frmPrint.resources
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.frmsearch.resources
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.Frmmain.resources
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.frminput.resources
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.Resources.resources
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.vbproj.GenerateResource.Cache
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\RdlCompile.cache
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\RdlCompile.compiled
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.exe
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.xml
+D:\SOURCE\CRM\Vts\Vts\obj\Debug\Vts.pdb
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.exe
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.xml
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.pdb
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\Vts.exe
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\Vts.pdb
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\Vts.xml
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\Ionic.Zip.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\clsab.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\Form.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\DriveInfoEx.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\clsViDe.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\Control.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\clsPopUp.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\ClsMsg.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\Interop.Excel.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\ClsSqlRemoting.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\bin\Debug\ClsMath.dll
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\ResolveAssemblyReference.cache
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.frmPrint.resources
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.frmsearch.resources
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.Frmmain.resources
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.frminput.resources
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.Resources.resources
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\Vts.vbproj.GenerateResource.Cache
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\RdlCompile.cache
+D:\SOURCE\ACC\Voucher\Vts\Vts\obj\Debug\RdlCompile.compiled
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.exe
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.xml
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.pdb
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Vts.exe
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Vts.pdb
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Vts.xml
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClPrint.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsControl2.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsLookup.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Clsql.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsRight.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsSV.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsVno.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Ionic.Zip.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\clsab.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\DriveInfoEx.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\clsViDe.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\clsPopUp.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Interop.Excel.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsSqlRemoting.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsMath.dll
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\ResolveAssemblyReference.cache
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.frmPrint.resources
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.frmsearch.resources
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.Frmmain.resources
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.frminput.resources
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.Resources.resources
+D:\SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.vbproj.GenerateResource.Cache
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.exe
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.xml
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.pdb
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Vts.exe
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Vts.pdb
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Vts.xml
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClPrint.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsControl2.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsLookup.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Clsql.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsRight.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsSV.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsVno.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\office.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Ionic.Zip.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\clsab.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\DriveInfoEx.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\clsViDe.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Interop.SQLDMO.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\clsPopUp.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\Interop.Excel.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsSqlRemoting.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\bin\Debug\ClsMath.dll
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\ResolveAssemblyReference.cache
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.frmPrint.resources
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.frmsearch.resources
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.Frmmain.resources
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.frminput.resources
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.Resources.resources
+E:\STP SOURCE\ACC\Voucher\Vts20\Vts20\obj\Debug\Vts.vbproj.GenerateResource.Cache
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.exe
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.xml
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.pdb
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Vts.exe
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Vts.pdb
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Vts.xml
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClPrint.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsControl2.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsLookup.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Clsql.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsRight.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsStpService.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsSV.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsVno.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\office.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Ionic.Zip.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\clsab.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\clsViDe.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\clsPopUp.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Interop.Excel.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsMath.dll
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\ResolveAssemblyReference.cache
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.frmPrint.resources
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.frmsearch.resources
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.Frmmain.resources
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.frminput.resources
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.Resources.resources
+E:\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.exe
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.xml
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.pdb
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\Vts.exe
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\Vts.pdb
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\Vts.xml
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\ClsVno.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\office.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\Ionic.Zip.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\clsab.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\clsViDe.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\clsPopUp.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\Interop.Excel.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\bin\Debug\ClsMath.dll
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.frmPrint.resources
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.frmsearch.resources
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.Frmmain.resources
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.frminput.resources
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.Resources.resources
+C:\Documents and Settings\Me\Desktop\20101004_Bauer\Vts20\Vts20\obj\Debug\Vts.vbproj.GenerateResource.Cache
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.exe
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.xml
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.pdb
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Vts.exe
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Vts.pdb
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Vts.xml
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClPrint.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsControl2.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsLookup.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Clsql.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsRight.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsStpService.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsSV.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsVno.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\office.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Ionic.Zip.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\clsab.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\clsViDe.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Microsoft.Vbe.Interop.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\clsPopUp.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\Interop.Excel.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\bin\Debug\ClsMath.dll
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\ResolveAssemblyReference.cache
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.frmPrint.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.frmsearch.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.Frmmain.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.frminput.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.Resources.resources
+J:\STP01\#E\STP SOURCE\ACC\3.0\Voucher\Vts20\Vts20\obj\Debug\Vts.vbproj.GenerateResource.Cache
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.exe
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.xml
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.pdb
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\Vts.exe
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\Vts.pdb
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\Vts.xml
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\ClPrint.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\ClsControl2.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\ClsLookup.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\Clsql.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\ClsRight.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\ClsStpService.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\ClsSV31.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\clsViDe.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\ClsMath.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\clsab.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\ClsVno.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\clsPopUp.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\bin\Debug\Ionic.Zip.dll
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\ResolveAssemblyReference.cache
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.frmPrint.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.frmsearch.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.Frmmain.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.frminput.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.Resources.resources
+J:\STP01\#E\STP SOURCE\ACC\3.5\Voucher\Vts35\Vts35\obj\Debug\Vts.vbproj.GenerateResource.Cache
+C:\Users\Truong\Box Sync\acc\9.0\Vts35\Vts35\obj\Debug\Vts.xml
+C:\Users\Truong\Box Sync\acc\9.0\Vts35\Vts35\obj\Debug\Vts.pdb

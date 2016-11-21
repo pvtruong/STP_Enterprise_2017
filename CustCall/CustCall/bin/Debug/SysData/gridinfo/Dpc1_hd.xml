@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Dpc1_hd" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Dpc1_hd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Dpc1_hd>
+    <gridid>Dpc1_hd</gridid>
+    <columnsv>so_ct,ngay_ct,ma_nt_tt,ty_gia_tt,t_tt_nt,da_tt_nt,con_lai_nt,tien_nt,tien,tt_qd,tk_no,ma_nvu,tk_co,ty_gia_gs_co,dien_giai,so_hd,tien_phi_nt,tien_phi,tk_phi</columnsv>
+    <columnse>so_ct,ngay_ct,ma_nt_tt,ty_gia_tt,t_tt_nt,da_tt_nt,con_lai_nt,tien_nt,tien,tt_qd,tk_no,ma_nvu,tk_co,ty_gia_gs_co,dien_giai,so_hd,tien_phi_t,tien_phi,tk_phi</columnse>
+    <headersv>Số chứng từ,Ngày chứng từ,Mã ngoại tệ hd,Tỷ giá hd,Phải trả,Đã trả,Còn lại,Thanh toán nt,Thanh toán,Thanh toán qd,TK nợ,Nghiệp vụ,Tk có,Tỷ giá ghi sổ,Diễn giải,Số hóa đơn,Phí thanh toán,Phí thanh toán,TK phí thanh toán</headersv>
+    <headerse>Số chứng từ,Ngày chứng từ,Mã ngoại tệ hd,Tỷ giá hd,Phải trả,Đã trả,Còn lại,Thanh toán nt,Thanh toán,Thanh toán quy đổi,TK nợ,Nghiệp vụ,Tk có,Tỷ giá ghi sổ,Diễn giải,Số hóa đơn,Fee,Fee,Fee account</headerse>
+    <widths>100,100,100,100,100,100,100,100,100,100,100,100,100,100,200,100,100,100,100</widths>
+    <formats>,,,f_tien,f_tien_nt,f_tien_nt,f_tien_nt,f_tien_nt,f_tien,f_tien_nt,,,,f_tien,,,f_tien_nt,f_tien,</formats>
+    <readonlys>1,1,1,1,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0</readonlys>
+    <hides>0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0</hides>
+    <defaultvalues>,,,,,,,,=exec pc_tinhtienhtHD @M[ma_nt]%p@M[ty_gia]%p@[ma_nt_tt]%p[ty_gia_tt]%p[tien_nt],=exec tinh_ttqd @M[ma_nt]%p@[ma_nt_tt]%p[ty_gia_tt]%p[tien_nt]%p[tien],,,,,,,,=M[ty_gia] * [tien_phi_nt],</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0</carrys>
+  </Dpc1_hd>
+</NewDataSet>

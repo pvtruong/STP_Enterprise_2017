@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PBL" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PBL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="voucherid" type="xs:string" minOccurs="0" />
+                <xs:element name="detailtable" type="xs:string" minOccurs="0" />
+                <xs:element name="mastertable" type="xs:string" minOccurs="0" />
+                <xs:element name="dgridid" type="xs:string" minOccurs="0" />
+                <xs:element name="mgridid" type="xs:string" minOccurs="0" />
+                <xs:element name="rownumber" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mviewname" type="xs:string" minOccurs="0" />
+                <xs:element name="dviewname" type="xs:string" minOccurs="0" />
+                <xs:element name="formid" type="xs:string" minOccurs="0" />
+                <xs:element name="d_ma_gd" type="xs:int" minOccurs="0" />
+                <xs:element name="d_status" type="xs:int" minOccurs="0" />
+                <xs:element name="d_ma_nt" type="xs:string" minOccurs="0" />
+                <xs:element name="d_so_lien" type="xs:int" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="check_ngay_ks" type="xs:boolean" minOccurs="0" />
+                <xs:element name="module" type="xs:string" minOccurs="0" />
+                <xs:element name="allow_edit_so_ct" type="xs:boolean" minOccurs="0" />
+                <xs:element name="HideDetailView" type="xs:boolean" minOccurs="0" />
+                <xs:element name="mviewname2" type="xs:string" minOccurs="0" />
+                <xs:element name="index_name" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PBL>
+    <voucherid>PBL</voucherid>
+    <detailtable>DPBL</detailtable>
+    <mastertable>MPBL</mastertable>
+    <dgridid>QDPBL</dgridid>
+    <mgridid>MHD2_BL</mgridid>
+    <rownumber>10</rownumber>
+    <mviewname>VMPBL</mviewname>
+    <dviewname>vDPBL</dviewname>
+    <formid>PBL</formid>
+    <d_ma_gd>0</d_ma_gd>
+    <d_status>5</d_status>
+    <d_ma_nt>VND</d_ma_nt>
+    <d_so_lien>1</d_so_lien>
+    <trang_thai>true</trang_thai>
+    <check_ngay_ks>true</check_ngay_ks>
+    <module />
+    <allow_edit_so_ct>true</allow_edit_so_ct>
+    <HideDetailView>false</HideDetailView>
+    <mviewname2 />
+    <index_name />
+  </PBL>
+</NewDataSet>

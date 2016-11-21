@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dkh" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dkh">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="gridid" type="xs:string" minOccurs="0" />
+                <xs:element name="columnsv" type="xs:string" minOccurs="0" />
+                <xs:element name="columnse" type="xs:string" minOccurs="0" />
+                <xs:element name="headersv" type="xs:string" minOccurs="0" />
+                <xs:element name="headerse" type="xs:string" minOccurs="0" />
+                <xs:element name="widths" type="xs:string" minOccurs="0" />
+                <xs:element name="formats" type="xs:string" minOccurs="0" />
+                <xs:element name="readonlys" type="xs:string" minOccurs="0" />
+                <xs:element name="hides" type="xs:string" minOccurs="0" />
+                <xs:element name="defaultvalues" type="xs:string" minOccurs="0" />
+                <xs:element name="carrys" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dkh>
+    <gridid>dkh</gridid>
+    <columnsv>ma_kh,ten_kh,dia_chi,dien_thoai,fax,email,ten_kh2,ma_loai_kh,nh_kh2</columnsv>
+    <columnse>ma_kh,ten_kh2,dia_chi,dien_thoai,fax,email,ten_kh,ma_loai_kh,nh_kh2</columnse>
+    <headersv>Mã KH,Tên khách hàng,Địa chỉ,Điện thoại,Fax,Email,Tên khách hàng 2,Loại KH,Nhóm G</headersv>
+    <headerse>Cust.ID,Customer Name,Address,Phone,Fax,Email,Customer Name 2,,Nhom G</headerse>
+    <widths>100,200,450,100,100,100,100,60,70</widths>
+    <formats>,,,,,,,,</formats>
+    <readonlys>1,1,1,1,1,1,1,0,0</readonlys>
+    <hides>0,0,0,0,0,0,1,0,0</hides>
+    <defaultvalues>,,,,,,,,</defaultvalues>
+    <carrys>0,0,0,0,0,0,0,0,0</carrys>
+  </dkh>
+</NewDataSet>

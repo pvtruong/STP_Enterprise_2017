@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmhopdongld" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmhopdongld">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp_hd" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_cv_hd" type="xs:string" minOccurs="0" />
+                <xs:element name="so_hop_dong" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_ky" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_kt_hd" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="luong_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="luong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dia_diem_lv" type="xs:string" minOccurs="0" />
+                <xs:element name="tham_gia_bh" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ngay_nghi_phep" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_hdld" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_nttql" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_tt_hdld" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="tg_lam_viec" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_nhom_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_nt2" type="xs:string" minOccurs="0" />
+                <xs:element name="nd_cong_viec" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_bd_hd" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

@@ -1,0 +1,281 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PN1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PN1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+                <xs:element name="Value2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_bang_chu</Name>
+    <Type>C</Type>
+    <Value>Số tiền bằng chữ:</Value>
+    <Value2>Amount In Words</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_cong</Name>
+    <Type>C</Type>
+    <Value>Cộng:</Value>
+    <Value2>Total:</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_cp</Name>
+    <Type>c</Type>
+    <Value>Chi phí</Value>
+    <Value2>Charges</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ct_goc</Name>
+    <Type>C</Type>
+    <Value>Số chứng từ gốc kèm theo:</Value>
+    <Value2>Enclosed Voucher:</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_dia_chi</Name>
+    <Type>C</Type>
+    <Value>Địa chỉ (bộ phận):</Value>
+    <Value2>Address (Dept):</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_dien_giai</Name>
+    <Type>C</Type>
+    <Value>Lý do nhập:</Value>
+    <Value2>Reason added:</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_docso</Name>
+    <Type>C</Type>
+    <Value>Bằng chữ:</Value>
+    <Value2>In words:</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_dvt</Name>
+    <Type>C</Type>
+    <Value>Đơn vị tính</Value>
+    <Value2>Unit</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_gd</Name>
+    <Type>C</Type>
+    <Value>Giám đốc</Value>
+    <Value2>Director</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_gia</Name>
+    <Type>C</Type>
+    <Value>Đơn giá</Value>
+    <Value2>Price</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_kho</Name>
+    <Type>C</Type>
+    <Value>Kho</Value>
+    <Value2>Site</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ktt</Name>
+    <Type>C</Type>
+    <Value>Kế toán trưởng (Trưởng bộ phận)</Value>
+    <Value2>Chief Accountant (Chief department)</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ky_ten</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên)</Value>
+    <Value2>Sign., (Full Name)</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ky_ten_dd</Name>
+    <Type>C</Type>
+    <Value>(Ký, họ tên, đóng dấu)</Value>
+    <Value2>Sign., Seal (Full Name and Position)</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_mau_so</Name>
+    <Type>C</Type>
+    <Value>Mẫu số 01-VT</Value>
+    <Value2>Form No. 01-VT</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_mau_tt</Name>
+    <Type>C</Type>
+    <Value>(Ban hành theo QĐ số: 15/2006/QĐ-BTC ngày 20/03/2006 của Bộ trưởng BTC)</Value>
+    <Value2>(According to Decision No. 15/2006/QD-BTC dated 20 March 2006 of the Ministry of Finance)</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_mh</Name>
+    <Type>C</Type>
+    <Value>Mã hàng</Value>
+    <Value2>Item Code</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ngay_ct</Name>
+    <Type>C</Type>
+    <Value>Ngày %d tháng %m năm %y</Value>
+    <Value2>Date %dMonth%m Year %y</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ngay_ky</Name>
+    <Type>C</Type>
+    <Value>Ngày . . . tháng . . . năm . . . .</Value>
+    <Value2>Date . . . Month . . . Year . . .</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_nguoi_giao</Name>
+    <Type>C</Type>
+    <Value>Người giao hàng</Value>
+    <Value2>Deliverer</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_nguoi_lap</Name>
+    <Type>C</Type>
+    <Value>Người lập phiếu</Value>
+    <Value2>Persons votes</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ong_ba</Name>
+    <Type>C</Type>
+    <Value>Họ và tên người giao:</Value>
+    <Value2>Full name of person Trading:</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_quyen_so</Name>
+    <Type>C</Type>
+    <Value>Quyển số:</Value>
+    <Value2>Volume number:</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_sl</Name>
+    <Type>C</Type>
+    <Value>Số lượng</Value>
+    <Value2>Quantity</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_so_ct</Name>
+    <Type>C</Type>
+    <Value>Số chứng từ:</Value>
+    <Value2>Voucher No. :</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_stt</Name>
+    <Type>C</Type>
+    <Value>STT</Value>
+    <Value2>NO.</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ten_hang</Name>
+    <Type>C</Type>
+    <Value>Tên hàng</Value>
+    <Value2>Item Name</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_ten_kh</Name>
+    <Type>C</Type>
+    <Value>Tên khách hàng:</Value>
+    <Value2>Customer Name:</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_thu_kho</Name>
+    <Type>C</Type>
+    <Value>Thủ kho</Value>
+    <Value2>Contact</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_tien</Name>
+    <Type>C</Type>
+    <Value>Thành tiền</Value>
+    <Value2>Amount</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_tien_hang</Name>
+    <Type>C</Type>
+    <Value>Tiền hàng</Value>
+    <Value2>Amount</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_tien_thue</Name>
+    <Type>C</Type>
+    <Value>Tiền thuế</Value>
+    <Value2>Tax Amount</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_tong_tien</Name>
+    <Type>C</Type>
+    <Value>Tổng số tiền (Viết bằng chữ):</Value>
+    <Value2>The total amount (in words):</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>c_tong_tt</Name>
+    <Type>C</Type>
+    <Value>Tổng thanh toán</Value>
+    <Value2>Total Payment</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>docso</Name>
+    <Type>W</Type>
+    <Value>t_tt</Value>
+    <Value2>t_tt</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>docso_nt</Name>
+    <Type>W</Type>
+    <Value>t_tt_nt</Value>
+    <Value2>t_tt_nt</Value2>
+  </PN1>
+  <PN1>
+    <Code>PN1</Code>
+    <Name>dvtien</Name>
+    <Type>C</Type>
+    <Value>đồng chẵn.</Value>
+    <Value2>VND</Value2>
+  </PN1>
+</NewDataSet>

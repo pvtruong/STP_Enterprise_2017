@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="fbckqhdkd" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="fbckqhdkd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="form" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma_so" type="xs:string" minOccurs="0" />
+                <xs:element name="chi_tieu" type="xs:string" minOccurs="0" />
+                <xs:element name="chi_tieu2" type="xs:string" minOccurs="0" />
+                <xs:element name="thuyet_minh" type="xs:string" minOccurs="0" />
+                <xs:element name="cach_tinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_no" type="xs:string" minOccurs="0" />
+                <xs:element name="tk_co" type="xs:string" minOccurs="0" />
+                <xs:element name="giam_tru" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ky_truoc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ky_nay" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lk_kt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lk_kn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ky_truoc_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ky_nay_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lk_kt_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lk_kn_nt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bold" type="xs:boolean" minOccurs="0" />
+                <xs:element name="in_ck" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ids" type="xs:decimal" minOccurs="0" />
+                <xs:element name="iscal" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="mcal" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:long" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

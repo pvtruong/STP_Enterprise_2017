@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="nstl_bangcc_ct" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="nstl_bangcc_ct">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ky" type="xs:int" minOccurs="0" />
+                <xs:element name="nam" type="xs:int" minOccurs="0" />
+                <xs:element name="ma_nv" type="xs:string" minOccurs="0" />
+                <xs:element name="n1" type="xs:string" minOccurs="0" />
+                <xs:element name="n2" type="xs:string" minOccurs="0" />
+                <xs:element name="n3" type="xs:string" minOccurs="0" />
+                <xs:element name="n4" type="xs:string" minOccurs="0" />
+                <xs:element name="n5" type="xs:string" minOccurs="0" />
+                <xs:element name="n6" type="xs:string" minOccurs="0" />
+                <xs:element name="n7" type="xs:string" minOccurs="0" />
+                <xs:element name="n8" type="xs:string" minOccurs="0" />
+                <xs:element name="n9" type="xs:string" minOccurs="0" />
+                <xs:element name="n10" type="xs:string" minOccurs="0" />
+                <xs:element name="n11" type="xs:string" minOccurs="0" />
+                <xs:element name="n12" type="xs:string" minOccurs="0" />
+                <xs:element name="n13" type="xs:string" minOccurs="0" />
+                <xs:element name="n14" type="xs:string" minOccurs="0" />
+                <xs:element name="n15" type="xs:string" minOccurs="0" />
+                <xs:element name="n16" type="xs:string" minOccurs="0" />
+                <xs:element name="n17" type="xs:string" minOccurs="0" />
+                <xs:element name="n18" type="xs:string" minOccurs="0" />
+                <xs:element name="n19" type="xs:string" minOccurs="0" />
+                <xs:element name="n20" type="xs:string" minOccurs="0" />
+                <xs:element name="n21" type="xs:string" minOccurs="0" />
+                <xs:element name="n22" type="xs:string" minOccurs="0" />
+                <xs:element name="n23" type="xs:string" minOccurs="0" />
+                <xs:element name="n24" type="xs:string" minOccurs="0" />
+                <xs:element name="n25" type="xs:string" minOccurs="0" />
+                <xs:element name="n26" type="xs:string" minOccurs="0" />
+                <xs:element name="n27" type="xs:string" minOccurs="0" />
+                <xs:element name="n28" type="xs:string" minOccurs="0" />
+                <xs:element name="n29" type="xs:string" minOccurs="0" />
+                <xs:element name="n30" type="xs:string" minOccurs="0" />
+                <xs:element name="n31" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay_sua" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoi_sua" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

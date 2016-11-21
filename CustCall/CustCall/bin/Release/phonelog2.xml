@@ -1,0 +1,143 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dien_thoai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay_tao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="nguoi_tao" type="xs:string" minOccurs="0" />
+                <xs:element name="trang_thai" type="xs:string" minOccurs="0" />
+                <xs:element name="ket_thuc" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="bat_dau" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="file_ghi_am" type="xs:string" minOccurs="0" />
+                <xs:element name="line" type="xs:string" minOccurs="0" />
+                <xs:element name="id_tmp" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_kh" type="xs:string" minOccurs="0" />
+                <xs:element name="ten_kh" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <dien_thoai>test</dien_thoai>
+    <ngay_tao>2015-11-08T08:21:11.5698292+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>ADMIN220151108082112</id_tmp>
+  </Table>
+  <Table>
+    <id>9258</id>
+    <dien_thoai>0902807007</dien_thoai>
+    <ngay_tao>2015-10-29T16:51:25.347+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>9258</id_tmp>
+  </Table>
+  <Table>
+    <id>7552</id>
+    <dien_thoai>0902809007</dien_thoai>
+    <ngay_tao>2015-10-20T08:50:57.86+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>7552</id_tmp>
+    <ma_kh>0902809007</ma_kh>
+    <ten_kh>Lô 1, Phòng 416, Cư Xá Thanh Đa</ten_kh>
+  </Table>
+  <Table>
+    <id>4371</id>
+    <dien_thoai>0932657966</dien_thoai>
+    <ngay_tao>2015-10-10T14:38:56.633+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>4371</id_tmp>
+    <ma_kh>0932657966</ma_kh>
+    <ten_kh>106I/46/5E Lạc Long Quân Q.TB1</ten_kh>
+  </Table>
+  <Table>
+    <id>4370</id>
+    <dien_thoai>0903317228</dien_thoai>
+    <ngay_tao>2015-10-10T14:38:42.757+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>4370</id_tmp>
+    <ma_kh>0903317228</ma_kh>
+    <ten_kh>107/37/15 Ni Sư Huỳnh Liên Q.TB1</ten_kh>
+  </Table>
+  <Table>
+    <id>4368</id>
+    <dien_thoai>0901016503</dien_thoai>
+    <ngay_tao>2015-10-10T14:34:50.337+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>4368</id_tmp>
+    <ma_kh>0901016503</ma_kh>
+    <ten_kh>106/42 Hòa Bình  Q.TB1</ten_kh>
+  </Table>
+  <Table>
+    <id>4367</id>
+    <dien_thoai>0902809007</dien_thoai>
+    <ngay_tao>2015-10-10T14:33:46.427+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>4367</id_tmp>
+    <ma_kh>0902809007</ma_kh>
+    <ten_kh>Lô 1, Phòng 416, Cư Xá Thanh Đa</ten_kh>
+  </Table>
+  <Table>
+    <id>4366</id>
+    <dien_thoai>0902801007</dien_thoai>
+    <ngay_tao>2015-10-10T14:31:40.653+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>4366</id_tmp>
+    <ma_kh>0902801007</ma_kh>
+    <ten_kh>123 chung cư</ten_kh>
+  </Table>
+  <Table>
+    <id>4364</id>
+    <dien_thoai>0902809007</dien_thoai>
+    <ngay_tao>2015-10-10T14:18:08.557+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>4364</id_tmp>
+    <ma_kh>0902809007</ma_kh>
+    <ten_kh>Lô 1, Phòng 416, Cư Xá Thanh Đa</ten_kh>
+  </Table>
+  <Table>
+    <id>4360</id>
+    <dien_thoai>0902809007</dien_thoai>
+    <ngay_tao>2015-10-10T13:48:45.543+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>4360</id_tmp>
+    <ma_kh>0902809007</ma_kh>
+    <ten_kh>Lô 1, Phòng 416, Cư Xá Thanh Đa</ten_kh>
+  </Table>
+  <Table>
+    <id>4357</id>
+    <dien_thoai>09028007</dien_thoai>
+    <ngay_tao>2015-10-10T13:45:20.12+07:00</ngay_tao>
+    <nguoi_tao>ADMIN2</nguoi_tao>
+    <trang_thai>1</trang_thai>
+    <line>2</line>
+    <id_tmp>4357</id_tmp>
+  </Table>
+</NewDataSet>
