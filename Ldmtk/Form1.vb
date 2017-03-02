@@ -96,6 +96,7 @@ Public Class Frmmain
     End Sub
 
     Private Sub list_BeforeSave(ByVal e As System.Data.DataRow)
+        'xac dinh bac tai khoan
         e("loai_tk") = conn.GetValue("select case when  exists(select tk from dmtk where tk_me ='" & e("tk") & "') then 1 else 0 end")
         If e("tk_me") = "" Then
             e("bac_tk") = 1
@@ -173,14 +174,14 @@ Public Class Frmmain
             AddItems.AddItemCbb(conn, "select ma_pp,ten_pp2 from dmpp where loai_pp =1", frmin.cbbloai_cl_co, "ten_pp2", "ma_pp")
         End If
         'lookup
-        Dim oNt As New ClsLookup.AutoCompleteLookup(conn, "dmnt", frmin.txtma_nt, "ma_nt", True)
-        oNt.SetValue("ten_nt", frmin.ten_nt)
-        oTK = New ClsLookup.AutoCompleteLookup(conn, "rdmtk", frmin.txttk_me, "tk", False)
-        If Reg.GetValue("Language") = "Vi" Then
-            oTK.SetValue("ten_tk", frmin.ten_tk_me)
-        Else
-            oTK.SetValue("ten_tk2", frmin.ten_tk_me)
-        End If
+        'Dim oNt As New ClsLookup.AutoCompleteLookup(conn, "dmnt", frmin.txtma_nt, "ma_nt", True)
+        'oNt.SetValue("ten_nt", frmin.ten_nt)
+        'oTK = New ClsLookup.AutoCompleteLookup(conn, "rdmtk", frmin.txttk_me, "tk", False)
+        'If Reg.GetValue("Language") = "Vi" Then
+        '    oTK.SetValue("ten_tk", frmin.ten_tk_me)
+        'Else
+        '    oTK.SetValue("ten_tk2", frmin.ten_tk_me)
+        'End If
     End Sub
 
 
@@ -242,9 +243,13 @@ Public Class Frmmain
         list.datatable.DefaultView.Sort = "tk"
     End Sub
 #End Region
-
-
     Private Sub list_SaveClick() Handles list.SaveClick
+        'kiem tra tk me da phat sinh du lieu chua. Neu da phat sinh du lieu thi khong cho them tai khoan con
+        If frmin.txttk_me.Text <> "" AndAlso conn.GetValue("select top 1 1 as ct from vsocai where tk ='" & frmin.txttk_me.Text & "'") = 1 Then
+            MsgBox("Không thể thêm tài khoản con cho tài khoản mẹ '" & frmin.txttk_me.Text & "' do tài khoản này đã phát sinh dữ liệu",, Clsql.AboutMe.Name)
+            list.ContinueSave = False
+            Return
+        End If
         'kiem tra xem da chon phuong thuc tinh ty gia ghi so chua
         If frmin.cbbloai_cl_co.Enabled = True Then
             If frmin.cbbloai_cl_co.SelectedValue = 0 AndAlso frmin.cbbloai_cl_no.SelectedValue = 0 Then

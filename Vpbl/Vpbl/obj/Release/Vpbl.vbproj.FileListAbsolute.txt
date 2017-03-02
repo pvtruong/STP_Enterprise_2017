@@ -264,3 +264,33 @@ C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpbl\Vpbl\bin\Release\Vpbl.ex
 C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpbl\Vpbl\obj\Release\Vpbl.exe
 C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpbl\Vpbl\obj\Release\Vpbl.xml
 C:\Users\invnc\Google Drive\STP Enterprice\acc\9.5\Vpbl\Vpbl\obj\Release\Vpbl.pdb
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\Vpbl.exe.config
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.exe
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.xml
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.pdb
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\Vpbl.exe
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\Vpbl.pdb
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\Vpbl.xml
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\System.Windows.Forms.DataVisualization.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\clsViDe.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\ClsMath.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\clsPopUp.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\Ionic.Zip.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\clsab.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\Eval3.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\clschat.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Release\stdole.dll
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.vbprojResolveAssemblyReference.cache
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frmcapnhatlo.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frmBanGiao.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frmChonCa.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frmCK.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frmhonhop.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frmThegiamgia.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frnVisa.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.formrestore.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frmMain.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.frmPrint.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.Resources.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.txtCKControl.resources
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Release\Vpbl.vbproj.GenerateResource.Cache

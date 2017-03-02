@@ -327,6 +327,13 @@ Public Class frminput
     End Sub
 
     Private Sub tinhchietkhautheohoadon(ma_kho As String)
+        If IsDBNull(Voucher.CurrentVoucher("ty_le_ck_hd_changed")) Then
+            Voucher.CurrentVoucher("ty_le_ck_hd_changed") = False
+        End If
+        If IsDBNull(Voucher.CurrentVoucher("t_tien_ck_hd_changed")) Then
+            Voucher.CurrentVoucher("t_tien_ck_hd_changed") = False
+        End If
+
         If Voucher.CurrentVoucher("t_tien_ck_hd_changed") = True Then
             Return
         End If

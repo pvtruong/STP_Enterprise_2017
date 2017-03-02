@@ -1,0 +1,63 @@
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\Lcdlo.exe.config
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\Lcdlo.exe
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\Lcdlo.pdb
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\Lcdlo.xml
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsControl2.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsList.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsLookup.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\Clsql.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsRight.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\System.Windows.Forms.DataVisualization.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\clsViDe.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsStpService.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsMath.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\clsPopUp.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\clsPermit4Field.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsVno.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsRpt.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClPrint.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\clsphannhomdm.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\clsab.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\Ionic.Zip.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\Eval3.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\clschat.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\ClsPilot.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\bin\Release\stdole.dll
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\obj\Release\Lcdlo.vbprojResolveAssemblyReference.cache
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\obj\Release\Lcdlo.Frmmain.resources
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\obj\Release\Lcdlo.frminput.resources
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\obj\Release\Lcdlo.Resources.resources
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\obj\Release\Lcdlo.vbproj.GenerateResource.Cache
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\obj\Release\Lcdlo.exe
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\obj\Release\Lcdlo.xml
+C:\Users\Truong\Box Sync\acc\9.0\Lcdlo\Lcdlo\obj\Release\Lcdlo.pdb
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\Lcdlo.exe.config
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\obj\Release\Lcdlo.exe
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\obj\Release\Lcdlo.xml
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\obj\Release\Lcdlo.pdb
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\Lcdlo.exe
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\Lcdlo.pdb
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\Lcdlo.xml
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\System.Windows.Forms.DataVisualization.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\clsViDe.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\ClsStpService.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\ClsMath.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\clsPopUp.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\clsPermit4Field.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\ClsVno.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\ClsRpt.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\ClPrint.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\clsphannhomdm.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\clsab.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\Ionic.Zip.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\Eval3.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\clschat.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\ClsPilot.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\bin\Release\stdole.dll
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\obj\Release\Lcdlo.vbprojResolveAssemblyReference.cache
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\obj\Release\Lcdlo.Frmmain.resources
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\obj\Release\Lcdlo.frminput.resources
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\obj\Release\Lcdlo.Resources.resources
+D:\STP\SourceTmp\95\Lcdlo\Lcdlo\obj\Release\Lcdlo.vbproj.GenerateResource.Cache

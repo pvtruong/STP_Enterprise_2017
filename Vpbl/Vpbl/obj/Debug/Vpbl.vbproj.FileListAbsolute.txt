@@ -48,3 +48,6 @@ D:\Source\acc\5.0\voucher\Vpbl\Vpbl\obj\Debug\Vpbl.frmMain.resources
 C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpbl\Vpbl\bin\Debug\Vpbl.exe.config
 C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpbl\Vpbl\obj\Debug\Vpbl.xml
 C:\Users\Truong\Box Sync\acc\7.2\voucher\Vpbl\Vpbl\obj\Debug\Vpbl.pdb
+D:\STP\SourceTmp\95\Vpbl\Vpbl\bin\Debug\Vpbl.exe.config
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Debug\Vpbl.xml
+D:\STP\SourceTmp\95\Vpbl\Vpbl\obj\Debug\Vpbl.pdb

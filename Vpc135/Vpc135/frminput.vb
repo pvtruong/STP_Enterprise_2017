@@ -28,6 +28,7 @@ Public Class frminput
     End Sub
 
     Private Sub frminput_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
         For Each dvtab As ClsSV31.TabDetail20 In voucher.Tabdetails.Values
             AddHandler dvtab.AfterCalcOnCell, AddressOf tinh_tong_tien
         Next
@@ -36,6 +37,10 @@ Public Class frminput
         AddHandler voucher.Tabdetails("vvatvao").gridDetailKeyin.CellEndEdit, AddressOf grdvat_CellEndEdit
     End Sub
     Private Sub frminput_Shown(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Shown
+        txttk_nh.Visible = (voucher.voucherID.ToUpper = "BN1")
+        txtten_nh.Visible = txttk_nh.Visible
+        Label17.Visible = txttk_nh.Visible
+        Label18.Visible = txttk_nh.Visible
         Dim dvr As DataRowView = cbbma_nt.SelectedItem
 
         hide_show_control(dvr("ma_nt"))
@@ -286,6 +291,8 @@ Public Class frminput
 
         End Try
     End Sub
+
+
 
     Private Sub cbbma_gd_SelectedValueChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cbbma_gd.SelectedValueChanged
         If isloaded Then

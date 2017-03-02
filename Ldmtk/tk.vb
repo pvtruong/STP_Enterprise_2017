@@ -13,9 +13,9 @@ Public Class tk
        
     End Sub
 
-    Private Sub txttk_me_Enter(ByVal sender As Object, ByVal e As System.EventArgs) Handles txttk_me.Enter
-        oTK.oKey = "tk <> '" & txttk.Text & "'"
-    End Sub
+    'Private Sub txttk_me_Enter(ByVal sender As Object, ByVal e As System.EventArgs) Handles txttk_me.Enter
+    '    oTK.oKey = "tk <> '" & txttk.Text & "'"
+    'End Sub
 
     Private Sub ma_nt_valid(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtma_nt.Validated
         cbbloai_cl_co.Enabled = Not (ma_nt_ht.Trim.ToUpper = txtma_nt.Text.Trim.ToUpper)

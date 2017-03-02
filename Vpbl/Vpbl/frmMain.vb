@@ -89,11 +89,11 @@ Public Class frmMain
             setBuoc(buoc.LUU_PHIEU)
             current_b = buoc.HOAN_THANH
             If e.KeyCode = Keys.S Then
-                Dim t As New Threading.Thread(AddressOf inHoaDon)
+                Dim t As New Threading.Thread(Sub() inHoaDon(s_stt_rec))
                 t.Start()
+                setBuoc(buoc.HOA_DON_MOI)
                 Return
             End If
-
             If e.KeyCode = Keys.P Then
                 'chon mau in 
                 xemphieu()
@@ -829,7 +829,7 @@ Public Class frmMain
         End If
     End Sub
 
-    Private Sub inHoaDon()
+    Private Sub inHoaDon(s_stt_rec As String)
         'in
         Try
             txtstatus.Text = "Printing..."
@@ -1647,7 +1647,7 @@ s:
                 Exit Select
             Case buoc.HOAN_THANH
                 '' inHoaDon()
-                Dim t As New Threading.Thread(AddressOf inHoaDon)
+                Dim t As New Threading.Thread(Sub() inHoaDon(s_stt_rec))
                 t.Start()
                 Exit Select
         End Select
@@ -1829,7 +1829,7 @@ s:
     End Sub
 
     Private Sub workerPrint_DoWork(ByVal sender As Object, ByVal e As System.ComponentModel.DoWorkEventArgs)
-        inHoaDon()
+        inHoaDon(s_stt_rec)
     End Sub
 
     Private Sub btnbangiao_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnbangiao.Click

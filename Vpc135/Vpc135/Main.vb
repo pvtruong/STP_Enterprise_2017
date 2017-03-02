@@ -283,8 +283,8 @@ Public Class Frmmain
             Else
                 fPrintDialog2.ten_kh.Text = dr("ten_kh2")
             End If
-            fPrintDialog2.ten_nh.Text = dr("ten_nh")
-            fPrintDialog2.so_tk.Text = dr("tk_nk")
+            fPrintDialog2.ten_nh.Text = grd.CurrentRow.Cells("ten_nh").Value ' dr("ten_nh")
+            fPrintDialog2.so_tk.Text = grd.CurrentRow.Cells("tk_nh").Value 'dr("tk_nk")
             fPrintDialog2.Tinh_thanh.Text = dr("ten_tinh_thanh")
 
         Catch ex As Exception

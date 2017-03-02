@@ -39,6 +39,8 @@ Partial Class frminput
         Me.txtso_ct = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.txttk_nh = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.txtcon_no = New ClsControl2.TxtNumeric()
         Me.btngethoadon = New System.Windows.Forms.Button()
@@ -74,6 +76,8 @@ Partial Class frminput
         Me.Txtt_tien = New ClsControl2.TxtNumeric()
         Me.toolbar = New System.Windows.Forms.ToolStrip()
         Me.btnsodu = New System.Windows.Forms.ToolStripButton()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.txtten_nh = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.toolbar.SuspendLayout()
@@ -155,10 +159,10 @@ Partial Class frminput
         Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TabControl1.Location = New System.Drawing.Point(6, 129)
+        Me.TabControl1.Location = New System.Drawing.Point(6, 168)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(941, 206)
+        Me.TabControl1.Size = New System.Drawing.Size(941, 167)
         Me.TabControl1.TabIndex = 8
         Me.TabControl1.TabStop = False
         '
@@ -254,6 +258,10 @@ Partial Class frminput
         '
         Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox2.Controls.Add(Me.Label18)
+        Me.GroupBox2.Controls.Add(Me.txtten_nh)
+        Me.GroupBox2.Controls.Add(Me.Label17)
+        Me.GroupBox2.Controls.Add(Me.txttk_nh)
         Me.GroupBox2.Controls.Add(Me.Label16)
         Me.GroupBox2.Controls.Add(Me.txtcon_no)
         Me.GroupBox2.Controls.Add(Me.btngethoadon)
@@ -267,15 +275,34 @@ Partial Class frminput
         Me.GroupBox2.Controls.Add(Me.txtma_kh)
         Me.GroupBox2.Location = New System.Drawing.Point(477, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(471, 147)
+        Me.GroupBox2.Size = New System.Drawing.Size(471, 173)
         Me.GroupBox2.TabIndex = 7
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Tag = ""
         '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(9, 125)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(75, 13)
+        Me.Label17.TabIndex = 210
+        Me.Label17.Tag = "NH1"
+        Me.Label17.Text = "TK ngân hàng"
+        '
+        'txttk_nh
+        '
+        Me.txttk_nh.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txttk_nh.Location = New System.Drawing.Point(130, 121)
+        Me.txttk_nh.Name = "txttk_nh"
+        Me.txttk_nh.Size = New System.Drawing.Size(130, 20)
+        Me.txttk_nh.TabIndex = 6
+        '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(9, 99)
+        Me.Label16.Location = New System.Drawing.Point(9, 103)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(41, 13)
         Me.Label16.TabIndex = 208
@@ -290,7 +317,7 @@ Partial Class frminput
         Me.txtcon_no.NumberDecimalDigits = 2
         Me.txtcon_no.ReadOnly = True
         Me.txtcon_no.Size = New System.Drawing.Size(130, 20)
-        Me.txtcon_no.TabIndex = 207
+        Me.txtcon_no.TabIndex = 5
         Me.txtcon_no.Text = "0.00"
         Me.txtcon_no.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.txtcon_no.Value = 0R
@@ -298,10 +325,10 @@ Partial Class frminput
         '
         'btngethoadon
         '
-        Me.btngethoadon.Location = New System.Drawing.Point(266, 12)
+        Me.btngethoadon.Location = New System.Drawing.Point(266, 13)
         Me.btngethoadon.Name = "btngethoadon"
         Me.btngethoadon.Size = New System.Drawing.Size(114, 23)
-        Me.btngethoadon.TabIndex = 5
+        Me.btngethoadon.TabIndex = 1
         Me.btngethoadon.TabStop = False
         Me.btngethoadon.Tag = "200"
         Me.btngethoadon.Text = "Lay hoa don"
@@ -310,7 +337,7 @@ Partial Class frminput
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(9, 60)
+        Me.Label15.Location = New System.Drawing.Point(9, 61)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(40, 13)
         Me.Label15.TabIndex = 11
@@ -325,14 +352,14 @@ Partial Class frminput
         Me.txtdia_chi.Name = "txtdia_chi"
         Me.txtdia_chi.ReadOnly = True
         Me.txtdia_chi.Size = New System.Drawing.Size(324, 20)
-        Me.txtdia_chi.TabIndex = 7
+        Me.txtdia_chi.TabIndex = 3
         Me.txtdia_chi.TabStop = False
         Me.txtdia_chi.Tag = ""
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(9, 81)
+        Me.Label14.Location = New System.Drawing.Point(9, 82)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(101, 13)
         Me.Label14.TabIndex = 9
@@ -346,12 +373,12 @@ Partial Class frminput
         Me.txtong_ba.Location = New System.Drawing.Point(130, 78)
         Me.txtong_ba.Name = "txtong_ba"
         Me.txtong_ba.Size = New System.Drawing.Size(324, 20)
-        Me.txtong_ba.TabIndex = 8
+        Me.txtong_ba.TabIndex = 4
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(9, 39)
+        Me.Label13.Location = New System.Drawing.Point(9, 40)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(86, 13)
         Me.Label13.TabIndex = 7
@@ -366,7 +393,7 @@ Partial Class frminput
         Me.txtten_kh.Name = "txtten_kh"
         Me.txtten_kh.ReadOnly = True
         Me.txtten_kh.Size = New System.Drawing.Size(324, 20)
-        Me.txtten_kh.TabIndex = 6
+        Me.txtten_kh.TabIndex = 2
         Me.txtten_kh.TabStop = False
         Me.txtten_kh.Tag = ""
         '
@@ -382,10 +409,10 @@ Partial Class frminput
         '
         'txtma_kh
         '
-        Me.txtma_kh.Location = New System.Drawing.Point(130, 15)
+        Me.txtma_kh.Location = New System.Drawing.Point(130, 14)
         Me.txtma_kh.Name = "txtma_kh"
         Me.txtma_kh.Size = New System.Drawing.Size(130, 20)
-        Me.txtma_kh.TabIndex = 4
+        Me.txtma_kh.TabIndex = 0
         Me.txtma_kh.Tag = ""
         '
         'Label9
@@ -679,6 +706,25 @@ Partial Class frminput
         Me.btnsodu.Text = "Số dư tại quỹ"
         Me.btnsodu.ToolTipText = "Số dư tại quỹ và ngân hàng"
         '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(9, 147)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(60, 13)
+        Me.Label18.TabIndex = 212
+        Me.Label18.Tag = "NH2"
+        Me.Label18.Text = "Ngân hàng"
+        '
+        'txtten_nh
+        '
+        Me.txtten_nh.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtten_nh.Location = New System.Drawing.Point(130, 143)
+        Me.txtten_nh.Name = "txtten_nh"
+        Me.txtten_nh.Size = New System.Drawing.Size(332, 20)
+        Me.txtten_nh.TabIndex = 7
+        '
         'frminput
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -774,4 +820,8 @@ Partial Class frminput
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents txtcon_no As ClsControl2.TxtNumeric
     Friend WithEvents btnsodu As ToolStripButton
+    Friend WithEvents Label17 As Label
+    Friend WithEvents txttk_nh As TextBox
+    Friend WithEvents Label18 As Label
+    Friend WithEvents txtten_nh As TextBox
 End Class
